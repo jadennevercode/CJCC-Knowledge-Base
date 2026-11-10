@@ -1,0 +1,4090 @@
+
+
+<!-- header -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<!-- Google Tag Manager --> 
+	<script>
+		if("prd" === "prd"){
+			(function(w,d,s,l,i){
+				w[l]=w[l]||[];w[l].push({
+					'gtm.start': new Date().getTime(),
+					event:'gtm.js'
+				});
+				var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+				j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+				f.parentNode.insertBefore(j,f);
+			})
+			(window,document,'script','dataLayer','GTM-PVCH4T7');
+		}
+	</script> 
+	<!-- End Google Tag Manager -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="google-site-verification" content="f40Y97r86QXue9bPVmLwd3amaPmQtuYvqsqxaB8XAFA" /> 
+	<meta name="description" content="PE9000 Series | SK hynix Official Product Website" />
+	<meta property="og:title" content="SK hynix Official Product Website" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://product.skhynix.com" />
+	<meta property="og:image" content="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/images/common/img/img_og.png" />
+	<title>PE9000 Series | SK hynix</title>
+	<link rel="stylesheet" type="text/css" href="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/css/2026.10.13.1/common.css" />
+	<link rel="stylesheet" type="text/css" href="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/css/2026.10.13.1/swiper.css"/>
+	<link rel="stylesheet" type="text/css" href="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/css/2026.10.13.1/frameout.css"/>	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/css/2026.10.13.1/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/css/2026.10.13.1/ui.jqgrid.css" />
+	<link rel="icon" sizes="16x16" href="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/favicon-16x16.png" type="image/png" />
+	<!-- js -->
+	<script src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/js/2026.11.05.1/jquery-3.5.1.min.js"></script>
+	<script src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/js/2026.11.05.1/jquery.scrollify.js"></script>
+	<script src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/js/2026.11.05.1/swiper.js"></script>
+	<script src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/js/2026.11.05.1/ui_common.js"></script>
+	<script src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/js/2026.11.05.1/jquery.ui.js"></script>
+	<script src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/js/2026.11.05.1/jquery.jqGrid.js"></script>
+	<script src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/js/2026.11.05.1/frameout.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-185604437-1"></script>
+	<script>
+		if("prd" === "prd"){
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-185604437-1');  
+			gtag('config', 'G-LCWY7CLJS4');
+		}
+	</script>
+	<script src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/js/2026.11.05.1/common.js"></script>
+	<script> 
+		var menuList;
+		var deviceType = "";
+		$(document).ready(function() {
+			$("#srchWord").unbind().bind("keypress", fnChkSearchMain);
+			$("#searchBtn").unbind().bind("click", function() { $('.sch_box_global').show(); $('#srchWord').focus(); });
+			$(".ico_close").unbind().bind("click", function() { $('.sch_box_global').hide(); });
+			var uri = "/products/ssd/essd/pe9000.go";
+			if (uri == "/home.go") {
+				//$("#frmSrchMain").hide();
+			}
+			// GNB DB 내용으로 처리에서 하드코딩으로 변경 2024-11-28 
+			fnSetMenus(); 
+			// PCMS 인기검색어 기능 삭제 2024-11-28 
+			//fnSetPopularKwd();
+			
+			if($(window).width()<1024){
+				deviceType = "mobile";
+			} else {
+				deviceType = "normal";
+			}
+			console.log(deviceType);
+			
+			window.addEventListener("resize", function() {
+				if($(window).width()<1024){
+					deviceType = "mobile";
+				} else {
+					deviceType = "normal";
+				}
+			});
+		});
+
+		function changeLang(lang) {
+			$.ajax({
+				type: "GET",
+				url: "/changeLocale.do",
+				data : {"lang" : lang},
+				success: function(data) {
+					location.reload(true);
+				},
+				fail: function( jqXHR, textStatus, errorThrown ) {
+					console.log(textStatus);
+					console.log(errorThrown);
+				}
+			});
+		}
+
+		//엔터키 입력시 조회
+		function fnChkSearchMain(event) {
+			if (event.keyCode==13) {
+				var word = $("#srchWord").val();
+				if (word != "") {
+					document.getElementById("frmSrchMain").submit();
+				}
+				else {
+					//alert("검색어를 입력하세요.");
+					$("#srchWord").focus();
+					return false;
+				}
+			}
+		}
+
+		function fncheckFrm() {
+			var word = $("#srchWord").val();
+			if (word != "") {
+				document.getElementById("frmSrchMain").submit();
+			}
+			else {
+				//alert("검색어를 입력하세요.");
+				$("#srchWord").focus();
+				return false;
+			}
+		}
+	</script>
+	
+	<!-- product-nav Tab 모바일 콤보박스형 드롭다운 script 추가. 지성만 2020-11-04  -->
+	<script>
+	function CustomSelectBox(selector){
+	    this.$selectBox = null,
+	    this.$select = null,
+	    this.$list = null,
+	    this.$listLi = null;
+	    CustomSelectBox.prototype.init = function(selector){
+	        this.$selectBox = $(selector);
+	        this.$select = this.$selectBox.find('.product-nav_inner .select');
+	        this.$list = this.$selectBox.find('.product-nav_inner ul');
+	        this.$listLi = this.$list.children('li');
+	    }
+	    CustomSelectBox.prototype.initEvent = function(e){
+	        var that = this;
+	        this.$select.on('click', function(e){
+	            that.listOn();
+	        });
+	        this.$listLi.on('click', function(e){
+	            that.listSelect($(this));
+	        });
+	        $(document).on('click', function(e){
+	            that.listOff($(e.target));
+	        });
+	    }
+	    CustomSelectBox.prototype.listOn = function(){
+	        this.$selectBox.toggleClass('on');
+	        if(this.$selectBox.hasClass('on')){
+	            this.$list.css('display', 'block');
+	        } else {
+	            this.$list.css('display', 'none');
+	        };
+	    }
+	    CustomSelectBox.prototype.listSelect = function($target){
+	        $target.addClass('selected').siblings('li').removeClass('selected');
+	        this.$selectBox.removeClass('on');
+	        this.$select.text($target.text());
+	        this.$list.css('display', 'none');
+	    }
+	    CustomSelectBox.prototype.listOff = function($target){
+	        if(!$target.is(this.$select) && this.$selectBox.hasClass('on')){
+	            this.$selectBox.removeClass('on');
+	            this.$list.css('display', 'none');
+	        };
+	    }
+	    this.init(selector);
+	    this.initEvent();
+	}
+	$(function(){
+	    var select = new CustomSelectBox('.product-nav-wrap');
+	});
+	</script>
+	<script>
+	$(document).ready(function(){
+	    $(".head .btn-search").click(function(){
+	        $(".search-box").toggle();
+	    });
+	    $(".head .btn-close").click(function(){
+	        $(".search-box").hide();
+	    });
+	 // 아코디언
+	    var accoList=$('.all-nav h2'),
+	        accoDesc=$('.all-nav .sub-nav');
+
+	    accoDesc.hide();
+	    accoList.click(function(){        
+	        $(this).toggleClass('active').siblings().slideToggle(300);        
+	        accoList.not(this).removeClass('active').siblings().slideUp(300);
+	    });
+	    accoList.eq(0).trigger("click");
+	    
+	});
+	</script>
+	<script>
+		_linkedin_partner_id = "2893964";
+		window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+		window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+	</script>
+	<script>
+		(function(){
+			var s = document.getElementsByTagName("script")[0];
+			var b = document.createElement("script");
+			b.type = "text";
+			b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+			s.parentNode.insertBefore(b, s);
+		})();
+	</script>
+	<noscript>
+		<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=2893964&fmt=gif" />
+	</noscript>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s) {
+			if(f.fbq)return;
+			n=f.fbq=function(){
+				n.callMethod
+							?n.callMethod.apply(n,arguments)
+							:n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;
+			n.push=n;
+			n.loaded=!0;
+			n.version='2.0';
+			n.queue=[];
+			t=b.createElement(e);
+			t.async=!0;
+			t.src=v;
+			s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)
+		}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '903399466866846');
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=903399466866846&ev=PageView&noscript=1" />
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) --> 
+<noscript>
+	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVCH4T7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="wrap">
+	<!-- header 20240927 개선 -->
+	<header class="header "><!-- act -->
+		<!-- <div class="header-bg"></div>-->
+		<div class="header-box">
+			<div class="s-inner">
+				<h1><a href="/home.go" title="SK hynix" class="logo_default">SK hynix</a></h1>
+				<div class="nav">					
+					<ul class="new-gnb" id="newGnbMenu">	
+						<li class="li">
+							<span class="new-gnb-list">PRODUCTS</span>
+						</li>
+						<li class="li">
+							<span class="new-gnb-list">APPLICATIONS</span>	
+						</li>
+						<li class="li">
+							<span class="new-gnb-list">SUPPORT</span>	
+						</li>
+					</ul><!-- // gnb -->
+				</div>	
+				<button type="button" class="btn-new-search new-search">search</button>			
+			</div><!--//s-inner -->
+		</div><!-- // header-box -->
+		<button type="button" class="m-new-nav mo-js-nav mobile">mobile navigation</button>	
+		<div class="gnb-box-show">
+			<div class="new-search-wrap" >
+				<form method="POST" action="/search/search_result.go" id="frmSrchMain" class="s-inner" onsubmit="return fncheckFrm()">
+					<fieldset>
+						<legend>SEARCH</legend>	
+						<div class="new-search-box">
+							<button type="button" class="btn-search" onclick="fnGoSearch($('#srchWord').val());">search</button>
+							<input type="text" name="srchWord" placeholder="Enter a keyword" id="srchWord" />
+						</div>
+						<!-- <div class="search-tags" id="searchTagArea"></div> -->
+					</fieldset>
+				</form>
+			</div><!--//new-search-wrap -->
+			<!-- pc -->
+			<ul class="new-gnb-2dep pc-nav">	
+				<li class="li">
+					<div class="new-all-nav" ><!-- display: block; -->
+						<strong class="tit">PRODUCTS</strong>
+						<div class="nav-list-wrap">
+							<ul class="nav-list">	
+								<li class="li_2dep "><!--active-->		
+									<h2 class=""><a href="/products/dram/dram.go">DRAM<button type="button" class="btn-gnb-link">링크이동</button></a><!--active-->
+									</h2>			
+									<ul class="new-sub-nav" >
+										<li class="li_d3"><a href="/products/dram/module.go"><span>MODULE</span></a></li>
+										<li class="li_d3"><a href="/products/dram/ddr.go"><span>DDR</span></a></li>
+										<li class="li_d3"><a href="/products/dram/lpddr.go"><span>LPDDR</span></a></li>	
+										<li class="li_d3"><a href="/products/dram/hbm.go"><span>HBM</span></a></li>	
+										<li class="li_d3"><a href="/products/dram/gddr.go"><span>GDDR</span></a></li>					
+									</ul>	
+								</li>
+								<li class="li_2dep">		
+									<h2><a href="/products/cmm/cmm.go">CMM<button type="button" class="btn-gnb-link">링크이동</button></a></h2>			
+								</li>	
+								<li class="li_2dep">		
+									<h2><a href="/products/ssd/ssd.go">SSD<button type="button" class="btn-gnb-link">링크이동</button></a></h2>			
+									<ul class="new-sub-nav" >		
+										<li class="li_d3"><a href="/products/ssd/essd.go"><span>Enterprise SSD</span></a></li>			
+										<li class="li_d3"><a href="/products/ssd/cssd.go"><span>Client SSD</span></a></li>			
+									</ul>	
+								</li>	
+							</ul>
+							<ul class="nav-list">	
+								<li class="li_2dep">	
+									<h2><a href="/products/nand/nand.go">NAND Storage<button type="button" class="btn-gnb-link">링크이동</button></a></h2>			
+									<ul class="new-sub-nav" >			
+										<li class="li_d3"><a href="/products/nand/ufs.go"><span>UFS</span></a></li>			
+										<li class="li_d3"><a href="/products/nand/emmc.go"><span>eMMC</span></a></li>			
+									</ul>	
+								</li>	
+								<li class="li_2dep">	
+									<h2><a href="/products/mcp/mcp.go">MCP<button type="button" class="btn-gnb-link">링크이동</button></a></h2>			
+									<ul class="new-sub-nav" >		
+										<li class="li_d3"><a href="/products/mcp/umcp.go"><span>uMCP</span></a></li>			
+										<li class="li_d3"><a href="/products/mcp/emcp.go"><span>eMCP</span></a></li>			
+									</ul>	
+								</li>
+							</ul>
+						</div><!-- // nav-list-wrap -->
+					</div>
+				</li>
+				<li class="li">
+					<div class="new-all-nav" >
+						<strong class="tit">APPLICATIONS</strong>
+						<ul class="nav-list"  >	
+							<li class="li_2dep">		
+								<h2><a href="/solutions/application/server/server.go">Server<button type="button" class="btn-gnb-link">링크이동</button></a></h2>				
+							</li>	
+							<li class="li_2dep">	
+								<h2><a href="/solutions/application/network/network.go">Networking<button type="button" class="btn-gnb-link">링크이동</button></a></h2>				
+							</li>	
+							<li class="li_2dep">	
+								<h2><a href="/solutions/application/mobile/mobile.go">Mobile<button type="button" class="btn-gnb-link">링크이동</button></a></h2>			
+							</li>	
+							<li class="li_2dep">		
+								<h2><a href="/solutions/application/client/client.go">PC<button type="button" class="btn-gnb-link">링크이동</button></a></h2>				
+							</li>	
+							<li class="li_2dep">		
+								<h2><a href="/solutions/application/consumer/consumer.go">Consumer<button type="button" class="btn-gnb-link">링크이동</button></a></h2>				
+							</li>	
+							<li class="li_2dep">		
+								<h2><a href="/solutions/application/automo/automo.go">Automotive<button type="button" class="btn-gnb-link">링크이동</button></a></h2>				
+							</li>	
+						</ul>
+					</div>
+				</li>
+				<li class="li">
+					<div class="new-all-nav" >
+						<strong class="tit">SUPPORT</strong>
+						<ul class="nav-list"   >	
+							<li class="li_2dep">		
+								<h2><a href="/support/process.go">Support Process<button type="button" class="btn-gnb-link">링크이동</button></a></h2>	
+							</li>	
+							<li class="li_2dep">		
+								<h2><a href="/support/forest.go">Tomorrow Initiative<button type="button" class="btn-gnb-link">링크이동</button></a></h2>
+							</li>	
+							<li class="li_2dep">	
+								<h2><a href="/support/downloads.go">Downloads<button type="button" class="btn-gnb-link">링크이동</button></a></h2>			
+								<ul class="new-sub-nav">			
+									<li class="li_d3"><a href="/support/downloads/techs.go"><span>Technical Resources</span></a></li>			
+									<li class="li_d3"><a href="/support/downloads/kits.go"><span>Sales Kit</span></a></li>			
+								</ul>	
+							</li>
+							<li class="li_2dep">	
+								<h2><a href="/support/faq.go">FAQs<button type="button" class="btn-gnb-link">링크이동</button></a></h2>
+							</li>
+							<li class="li_2dep">		
+								<h2><a href="/support/contact.go">Contact<button type="button" class="btn-gnb-link">링크이동</button></a></h2>			
+								<ul class="new-sub-nav" > 
+									<li class="li_d3"><a href="/support/contact/global.go"><span>Global Network</span></a></li>			
+									<li class="li_d3 ico-link"><a href="javascript:void(0);" onclick="openPopContact(); return false;"><span>Contact Us</span></a></li>
+								</ul>	
+							</li>	
+						</ul>
+					</div>
+				</li>
+			</ul><!-- // new-gnb-2dep -->
+			
+			<!-- mobile  -->
+			<div class="all-mo_gnb">
+				<div class="left-menu mo-tabs">
+					<h2 class="blind">메인 메뉴</h2>
+					<ul class="main-gnb sub_menu" >
+						<li class="main-item on" ><a href="">PRODUCTS</a></li><!-- on -->
+						<li class="main-item"  ><a href="">APPLICATIONS</a></li>
+						<li class="main-item"  ><a href="">SUPPORT</a></li> 
+					</ul>
+				</div><!--//left-menu -->
+				<div class="right-menu">
+					<h2 class="blind">서브 메뉴</h2>
+					<ul class="sub-gnb sub-con1 sub_cont on" ><!--on-->
+						<li>
+							<ul class="all-new-nav"  >	
+								<li class=""><!-- active  -->		
+									<h2 class=""><a href="/products/dram/dram.go">DRAM</a><!-- active  -->
+									<button type="button" class="btn-acco">열기</button></h2>			
+									<ul class="sub-new-nav" >
+										<li><a href="/products/dram/module.go"><span>MODULE</span></a></li>	
+										<li><a href="/products/dram/ddr.go"><span>DDR</span></a></li>			
+										<li><a href="/products/dram/lpddr.go"><span>LPDDR</span></a></li>			
+										<li><a href="/products/dram/hbm.go"><span>HBM</span></a></li>			
+										<li><a href="/products/dram/gddr.go"><span>GDDR</span></a></li>			
+									</ul>	
+								</li>	
+								<li>		
+									<h2><a href="/products/cmm/cmm.go">CMM</a></h2>			
+								</li>	
+								<li class="">		
+									<h2><a href="/products/ssd/ssd.go">SSD</a><button type="button" class="btn-acco">열기</button></h2>			
+									<ul class="sub-new-nav" >			
+										<li><a href="/products/ssd/essd.go"><span>Enterprise SSD</span></a></li>			
+										<li><a href="/products/ssd/cssd.go"><span>Client SSD</span></a></li>			
+									</ul>	
+								</li>	
+								<li>		
+									<h2><a href="/products/nand/nand.go">NAND Storage</a><button type="button" class="btn-acco">열기</button></h2>			
+									<ul class="sub-new-nav" >			
+										<li><a href="/products/nand/ufs.go"><span>UFS</span></a></li>			
+										<li><a href="/products/nand/emmc.go"><span>eMMC</span></a></li>			
+									</ul>	
+								</li>	
+								<li>		
+								<h2><a href="/products/mcp/mcp.go">MCP</a><button type="button" class="btn-acco">열기</button></h2>			
+									<ul class="sub-new-nav" >			
+										<li><a href="/products/mcp/umcp.go"><span>uMCP</span></a></li>			
+										<li><a href="/products/mcp/emcp.go"><span>eMCP</span></a></li>			
+									</ul>	
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="sub-gnb sub-con2  sub_cont" >
+						<li>
+							<ul class="all-new-nav" >
+								<li>		
+									<h2><a href="/solutions/application/server/server.go">Server</a></h2>			
+								</li>	
+								<li>		
+									<h2><a href="/solutions/application/network/network.go">Networking</a></h2>				
+								</li>	
+								<li><h2><a href="/solutions/application/mobile/mobile.go">Mobile</a></h2>				
+								</li>	
+								<li><h2><a href="/solutions/application/client/client.go">PC</a></h2>			
+								</li>	
+								<li><h2><a href="/solutions/application/consumer/consumer.go">Consumer</a></h2>			
+								</li>	
+								<li><h2><a href="/solutions/application/automo/automo.go">Automotive</a></h2>			
+								</li>	
+							</ul>
+						</li>
+					</ul>
+					<ul class="sub-gnb  sub-con3  sub_cont" >
+						<li>
+							<ul class="all-new-nav">	
+								<li><h2><a href="/support/process.go">Support Process</a></h2>				
+								</li>	
+								<li><h2><a href="/support/forest.go">Tomorrow Initiative</a></h2>			
+								</li>	
+								<li><h2><a href="/support/downloads.go">Downloads</a><button type="button" class="btn-acco">열기</button></h2>			
+									<ul class="sub-new-nav">			
+										<li><a href="/support/downloads/techs.go"><span>Technical Resources</span></a></li>			
+										<li><a href="/support/downloads/kits.go"><span>Sales Kit</span></a></li>			
+									</ul>	
+								</li>	
+								<li><h2><a href="/support/faq.go">FAQs</a></h2>				
+								</li>	
+								<li><h2><a href="/support/contact.go">Contact</a><button type="button" class="btn-acco">열기</button></h2>			
+									<ul class="sub-new-nav">			
+										<li><a href="/support/contact/global.go"><span>Global Network</span></a></li>			
+										<li class="ico-link"><a href="javascript:void(0);" onclick="openPopContact(); return false;"><span>Contact Us</span></a></li>			
+									</ul>	
+								</li>	
+							</ul>
+						</li>
+					</ul>
+				</div><!-- //right-menu-->
+			</div><!--//all-mo_gnb -->
+		</div><!--//gnb-box-show -->
+	</header><!-- // 20240927 개선 -->
+	<!-- //header -->
+<!-- //header -->
+
+<link rel="stylesheet" type="text/css" href="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/css/2026.10.13.1/product.css">
+
+<!-- main_contents -->
+<main id="container" class="products">
+	<div id="contents" class="detail pe9000 new_detail">
+		<!-- navigationBar -->
+				<div class="nav-bar" id="divNavBar">
+			<div class="s-inner">
+				<div class="page-nav" id="divTreePath">
+				</div>
+			</div>
+			<!-- s-inner -->
+			<div class="tit-sub">
+				<div class="s-inner" id="navBar">
+				</div>
+			</div>
+		</div>
+		<div class="mobile" id="divMobileTabs">
+		</div>	
+<script>
+	const setNavigationBar = (menuList) => {
+		if(!'PRODUCTS > SSD > Enterprise SSD > PE9000 Series' && 'PE9000 Series' !== 'SEARCH'){
+			const navBar = document.getElementById("divNavBar");
+			navBar.parentNode.removeChild(navBar);
+			return false;
+		}
+
+		/**
+		 *  Create Bread Crumbs
+		 **/
+		const treePathList = 'PRODUCTS > SSD > Enterprise SSD > PE9000 Series'.split(' > ');
+		treePathList.map((obj, i) => {
+			if(obj === "DDR5 Module" || obj === "DDR4 Module"){
+				return false;
+			}
+			const spanText = document.createElement("span");
+			spanText.innerHTML = obj;
+			if(i !== 0){
+				spanText.classList.add("arrow-tri");
+				if(i === treePathList.length-1){
+					spanText.classList.add("current");
+				}
+			}
+			document.getElementById("divTreePath").appendChild(spanText);
+		});
+
+		const treeNo = '1113'? '1113' : '1025';
+
+		/**
+		 *  Create Navigation Bar Area
+		 **/
+		let currentMenu = menuList.find((obj) => obj.menuId.toString() === treeNo);
+		if(currentMenu === undefined || currentMenu.length === 0){
+			if('PE9000 Series' === 'SEARCH'){
+				currentMenu = {menuNm : "Search Result", menuId : 0, upMenuId : 0};
+				const spanText = document.createElement("span");
+				spanText.innerHTML = currentMenu.menuNm;
+				spanText.classList.add("current");
+				document.getElementById("divTreePath").appendChild(spanText);
+			}else if(treeNo === "1040"){//Event 
+				currentMenu = {menuNm : 'PE9000 Series', menuId : 1040, upMenuId : 1014, menuLvl : 3};
+			}else if('1113'){
+				currentMenu = {menuNm : 'PE9000 Series', menuId : 0, upMenuId : 0, menuLvl : 4};
+			}
+		}
+
+		const nearMenu = menuList.filter((obj) => obj.upMenuId === currentMenu.upMenuId);
+
+		const h3Text = document.createElement("h3");
+		h3Text.innerHTML = currentMenu.menuNm;
+		document.getElementById("navBar").appendChild(h3Text);
+		if(nearMenu !== undefined && nearMenu.length > 0){
+			const ulNearMenu = document.createElement("ul");
+			ulNearMenu.style.display = "none";
+			ulNearMenu.setAttribute("id", "navMenu");
+			document.getElementById("navBar").appendChild(ulNearMenu);
+
+			$(".tit-sub h3").on("click", (e) => {
+				if($(".tit-sub h3").hasClass("active")){
+					$(".tit-sub h3").siblings("ul").fadeOut(0).slideUp("slow");
+				}else{
+					$(".tit-sub h3").siblings("ul").fadeIn(300).slideDown("slow");
+				}
+				$(".tit-sub h3").toggleClass("active");
+			});
+		}
+
+		/**
+		 *  Create Search By Specs Button
+		 **/
+		nearMenu.map((obj, i) => {
+			const liNearMenu = document.createElement("li");
+			if(obj.menuId === currentMenu.menuId){
+				liNearMenu.classList.add("active");
+			}
+			const aNearMenu = document.createElement("a");
+			aNearMenu.innerHTML = obj.menuNm;
+			aNearMenu.setAttribute("href", obj.menuUrl);
+			if(obj.menuId === 1046){ //Contact Us
+				aNearMenu.setAttribute("target", "_blank");
+			}
+			document.getElementById("navMenu").appendChild(liNearMenu).appendChild(aNearMenu);
+		});
+
+		if((currentMenu.menuLvl > 2 || currentMenu.menuId == 1010/*CIS*/ || currentMenu.menuId == 1111/*CXL_TM*/) && treePathList[0] === "PRODUCTS"){
+//
+			//if (currentMenu.menuId != 1111/*CXL_TM*/){
+				/**
+				 *  Create Search By Specs Button
+				 **/
+				const btnSpec = document.createElement("button");
+				btnSpec.innerHTML = "Search by Specs";
+				
+				btnSpec.setAttribute("id", "btnGoSpecFinder");
+				
+				btnSpec.classList.add("btn-round", "red");
+	
+				document.getElementById("navBar").appendChild(btnSpec);
+	
+				$("#btnGoSpecFinder").on("click", (e) => {
+					e.preventDefault();
+					const headerHeight = $("header").height();
+					const navBarHeight = $("#divNavBar").height();
+					const offset = $("#sectionProdSpec").offset().top;
+				    $("html, body").stop().animate({scrollTop: offset - navBarHeight - 40}, 400);
+				});
+			//}
+			/**
+			 *  Create Mobile Tab Area
+			 **/
+			const ulTabs = document.createElement("ul");
+			ulTabs.setAttribute("id", "ulTabs");
+			ulTabs.classList.add("tabs");
+			document.getElementById("divMobileTabs").appendChild(ulTabs);
+			
+			let tabItem = currentMenu.menuLvl == 3 ? ["Portfolio", "Search by Specs", "Further Materials"] : currentMenu.menuLvl == 4 ? ["Features", "Search by Specs", "Resources"] : [];
+			if (currentMenu.menuId == 1010) {
+				/*CIS*/
+				tabItem = ["Features", "Search by Specs", "Resources"];
+			} else if (currentMenu.menuId == 1111) {
+				/*CMM*/
+				tabItem = ["Features", "Search by Specs", "Resources"];
+			}
+			 else if (treeNo == "1117") {
+				/* MCRDIMM */
+				tabItem = ["Features", "", "Resources"];
+			} else if (treeNo == "1118") {
+				/* LPCAMM2 */
+				tabItem = ["Features", "", "Resources"];
+			} else if (treeNo == "1127") {
+				/* SOCAMM2 */
+				tabItem = ["Features", "", "Resources"];
+			} else if (treeNo == "1126") {
+				/* HBM4 */
+				tabItem = ["Features", "", "Resources"];
+			}
+			
+			tabItem.map((obj, i) => {
+				const liTab = document.createElement("li");
+				if(i == 0){
+					liTab.classList.add("active");
+				}
+				const aTab = document.createElement("a");
+				aTab.innerHTML = obj;
+				aTab.setAttribute("href", "javascript:;");
+				aTab.setAttribute("id", "tab"+(i+1));
+				document.getElementById("ulTabs").appendChild(liTab).appendChild(aTab);
+			})
+			
+			$("#ulTabs li a").on("click", (e) => {
+				if(deviceType == "mobile"){
+					$("html, body").stop().animate({scrollTop:0}, 0);
+				}
+				
+				$(e.target.parentNode).addClass("active").siblings().removeClass('active');
+				if(e.target.id === "tab1"){
+					$(".product-section").addClass("active").siblings("section").removeClass('active');
+					$(".model-specs").addClass("active");
+					$(".detail .visual").addClass("active");
+				}else if(e.target.id === "tab2"){
+					$(".spec-finder").addClass("active").siblings("section").removeClass('active');
+					$(".detail .visual").removeClass("active");
+				}else if(e.target.id === "tab3"){
+					$(".read-more").addClass("active").siblings("section").removeClass('active');
+					$(".view-app").addClass("active");
+					$(".detail .visual").removeClass("active");
+				}
+			});
+		}else{
+			const mobileTabs = document.getElementById("divMobileTabs");
+			mobileTabs.parentNode.removeChild(mobileTabs);
+		}
+
+	};
+</script>
+		
+		<!-- visual 리뉴얼 --> 
+		<div id="sub_visual" class="visual sub_visual active">
+			<div class="visual_cont vmo">
+				<img class="imgs mo_img" src="/images/promotion/products/4depth/img_4depth_KV_PE9000_mo_231123.jpg" alt="Depicting PE9000 seamlessly integrated into the floor, as if powering up a data center, illustrates the characteristics of the world's top product optimized for enterprise servers.">
+				<div class="visual_text">
+					<div class="in s-inner">
+						<div class="text_wrap">
+							<p class="t1 aos-init" data-aos="fade-right" data-aos-duration="1000"><span>PE9000 series</span></p>
+							<div class="inr_text">
+								<p class="t2 aos-init" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">Best-in-class performance</p>
+								<p class="t3 aos-init" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1200">for Datacenters</p>
+								<p class="t4 aos-init" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">and enterprise Servers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- //visual active -->
+		
+		<!-- product -->
+		<section class="product-section active" id="product">
+			<h3 class="blind">product detail</h3>
+			<dl class="desc s-inner">
+				<dt>SK hynix’s Second Gen4 SSDs with Cutting-Edge NAND Flash</dt>
+				<dd>
+				Following the PE9000 lineup, the PCIe 4.0-enabled PE9000 series is SK hynix’s second in-house ASIC that comes in various form factors <br class="br">including E1.S, M.2 and U.2.<br class="">
+				The PE9000 series offers a lineup of PE9110 integrating 6th-gen 4D V-NAND and PE9010 with the latest 7th-gen 4D V-NAND. 
+				</dd>
+			
+				<dt>Best-in-Class Performance &amp; Power Efficiency </dt>
+				<dd>
+					The PE9000 series delivers industry-leading power efficiency driven by the latest 7th-gen TLC V-NAND and enhanced firmware. The E1.S form factor supports capacities up to 2 to 8TB, while M.2 1 to 4TB.
+				</dd>
+				<!-- <br class="br-mo">-->
+				
+				<dt>NVMe SSDs Optimized for Enterprise Workload </dt>
+				<dd>PE9110 with E1.S form factor is optimized to manage enterprise workloads. Sequential write speed is critical for enterprises when managing data in big chunks. With SW speed of 6300MB/s, PE9110 offers up to 95% higher performance than the prior generation.   
+
+				<img src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/images/promotion/products/ssd/3_4depth/essd/4depth/eSSD_Depth4_pe9000_feature01.jpg" alt="Explaining the enterprise-optimized peak speed of 6300MB/s with PE9000, it highlights up to 95% higher performance compared to the previous generation.">
+				</dd>
+				
+				<dt>E1.S the New Key Form Factor for Datacenters	 </dt>
+				<dd>PE9000 are available in the cutting-edge E1.s form factor. U.2 and M.2 used to constitute a majority of the form factors in the past. E1.S however, has recently fast-replaced these two form factors as it boasts lower power draw against U.2 and is hot-pluggable unlike M.2. Going forward, E1.S will continue to undergo exceptional growth. The PE9000 series comes in the E1.S form factor delivering unrivaled power efficiency. 
+					<div class="video-wrap">
+						<video autoplay="" muted="" loop="" playsinline="" class="pc">
+							<source src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/images/promotion/products/ssd/3_4depth/essd/PC/4depth_eSSD_pe9000_PC.mp4" type="video/mp4" class="pc">
+						</video>
+						<video autoplay="" muted="" loop="" playsinline="" class="mobile">
+							<source src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/images/promotion/products/ssd/3_4depth/essd/mw/4depth_eSSD_pe9000_MO.mp4" type="video/mp4" class="mobile">
+						</video>
+					</div>
+				</dd>
+			</dl>
+		</section>
+		
+		<!-- model specs -->
+		<section class="model-specs active">		
+			<div class="s-inner">	
+				<h3 class="tit02">Model Specs</h3>
+				<div class="spec-tab">
+		            <ul>
+		               	
+		               		<li class='active' idx='1' val="PE9110">
+		               			<a href="">PE9110</a>
+		               			<input type="hidden" value="13"/>
+		               		</li>
+		               	
+		               		<li class='' idx='2' val="PE9010 (M.2 22110)">
+		               			<a href="">PE9010 (M.2 22110)</a>
+		               			<input type="hidden" value="21"/>
+		               		</li>
+		               	
+		               		<li class='' idx='3' val="PE9010 (M.2 2280)">
+		               			<a href="">PE9010 (M.2 2280)</a>
+		               			<input type="hidden" value="22"/>
+		               		</li>
+		               	
+		            </ul>
+		            <div class="spec-con">
+		            	
+		                <div class="tab-con tab-con1">
+		                    <strong>Capacity</strong>
+		                    <p id="capa1">2,4,8 TB</p>
+		                    <strong>Sequential R/W</strong>
+		                    <p id="srw1">Up to 6600 MB/s, Up to 6300 MB/s</p> 
+		                    <strong>Random R/W</strong>
+		                    <p id="rrw1">Up to 1250K IOPS, Up to 185K IOPS</p>
+		                    <strong>Power consumption</strong>
+		                    <p id="pcs1">20W @8TB</p>
+		                    <ul class="spec-2">
+			                    <li>
+			                        <strong>SoC</strong>
+			                        <p id="soc1">In-house ASIC & FW</p>
+			                    </li>
+			                    <li>
+			                        <strong>Interface</strong>
+			                        <p id="inf1">PCIe Gen4x4</p>
+			                    </li>
+			                    <li>
+			                        <strong>NAND</strong>
+			                        <p id="nand1">4D V6 TLC</p>
+			                    </li>
+			                    <li>
+			                        <strong>Form Factor</strong>
+			                        <p id="ff1">E1.S 15mm</p>
+			                    </li>
+			                    <li>
+			                        <strong>DWPD</strong>
+			                        <p id="dwpd1">1 DWPD</p>
+			                    </li>
+			                    
+			                    	<li>
+				                        <strong>Security</strong>
+				                        <p id="dwpd1">SED/TCG Opal</p>
+				                    </li>
+			                    
+		                    </ul>
+		                </div>
+		            	
+		                <div class="tab-con tab-con2">
+		                    <strong>Capacity</strong>
+		                    <p id="capa2">1,2,4 TB</p>
+		                    <strong>Sequential R/W</strong>
+		                    <p id="srw2">Up to 3650 MB/s, Up to 2400 MB/s</p> 
+		                    <strong>Random R/W</strong>
+		                    <p id="rrw2">Up to 800K IOPS, Up to 95K IOPS</p>
+		                    <strong>Power consumption</strong>
+		                    <p id="pcs2">8.25W @4TB</p>
+		                    <ul class="spec-2">
+			                    <li>
+			                        <strong>SoC</strong>
+			                        <p id="soc2">In-house ASIC & FW</p>
+			                    </li>
+			                    <li>
+			                        <strong>Interface</strong>
+			                        <p id="inf2">PCIe Gen3x4</p>
+			                    </li>
+			                    <li>
+			                        <strong>NAND</strong>
+			                        <p id="nand2">4D V7 TLC</p>
+			                    </li>
+			                    <li>
+			                        <strong>Form Factor</strong>
+			                        <p id="ff2">M.2 22110</p>
+			                    </li>
+			                    <li>
+			                        <strong>DWPD</strong>
+			                        <p id="dwpd2">1 DWPD</p>
+			                    </li>
+			                    
+			                    	<li>
+				                        <strong>Security</strong>
+				                        <p id="dwpd2">SED/TCG Opal</p>
+				                    </li>
+			                    
+		                    </ul>
+		                </div>
+		            	
+		                <div class="tab-con tab-con3">
+		                    <strong>Capacity</strong>
+		                    <p id="capa3">0.5TB-2TB</p>
+		                    <strong>Sequential R/W</strong>
+		                    <p id="srw3">Up to 6800MB/s, Up to 2450MB/s</p> 
+		                    <strong>Random R/W</strong>
+		                    <p id="rrw3">Up to 1500K IOPS, Up to 88K IOPS</p>
+		                    <strong>Power consumption</strong>
+		                    <p id="pcs3">8.25W @2TB </p>
+		                    <ul class="spec-2">
+			                    <li>
+			                        <strong>SoC</strong>
+			                        <p id="soc3">In-house ASIC & FW</p>
+			                    </li>
+			                    <li>
+			                        <strong>Interface</strong>
+			                        <p id="inf3">PCIe Gen4x4</p>
+			                    </li>
+			                    <li>
+			                        <strong>NAND</strong>
+			                        <p id="nand3">4D V7 TLC</p>
+			                    </li>
+			                    <li>
+			                        <strong>Form Factor</strong>
+			                        <p id="ff3">M.2 2280</p>
+			                    </li>
+			                    <li>
+			                        <strong>DWPD</strong>
+			                        <p id="dwpd3">1 DWPD</p>
+			                    </li>
+			                    
+			                    	<li>
+				                        <strong>Security</strong>
+				                        <p id="dwpd3">SED/TCG Opal</p>
+				                    </li>
+			                    
+		                    </ul>
+		                </div>
+		            	
+						<div class="btn-wrap">
+	                        <button type="button" class="btn-round" id="compareSpecs">COMPARE SPECS</button>
+	                        <button type="button" class="btn-round btn-download" id="saveExcel">SAVE AS EXCEL</button>
+	                    </div>
+		            </div>          
+	            </div>
+            </div> 
+	    </section>            
+
+		<!-- Search by Specs -->
+		<section class="spec-finder" id="sectionProdSpec">
+			
+
+<div class="s-inner">
+	<h3 class="tit02" id="specTitle">Search by Specs</h3>
+	<div class="news-ticker" id="dev-news-ticker">
+		<span class="fl">SK Hynix First 128-Layer NAND Consumer <i>PCle NVMe SSD</i></span>
+		<span class="fr">
+			<a href="javascript:void(0);" onclick="openAlert();" class="article_link">Related Material</a>
+			<a href="javascript:void(0);" onclick="openAlert();" class="ico_close_g" title="close"></a>
+		</span>
+	</div>
+	
+	<form id="dev-specFinderForm">
+		<input type="hidden" name="treeNo"      id="treeNo" />
+		<input type="hidden" name="prodTypeVal" id="prodTypeVal" />
+		<input type="hidden" name="appTypCd"    id="appTypCd" />
+		<input type="hidden" name="specGrpId"   id="specGrpId" />
+		<input type="hidden" name="prodTypeNo"  id="prodTypeNo" />
+		<input type="hidden" name="cTreeNo"     id="cTreeNo" />
+		<input type="hidden" name="eolYn"     	id="eolYn" value="N" />
+	
+		<div class="compare-wrap" id="normal-div">				
+			<strong class="tab-info" id="dev-applicationTitle">Select Application</strong>
+			<div class="btn_area" id="dev-applicationDiv"></div>
+			<div class="content_area act" data-depth="0" data-idx="0">
+				<div class="tab_area">
+					<div class="btn_area" id="dev-prodModeDiv"></div>
+					<div class="content_area act" data-depth="1" data-idx="0">										
+						<div class="product-table-wrap">
+							<table id="dev-checkboxTable">
+								<caption>table for product spec finder</caption>
+								<thead></thead>
+								<tbody></tbody>
+							</table>
+						</div>
+						
+						<div class="wrap-top">		
+							<strong><span class="total" id="resultCnt"></span> Results</strong> 
+							<a href="javascript:void(0);" onclick="excelDownloadSpecFinder(false);" class="spec-finder-link">Export All to Excel</a>
+						</div>
+						<div class="product-table-wrap">
+							<table id="dev-resultTable">
+								<caption>table for product spec finder</caption>				
+								<thead></thead>
+								<tbody></tbody>
+							</table>
+						</div>
+						<div class="btn-wrap" id="compareDiv">
+							<a href="javascript:void(0);" class="btn btn3 compare disable">Select 2 more products to Compare</a>
+							<button type="button" class="btn-clear disable" onclick="clearCompareList();">Clear all</button>
+						</div>								
+					</div>
+				</div>
+			</div>						
+		</div>		
+	
+		<div class="compare-wrap" id="mobile-div">
+			<strong class="tab-info" id="dev-mobileApplicationTitle">Application</strong>
+			<div class="btn_area" id="dev-mobileApplicationDiv">
+				<!-- <button type="button" onclick="searchApplication(0,'APX01');" class="btn_tab act" data-depth="0" data-idx="0">Server</button>
+				<button type="button" onclick="searchApplication(1,'APX02');" class="btn_tab" data-depth="0" data-idx="1">PC</button>
+				<button type="button" onclick="searchApplication(2,'APX05');" class="btn_tab" data-depth="0" data-idx="2">Networking</button> -->
+			</div>
+			<div class="content_area act">
+				<strong class="tab-info" id="dev-prodModeTitle">Product option</strong>
+				<div class="btn_area" id="dev-mobileProdModeDiv">
+					<!-- <button type="button" onclick="searchProdMode(0,'SG1006');" class="btn_tab act" data-depth="1" data-idx="0">DDR5 Module</button>
+					<button type="button" onclick="searchProdMode(1,'SG1004');" class="btn_tab" data-depth="1" data-idx="1">DDR4 Module</button> -->
+				</div>
+				<strong class="tab-info">Filter</strong>
+				<div class="filter-wrap">	
+					<div class="accordion-wrap">
+						<dl role="presentation" id="dev-resCheckboxTable" class="accordion"></dl>
+					</div>
+				</div>			
+				
+				<div class="filter-wrap part-wrap">
+					<div class="wrap-top">		
+						<strong><span class="total" id="mobileResultCnt"></span> Results</strong>
+						<a href="javascript:void(0);" id="mobileCompareExcel" onclick="excelDownloadSpecFinder(false);" class="spec-finder-link">Save All</a>
+					</div>
+					<div class="btn-wrap m-bottom" id="mobileCompareDiv1">
+						<a href="javascript:void(0);" class="btn btn3 compare disable">Select 2 more products to Compare</a>
+						<button type="button" class="btn-clear disable" onclick="clearCompareList();">Clear all</button>
+					</div>
+					<div class="accordion-wrap">
+						<dl role="presentation" id="dev-resResultTable" class="accordion"></dl>	
+					</div>	
+					<div class="btn-wrap" id="dev-loadMoreDiv">
+						<a href="javascript:void(0);" onclick="loadMore();" class="btn-round load-more"><span id="loadMoreCnt"></span></a>
+					</div>
+					<div class="btn-wrap m-bottom" id="mobileCompareDiv2">
+						<a href="javascript:void(0);" class="btn btn3 compare disable">Select 2 more products to Compare</a>
+						<button type="button" class="btn-clear disable" onclick="clearCompareList();">Clear all</button>
+					</div>
+				</div>
+			</div>				
+		</div>	
+	</form>
+</div>
+
+<div id="bg2"></div>
+<div id="bg-inner"></div>
+<!-- pop-compare -->
+<div class="pop-container pop-compare" id="popCompare">
+	<div class="pc">
+		<div class="pop-header">
+			<div class="page-nav" id="comparePageDepth">
+				
+			</div>		
+			<h4>Selected Specs</h4>		
+			<button type="button" class="btn close">close</button>		
+		</div>
+		
+		<div class="pop-body">		
+			<div class="product-table-wrap">			
+				<table id="dev-compareTable">
+					<caption>table for product Compare List</caption>
+					<thead></thead>
+					<tbody></tbody>
+				</table>
+			</div>
+			<div class="btn-wrap">
+				<button type="button" class="btn-round red close">CLOSE</button>
+			</div>
+		</div>
+	</div>
+	<div class="mobile">
+		<div class="pop-header">
+			<!-- <div class="page-nav" id="comparePageDepth">
+			</div> -->		
+			<h4 id="mobileCompareHead">Result</h4>		
+			<button type="button" class="btn close">close</button>		
+		</div>
+		<div class="pop-body">	
+			<div class="compare-result" id="dev-mobileCompare">
+						
+			</div>
+			
+			<div class="btn-wrap m-bottom">
+				<button type="button" class="btn-round red close">CLOSE</button>
+				<a href="javascript:void(0);" onclick="excelDownloadSpecFinder(true);" class="spec-finder-link wt">Excel</a>
+			</div>
+		</div>	
+	</div>
+</div>
+<!-- //pop-compare -->
+
+<!-- pop-detail -->
+<div class="pop-container pop-detail" id="popDetail">
+	<a id="dnA" href="#" style="display:none;"></a>
+	<form id="dnFrm" method="POST" target="dnIfr" action="/download.do">
+		<input type="hidden" id="attTypeCd" name="attTypeCd">
+		<input type="hidden" id="attNo" name="attNo">
+		<input type="hidden" id="selCd" name="selCd" value="TRT04">
+	</form>
+	<div class="pop-header">
+		<div class="page-nav" id="pageDepth">
+		</div>	
+		<h4>Parts Detail</h4>			
+		<button type="button" class="btn close">close</button>		
+	</div>
+	
+	<div class="pop-body">		
+		<div class="tit-detail">
+			<span id="titleAncs"></span>
+			<strong id="prodTitle"></strong>	
+		</div>		
+		<div class="product-table-wrap" id="secNonSSDSpec" style="display:none;">	
+			<table>
+				<caption>table for product list</caption>
+				<tbody id="tbSpec">
+				</tbody>
+			</table>	
+			<div class="link-filter" id="ulAtt1"><div></div></div>
+		</div>
+		<div class="product-table-wrap" id="secSSD_FF" style="display:none;">
+			<h4 class="tit03">Physical Features</h4>
+			<div class="table-wrap">
+				<table>
+					<caption>table for product list</caption>
+					<thead>
+						<tr>
+							<th>Form Factor</th>
+							<th>Width</th>
+							<th>Length</th>
+							<th>Thickness</th>
+							<th>Weight</th>
+						</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td data-title="Form Factor" id="tdFF_nm"></td>
+						<td data-title="Width" id="tdFF_width"></td>
+						<td data-title="Length" id="tdFF_length"></td>
+						<td data-title="Thickness" id="tdFF_thick"></td>
+						<td data-title="Weight" id="tdFF_weight"></td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- <div class="link-filter" id="ulAtt2"></div> -->
+		</div>
+		
+		<div class="product-table-wrap" id="secSSDSpec" style="display:none;">
+			<h4 class="tit03">Target Estimation</h4>
+			<div class="table-wrap">
+				<table class="table-row">
+					<caption>table for product list</caption>
+					<colgroup>
+						<col style="width:150px">
+						<col style="width:152px">
+						<col>
+					</colgroup>
+					<tbody>
+						<tr>
+							<th colspan="2">Interface</th>
+							<td><span id="spnIntrf"></span></td>
+						</tr>
+						<tr>
+							<th colspan="2">Form Factor</th>
+							<td><span id="spnFormF"></span></td>
+						</tr>
+						<tr>
+							<th colspan="2">Capacity</th>
+							<td><span id="spnCapa"></span></td>
+						</tr>
+						<tr>
+							<th rowspan="4">Performance</th>
+							<th>Sequential Read</th>
+							<td><span id="spnSeqR"></span></td>
+						</tr>
+						<tr>
+							<th>Sequential Write</th>
+							<td><span id="spnSeqW"></span></td>
+						</tr>
+						<tr>
+							<th>Random Read</th>
+							<td><span id="spnRandR"></span></td>
+						</tr>
+						<tr>
+							<th>Random Write</th>
+							<td><span id="spnRandW"></span></td>
+						</tr>
+						<tr>
+							<th rowspan="3">Power<br>Consumption</th>
+							<th>Active Read</th>
+							<td><span id="spnActR"></span></td>
+						</tr>
+						<tr>
+							<th>Active Write</th>
+							<td><span id="spnActW"></span></td>
+						</tr>
+						<tr>
+							<th id="thIdle">Active Idle</th>
+							<td><span id="spnActI"></span></td>
+						</tr>
+						<tr id="trDwpd" style="display:none;">
+							<th colspan="2">DWPD</th>
+							<td><span id="spnDwpd"></span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>	
+			<div class="link-filter" id="ulAtt3"></div>
+		</div>
+			
+		<div class="btn-wrap m-bottom">
+			<button type="button" class="btn-round red close">CLOSE</button>
+		</div>
+	</div>
+</div>	
+<!-- //pop-detail -->
+
+<!-- alert-dialog -->
+<div class="alert-dialog" id="clearConfirm">
+	<div class="alert-body">
+		<p>Are you sure<br />to clear all results?</p>
+		<div class="btn-wrap">
+			<button type="button" class="btn-alert" id="btnNo" onclick="clearConfirm('N');">NO</button>
+			<button type="button" class="btn-alert" id="btnOk" onclick="clearConfirm('Y');">OK</button>
+		</div>
+	</div>
+</div>
+<!-- //alert-dialog -->
+
+<!-- toast -->
+<div class="toast-msg" id="complete">Complete!</div>
+<!-- //toast -->
+	
+<script>
+var appTypCdListYn  = ''; // Application 영역 사용여부
+var specGrpIdListYn = ''; // Spec finder 탭 영역 사용여부
+var prodTypeListYn  = ''; // Spec finder 체크박스 맨 왼쪽 영역 사용여부
+var specGrpIdList;
+var prodTypeList;
+var prodList;
+var specNameList;
+var specValueList;
+var searchMode = 'init';
+var compareList = [];
+
+var loadMoreCnt = 10;
+
+/* technical resources */
+const appTreeList = [1020, 1016, 1018, 1019, 1050, 1023, 1010];
+const tabTreeList = [1020, 1016, 1018, 1019, 1050];
+const typTreeList = [1020, 1025];
+
+$(document).ready(function () {
+
+	detailEvent();
+
+
+	/* 스펙파인더 모바일 swiper */ 
+	var swiper = new Swiper('.spec-finder .tags .swiper-container', { 
+	    slidesPerView: 'auto', 
+	    spaceBetween: 10, 
+	    pagination: { 
+	        el: '.swiper-pagination', 
+	        clickable: true, 
+	    }, 
+	});
+
+	if(pageName == "techs"){
+		/* searchMode = 'init';
+		$('#appTypCd').val(null);
+		$('#specGrpId').val(null);
+		$('#prodTypeNo').val(null);
+
+		getTechSpecFinder(treeNo, treeNm); */
+		
+		$('#sectionProdSpec').hide();
+
+		$('#compareDiv').hide();
+		$('#mobileCompareDiv1').hide();
+		$('#mobileCompareDiv2').hide();
+		
+	}else{
+		//개발과 운영 treeNo 변경이 있을 경우를 대비해 pageName 으로 임시 분기 
+		//추후 treeNo 변경해야함.
+		if(pageName == "module" || pageName == "ddr5dm" || pageName == "essd" || pageName == "sodimm" || pageName == "udimm"){
+			prodTypeListYn = "Y";
+		}else{
+			prodTypeListYn = "N";
+		}
+	
+		if(pageName == "essd" || pageName == "cssd" || pageName == "pe8000" || pageName == "pc711" || pageName == "pc801_bc901" || pageName == "pcb01_pvc10"
+			|| pageName == "ufs" || pageName == "umcp" || pageName == "emcp" || pageName == "umcp-d" || pageName == "emcp-d"
+			|| pageName == "ufs2" || pageName == "ue400" || pageName == "ud310a" || pageName == "ud310"){
+			appTypCdListYn = "N";
+		}else{
+			appTypCdListYn = "Y";
+		}
+	
+ 		if(pageName == "essd" || pageName == "cssd" || pageName == "peb000"|| pageName == "pe8000" || pageName == "pe9000" || pageName == "ps1000" || pageName == "pc711" || pageName == "pc801_bc901"  || pageName == "pcb01_pvc10"
+			|| pageName == "emmc" || pageName == "umcp" || pageName == "emcp" || pageName == "cis"
+			|| pageName == "gddr6"|| pageName == "gddr7" || pageName == "ufs2" || pageName == "ue400" || pageName == "ud310a" || pageName == "ud310"
+			 //|| pageName == "lpddr5"|| pageName == "lpddr5x"  || pageName == "lpddr4x_4"
+		   ){
+			specGrpIdListYn = "N";
+		}else{
+			specGrpIdListYn = "Y";
+		}
+		
+		if($(window).width()<1024){
+			$('#normal-div').hide();
+			$('#mobile-div').show();
+		}else{
+			$('#normal-div').show();
+			$('#mobile-div').hide();
+		}
+	
+	    getSpecFinder();
+	}
+    //productNavF();
+
+	$('.pop-container.pop-compare .close').on('click', function(e) {
+		$('body').removeClass('over_hidden');
+		$("#complete").hide();
+// 		$('.pop-container').hide();
+		window.onpopstate = () => {
+			history.go(-1);
+		};
+    });
+
+	$('.pop-container.pop-detail .close').on('click', function(e) {
+		$('body').removeClass('over_hidden');
+// 		$("#complete").hide();
+// 		$('.pop-container').hide();
+
+		window.onpopstate = () => {
+			history.go(-1);
+		};
+    });
+});
+
+const mediaQuery = window.matchMedia('(max-width:1024px)'); 
+function mediaQueryChange(e) { 
+	var chlen = $("input:checkbox[name='pn']:checked").length;
+	if(e.matches) {
+		$('#normal-div').hide();
+		$('#mobile-div').show();
+		
+		deviceType = "mobile";
+	} else{
+		$('#normal-div').show();
+		$('#mobile-div').hide();
+		
+		deviceType = "normal";
+	}
+
+	if(chlen<2){
+		if(chlen == 0){
+			$('.btn-wrap .btn3.compare').text("Select 2 more products to Compare");
+		}else if(chlen == 1){
+			$('.btn-wrap .btn3.compare').text("Select 1 more products to Compare");
+		}
+	}
+}
+mediaQuery.addListener(mediaQueryChange);
+
+function initSpecFinder(treeNo, treeNm) {
+	if($(window).width()<1024){
+		
+		$('#normal-div').hide();
+		$('#mobile-div').show();
+		
+		deviceType = "mobile";
+	}else{
+
+		$('#normal-div').show();
+		$('#mobile-div').hide();
+
+		deviceType = "normal";
+	}
+	
+	searchMode = 'init';
+	$('#appTypCd').val(null);
+	$('#specGrpId').val(null);
+	$('#prodTypeNo').val(null);
+
+	//console.log("AAAAAAAAAAAA");
+	getTechSpecFinder(treeNo, treeNm);
+}
+
+function getSpecFinder() {
+	$('#treeNo').val(1025);
+
+// 	if(pageName == "pc711"){
+		$('#cTreeNo').val(1113);
+// 	}
+
+	if ( appTypCdListYn == 'Y' ) {
+		$('#prodTypeVal').val('eSSD');
+	}
+	else if ( appTypCdListYn == 'N' ) {
+		$('#appTypCd').val('noUse');
+	}
+	
+// 	if(pageName == "pc711"){
+		if ( searchMode == 'init' ) {
+			var formData = {
+					'cTreeNo'       : $('#cTreeNo').val()
+				  , 'treeNo'        : $('#treeNo').val()
+				  , 'prodTypeVal'   : $('#prodTypeVal').val()
+			      , 'appTypCd'      : $('#appTypCd').val()
+			      , 'specGrpId'     : $('#specGrpId').val()
+			      , 'prodTypeNo'    : $('#prodTypeNo').val()
+			      , 'initAppTypCd'  : ''
+			      , 'initSpecGrpId' : ''
+			      , 'initProdTypeNo': ''
+			};
+		}
+		else {
+			var formData = {
+					'cTreeNo'       : $('#cTreeNo').val()
+				  , 'treeNo'        : $('#treeNo').val()
+				  , 'prodTypeVal'   : $('#prodTypeVal').val()
+			      , 'appTypCd'      : $('#appTypCd').val()
+			      , 'specGrpId'     : $('#specGrpId').val()
+			      , 'prodTypeNo'    : $('#prodTypeNo').val()
+			};
+		}
+	/* }else{
+		if ( searchMode == 'init' ) {
+			var formData = {
+					'treeNo'        : $('#treeNo').val()
+				  , 'prodTypeVal'   : $('#prodTypeVal').val()
+			      , 'appTypCd'      : $('#appTypCd').val()
+			      , 'specGrpId'     : $('#specGrpId').val()
+			      , 'prodTypeNo'    : $('#prodTypeNo').val()
+			      , 'initAppTypCd'  : ''
+			      , 'initSpecGrpId' : ''
+			      , 'initProdTypeNo': ''
+			};
+		}
+		else {
+			var formData = {
+					'treeNo'      : $('#treeNo').val()
+				  , 'prodTypeVal' : $('#prodTypeVal').val()
+			      , 'appTypCd'    : $('#appTypCd').val()
+			      , 'specGrpId'   : $('#specGrpId').val()
+			      , 'prodTypeNo'  : $('#prodTypeNo').val()
+			};
+		}
+	} */
+	
+	/* console.log("treeNo : "+$('#treeNo').val());
+	console.log("cTreeNo : "+$('#cTreeNo').val());
+	console.log("prodTypeNo : "+$('#prodTypeNo').val());
+	console.log("specGrpId : "+$('#specGrpId').val());
+	console.log(formData); */
+	showProgress();
+	CallService('getSpecFinder', '/products/getSpecFinder.do', JSON.stringify(formData), null, 'true', 'POST', 'getSpecFinderCallBack');
+}
+
+function getTechSpecFinder(treeNo, treeNm) {
+	$('#treeNo').val(treeNo);
+
+	if ( appTreeList.indexOf(Number($('#treeNo').val())) > -1 ) {
+		$('#prodTypeVal').val(treeNm);
+	}
+	else {
+		$('#appTypCd').val('noUse');
+	}
+	
+	//EOL페이지에서만 eol조회 여부 Y로 변경
+	if(pageName == "techs" && selRscCd == "TRT05") {
+		$("#eolYn").val("Y");
+	} else {
+		$("#eolYn").val("N");
+	}
+	
+	var formData = {
+			'treeNo'      : $('#treeNo').val()
+		  , 'prodTypeVal' : $('#prodTypeVal').val()
+	      , 'appTypCd'    : $('#appTypCd').val()
+	      , 'specGrpId'   : $('#specGrpId').val()
+	      , 'prodTypeNo'  : $('#prodTypeNo').val()
+	      , 'trtTypeCd'   : $('.select_step01 ul li.selected').attr('id')
+	      , 'eolYn'  	  : $('#eolYn').val()
+	};
+
+	showProgress();
+	CallService('getTechSpecFinder', '/products/getSpecFinder.do', JSON.stringify(formData), null, 'true', 'POST', 'getTechSpecFinderCallBack');
+}
+
+/* Spec finder 검색 콜백 함수 */
+function getSpecFinderCallBack(svcId, data) {
+	// Compare 리스트 초기화
+	compareList = [];
+	$('.btn-wrap .btn3.compare').addClass('disable');
+	$('.btn-wrap .btn3.compare').off();
+
+	if ( Object.keys(data).length > 0 ) {
+		if ( data.resCode == 0 && data.resData != null ) {
+			setSpecFinderData(data.resData);
+	
+			if (searchMode == 'init') {
+        		if ( appTypCdListYn == 'Y' ) {
+					createApplicationHtml(data.resData.appTypCdList);
+				} else {
+        			$('#dev-applicationTitle').hide();
+        			$('#dev-mobileApplicationTitle').hide();
+            	}
+
+        		if ( specGrpIdListYn == 'Y' ) {
+					createProdModeHtml();
+				} else {
+					$('#dev-prodModeTitle').hide();
+            		$('#dev-prodModeDiv').hide();
+            		$('#dev-mobileProdModeDiv').hide();
+        		}
+
+        		if ( appTypCdListYn == 'N' && specGrpIdListYn == 'N' ) {
+        			$('#dev-filterLayout').attr('style', 'border-top:none');
+        			$('#specs-option').attr('style', 'display:none');
+        		}
+        	}
+        	else if ( searchMode == 'app' ) {
+        		if ( specGrpIdListYn == 'Y' ) {
+					createProdModeHtml();
+				}
+			}
+        	createSpecHtml();
+        	createMobileSpecHtml();
+        	createProdHtml(data.resData.prodList);
+        	if(pageName == "ufs2"){
+        		searchCheckbox(''); 
+        	}
+        	accordionEvent();
+        	//$('#sectionProdSpec').show();
+		}
+		else {
+			var strClass = $('#sectionProdSpec').attr('class').match(/ps\d/g)[0];
+			var lid = Number(strClass.substring(2,3)) - 1 ;
+			$('li[lid="' + lid + '"]').attr('style', 'display:none');
+			$('#sectionProdSpec').attr('style', 'display:none');
+			//productNavF();
+		}
+	}
+	else {
+		var strClass = $('#sectionProdSpec').attr('class').match(/ps\d/g)[0];
+		var lid = Number(strClass.substring(2,3)) - 1 ;
+		$('li[lid="' + lid + '"]').attr('style', 'display:none');
+		$('#sectionProdSpec').attr('style', 'display:none');
+		//productNavF();
+	}
+
+	hideProgress();
+}
+
+/* Spec finder 검색 콜백 함수 */
+function getTechSpecFinderCallBack(svcId, data) {
+	// TechList 영역 삭제
+	$("#divTechList").empty();
+	
+	// Compare 리스트 초기화
+	compareList = [];
+	$('.btn-wrap .btn3.compare').addClass('disable');
+	$('.btn-wrap .btn3.compare').off();
+		
+	if ( Object.keys(data).length > 0 ) {
+		if ( data.resCode == 0 && data.resData != null ) {
+			setSpecFinderData(data.resData);
+
+			if ( searchMode == 'init' ) {
+				if ( appTreeList.indexOf(Number($('#treeNo').val())) > -1 ) {
+					createApplicationHtml(data.resData.appTypCdList);
+					$('#dev-applicationTitle').show();
+					$('#dev-mobileApplicationTitle').show();
+				}
+				else {
+					$('#dev-applicationTitle').hide();
+					$('#dev-applicationDiv').empty();
+					$('#dev-mobileApplicationTitle').hide();
+					$('#dev-mobileApplicationDiv').empty();
+				}
+				
+				if ( tabTreeList.indexOf(Number($('#treeNo').val())) > -1 ) {
+					createProdModeHtml();
+					$('#dev-prodModeTitle').show();
+					$('#dev-prodModeDiv').show();
+					$('#dev-mobileProdModeDiv').show();
+				} else {
+					$('#dev-prodModeTitle').hide();
+					$('#dev-prodModeDiv').hide();
+					$('#dev-mobileProdModeDiv').hide();
+				}
+
+				if ( appTreeList.indexOf(Number($('#treeNo').val())) < 0 && tabTreeList.indexOf(Number($('#treeNo').val())) < 0 ) {
+        			$('#dev-filterLayout').attr('style', 'border-top:none');
+        		} else {
+					$('#dev-filterLayout').attr('style', 'border-top:1px solid #ddd;');
+				}
+			} else if ( searchMode == 'app' ) {
+				if ( tabTreeList.indexOf(Number($('#treeNo').val())) > -1 ) {
+					createProdModeHtml();
+					$('#dev-prodModeTitle').show();
+					$('#dev-prodModeDiv').show();
+					$('#dev-mobileProdModeDiv').show();
+				}
+				else {
+					$('#dev-prodModeTitle').hide();
+					$('#dev-prodModeDiv').hide();
+					$('#dev-mobileProdModeDiv').hide();
+				}
+			}
+			
+			createSpecHtml();
+			createMobileSpecHtml();
+			createProdHtml(data.resData.prodList);
+			
+			if(pageName == "ufs2"){
+        		searchCheckbox(''); 
+        	}
+			accordionEvent();
+		} else {
+			$('#sectionProdSpec').hide();
+		}
+		// Spec finder 영역 노출
+		$('#sectionProdSpec').show();
+
+		if(selRscCd == 'TRT06'){
+			$('#specTitle').text("Datasheet Download");
+			$('.tech-list').hide();
+		}else if(selRscCd == 'TRT07'){
+			$('#specTitle').text("SPD Download");
+			$('.tech-list').hide();
+		}else if(selRscCd == 'TRT05'){
+			$('#specTitle').text("End Of Life products");
+			$('.tech-list').hide();
+		}else if(selRscCd == 'TRT08'){
+			$('#specTitle').text("CIS Chip Info. Download");
+			$('.tech-list').hide();
+		}
+	}
+	else {
+		$('#sectionProdSpec').hide();
+	}
+
+	hideProgress();
+}
+
+/* Spec finder 데이터 세팅 */
+function setSpecFinderData(data) {
+	specNameList = data.specNameList;
+	specValueList = data.specValueList;
+	prodList      = data.prodList;
+
+	$("#comparePageDepth").html("");
+	var treePathList = 'PRODUCTS > SSD > Enterprise SSD > PE9000 Series'.split(' > ');
+	treePathList.map((obj, i) => {
+		var spanText = document.createElement("span");
+		spanText.innerHTML = obj;
+		if(i !== 0){
+			spanText.classList.add("arrow-tri");
+			if(i === treePathList.length-1){
+				spanText.classList.add("current");
+			}
+
+			if(obj === "DDR5 Module"){
+				spanText.innerHTML = "UDIMM";
+			} else if(obj === "DDR4 Module"){
+				spanText.innerHTML = "RDIMM/LRDIMM";
+			} else if(obj === "DDR3 Module"){
+				spanText.innerHTML = "SODIMM";
+			}
+		}
+		document.getElementById("comparePageDepth").appendChild(spanText);
+	});
+
+	if(pageName == "techs"){
+		if ( appTreeList.indexOf(Number($('#treeNo').val())) > -1 ) {
+			if ( $('#appTypCd').val() == "" ) {
+				for ( var i=0; i < data.appTypCdList.length; i++ ) {
+					if ( data.appTypCdList[i].DISABLE_YN == 'N' ) {
+						$('#appTypCd').val(data.appTypCdList[i].APP_TYP_CD);
+						break;
+					}
+				}
+			}
+		}
+
+		if ( tabTreeList.indexOf(Number($('#treeNo').val())) > -1 ) {
+			if ( $('#specGrpId').val() == "" ) {
+				specGrpIdList = data.specGrpIdList;
+				$('#specGrpId').val(specGrpIdList[0].SPEC_GRP_ID);
+			}
+		}
+
+		if ( typTreeList.indexOf(Number($('#treeNo').val())) > -1 ) {
+			if ( $('#prodTypeNo').val() == "" ) {
+				prodTypeList = data.prodTypeList;
+// 				$('#prodTypeNo').val(prodTypeList[0].TREE_NO);
+
+				if($('#treeNo').val()=="1020" && $('#appTypCd').val() == "APX02" ){
+					
+				}else if(pageName == "sodimm" && $('#appTypCd').val() == "APX02" ){
+					var len = prodTypeList.length-1;
+					$('#prodTypeNo').val(prodTypeList[len].TREE_NO);
+				}else{
+					$('#prodTypeNo').val(prodTypeList[0].TREE_NO);
+				}
+			}
+		}
+	}else{
+		if ( appTypCdListYn == 'Y' ) {
+			if ( $('#appTypCd').val() == "" ) {
+		    	if ( searchMode == 'init' ) {
+		    		$('#appTypCd').val('');
+		    		if ( $('#appTypCd').val() == '' ) {
+		    			for ( var i=0; i < data.appTypCdList.length; i++ ) {
+		    				if ( data.appTypCdList[i].DISABLE_YN == 'N' ) {
+		    					$('#appTypCd').val(data.appTypCdList[i].APP_TYP_CD);
+		    					break;
+		    				}
+		    			}
+					}
+		    	}
+		    	else {
+					for ( var i=0; i < data.appTypCdList.length; i++ ) {
+						if ( data.appTypCdList[i].DISABLE_YN == 'N' ) {
+							$('#appTypCd').val(data.appTypCdList[i].APP_TYP_CD);
+							break;
+						}
+					}
+		        }
+			}
+		}
+
+		if ( specGrpIdListYn == 'Y' ) {
+			if ( $('#specGrpId').val() == "" ) {
+				specGrpIdList = data.specGrpIdList;
+				
+				if ( searchMode == 'init' ) {
+					$('#specGrpId').val('');
+					if ( $('#specGrpId').val() == '' ) {
+						for(var i = 0; i < specGrpIdList.length; i++) {
+							if(specGrpIdList[i].TREE_NO == "1113") {
+								$('#specGrpId').val(specGrpIdList[i].SPEC_GRP_ID);
+							}
+						}
+						
+						if ( $('#specGrpId').val() == "" ) {
+							$('#specGrpId').val(specGrpIdList[0].SPEC_GRP_ID);
+						}
+					}
+				} else {
+					for(var i = 0; i < specGrpIdList.length; i++) {
+						if(specGrpIdList[i].TREE_NO == "1113") {
+							$('#specGrpId').val(specGrpIdList[i].SPEC_GRP_ID);
+						}
+					}
+
+					if ( $('#specGrpId').val() == "" ) {
+						$('#specGrpId').val(specGrpIdList[0].SPEC_GRP_ID);
+					}
+				}
+			}
+		}
+		
+		if ( prodTypeListYn == 'Y' ) {
+			if ( $('#prodTypeNo').val() == "" ) {
+				prodTypeList = data.prodTypeList;
+				if(pageName != "essd"){
+					if(pageName == "ddr5dm" && $('#appTypCd').val() == "APX02" ){
+	 					
+					} else if(pageName == "module"){
+	 					
+					} else if(pageName == "sodimm" && $('#appTypCd').val() == "APX02" ){
+						var len = prodTypeList.length-1;
+						if ( searchMode == 'init' ) {
+							$('#prodTypeNo').val('');
+							if ( $('#prodTypeNo').val() == '' ) {
+								$('#prodTypeNo').val(prodTypeList[len].TREE_NO);
+							}
+						} else {
+							$('#prodTypeNo').val(prodTypeList[len].TREE_NO);
+						}
+					}else{
+						if ( searchMode == 'init' ) {
+							$('#prodTypeNo').val('');
+							if ( $('#prodTypeNo').val() == '' ) {
+								$('#prodTypeNo').val(prodTypeList[0].TREE_NO);
+							}
+						} else {
+							$('#prodTypeNo').val(prodTypeList[0].TREE_NO);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Spec finder no data Html 생성 */
+function createNoDataHtml() {
+	var tempHtml = new Array();
+
+	$('section.p-s-finder').empty();
+	tempHtml.push('<div class="ps-sub-section spec-finder"><h3>Product Specs</h3><p class="no-data mt0 mb0">No results</p></div>');
+	$('section.p-s-finder').html(tempHtml.join(''));
+}
+
+/* Application Html 생성 */
+function createApplicationHtml(data) {
+	var tempHtml   = new Array();
+	var mobileTempHtml   = new Array();
+
+	for ( var i=0; i < data.length; i++ ) {
+		if ( data[i].APP_TYP_CD == $('#appTypCd').val() ) {
+			tempHtml.push('<button type="button" onclick="searchApplication('+i+',\'' + data[i].APP_TYP_CD + '\');" class="btn_tab act" data-depth="0" data-idx="' + i + '">');
+		}
+		else {
+			if ( data[i].DISABLE_YN == 'Y' ) {
+				tempHtml.push('<button disabled type="button" onclick="searchApplication('+i+',\'' + data[i].APP_TYP_CD + '\');" class="btn_tab" data-depth="0" data-idx="' + i + '">');
+			}
+			else {
+				tempHtml.push('<button type="button" onclick="searchApplication('+i+',\'' + data[i].APP_TYP_CD + '\');" class="btn_tab" data-depth="0" data-idx="' + i + '">');
+			}
+		}
+		
+		if ( data[i].CD_KR_NM == 'Desktop' || data[i].CD_KR_NM == 'Notebook' ) {
+// 			tempHtml.push('<span class="ico-' + data[i].CD_KR_NM + '"><em>PC (' + data[i].CD_KR_NM + ')</em></span>');
+			tempHtml.push('<span class="ico-' + data[i].CD_KR_NM + '"><em>PC</em></span>');
+		}
+		else {
+			tempHtml.push('<span class="ico-' + data[i].CD_KR_NM + '"><em>' + data[i].CD_KR_NM + '</em></span>');
+		}
+		
+        tempHtml.push('</button>');
+	}
+	$('#dev-applicationDiv').html(tempHtml.join(''));
+
+		
+	for ( var i=0; i < data.length; i++ ) {
+		if ( data[i].APP_TYP_CD == $('#appTypCd').val() ) {
+			mobileTempHtml.push('<button type="button" onclick="searchApplication('+i+',\'' + data[i].APP_TYP_CD + '\');" class="btn_tab act" data-depth="0" data-idx="' + i + '">');
+		}
+		else {
+			if ( data[i].DISABLE_YN == 'Y' ) {
+				mobileTempHtml.push('<button type="button" onclick="searchApplication('+i+',\'' + data[i].APP_TYP_CD + '\');" class="btn_tab disabled" data-depth="0" data-idx="' + i + '">');
+			}
+			else {
+				mobileTempHtml.push('<button type="button" onclick="searchApplication('+i+',\'' + data[i].APP_TYP_CD + '\');" class="btn_tab" data-depth="0" data-idx="' + i + '">');
+			}
+		}
+			
+		if ( data[i].CD_KR_NM == 'Desktop' || data[i].CD_KR_NM == 'Notebook' ) {
+// 			mobileTempHtml.push('PC (' + data[i].CD_KR_NM + ')');
+			mobileTempHtml.push('PC');
+		}
+		else {
+			mobileTempHtml.push(data[i].CD_KR_NM);
+		}
+
+		mobileTempHtml.push('</button>');
+	}
+	$('#dev-mobileApplicationDiv').html(mobileTempHtml.join(''));
+// 	}
+}
+
+/* Product Mode Html 생성 */
+function createProdModeHtml() {
+	var tempHtml   = new Array();
+	var mobileTempHtml   = new Array();
+	
+	for ( var i=0; i < specGrpIdList.length; i++ ) {
+		if ( specGrpIdList[i].SPEC_GRP_ID == $('#specGrpId').val() ) {
+			tempHtml.push('<button type="button" onclick="searchProdMode('+i+',\'' + specGrpIdList[i].SPEC_GRP_ID + '\');" class="btn_tab act" data-depth="1" data-idx="' + i + '">');
+		}
+		else {
+			tempHtml.push('<button type="button" onclick="searchProdMode('+i+',\'' + specGrpIdList[i].SPEC_GRP_ID + '\');" class="btn_tab" data-depth="1" data-idx="' + i + '">');
+		}
+		tempHtml.push(specGrpIdList[i].TREE_NM);
+		tempHtml.push('</button>');
+	}
+	$('#dev-prodModeDiv').html(tempHtml.join(''));
+
+	for ( var i=0; i < specGrpIdList.length; i++ ) {
+		if ( specGrpIdList[i].SPEC_GRP_ID == $('#specGrpId').val() ) {
+			mobileTempHtml.push('<button type="button" onclick="searchProdMode('+i+',\'' + specGrpIdList[i].SPEC_GRP_ID + '\');" class="btn_tab act" data-depth="1" data-idx="' + i + '">');
+		}
+		else {
+			mobileTempHtml.push('<button type="button" onclick="searchProdMode('+i+',\'' + specGrpIdList[i].SPEC_GRP_ID + '\');" class="btn_tab" data-depth="1" data-idx="' + i + '">');
+		}
+		mobileTempHtml.push(specGrpIdList[i].TREE_NM);
+		mobileTempHtml.push('</button>');
+	}
+	$('#dev-mobileProdModeDiv').html(mobileTempHtml.join(''));
+}
+
+/* 체크박스 Html 생성 */
+function createSpecHtml() {
+	var tempHtml = new Array();
+	var prevSpecColId = '';
+	var prodTypeNo = $('#prodTypeNo').val();
+	var prodTypeCnt = 0;
+
+	// 체크박스 table head 생성
+	tempHtml.push('<tr>');
+	if(pageName == "techs"){
+		if ( typTreeList.indexOf(Number($('#treeNo').val())) > -1 ) {
+			if ( prodTypeList.length > 0 ) {
+				tempHtml.push('<th scope="col">');
+				tempHtml.push('<div class="checkbox">');
+				tempHtml.push('<input type="checkbox" onclick="searchProdType(\'inputProdType\');" name="inputProdType" id="inputProdType">');
+	
+				if ( ($('#treeNo').val()) == '1020') {
+					tempHtml.push('<label for="inputProdType"><span></span>DIMM Type</label>');
+				}
+				else {
+					tempHtml.push('<label for="inputProdType"><span></span>Product Series</label>');
+				}
+				
+				tempHtml.push('</div>');
+				tempHtml.push('</th>');
+			}
+		}
+	}else{
+		if ( prodTypeListYn == 'Y' ) {
+			if ( prodTypeList.length > 0 ) {
+				tempHtml.push('<th scope="col">');
+				tempHtml.push('<div class="checkbox">');
+				tempHtml.push('<input type="checkbox" onclick="searchProdType(\'inputProdType\');" name="inputProdType" id="inputProdType">');
+				if(pageName == "module" || pageName == "ddr5dm" || pageName == "udimm" || pageName == "sodimm"){
+					tempHtml.push('<label for="inputProdType"><span></span>DIMM Type</label>');
+				}else{
+					tempHtml.push('<label for="inputProdType"><span></span>Product Series</label>');
+				}
+				tempHtml.push('</div>');
+				tempHtml.push('</th>');
+			}
+		}
+	}
+	
+	for ( var i=0; i < specNameList.length; i++ ) {
+		tempHtml.push('<th scope="col">');
+		tempHtml.push('<div class="checkbox">');
+		tempHtml.push('<input type="checkbox" onclick="searchCheckbox(\'' + specNameList[i].SPEC_COL_ID + '\');" name="' + specNameList[i].SPEC_COL_ID + '" id="' + specNameList[i].SPEC_COL_ID + '">');
+		tempHtml.push('<label for="' + specNameList[i].SPEC_COL_ID + '"><span></span>' + specNameList[i].SPEC_PCMS_NM + '</label>');
+		tempHtml.push('</div>');
+		tempHtml.push('</th>');
+	}
+	
+	tempHtml.push('</tr>');
+	$('#dev-checkboxTable thead').html(tempHtml.join(''));
+	
+	tempHtml.splice(0, tempHtml.length);
+	
+	// 체크박스 table body 생성
+	tempHtml.push('<tr>');
+
+	if(pageName == "techs"){
+		if ( typTreeList.indexOf(Number($('#treeNo').val())) > -1 ) {
+			if ( prodTypeList.length > 0 ) {
+				tempHtml.push('<td><ul>');
+				for ( var i=0; i < prodTypeList.length; i++ ) {
+					tempHtml.push('<li>');
+					tempHtml.push('<div class="checkbox">');
+					if ( prodTypeNo.indexOf(prodTypeList[i].TREE_NO) != -1 ) {
+						tempHtml.push('<input type="checkbox" name="inputProdType" onclick="searchProdType(\'\');" id="MODE' + i + '" value="' + prodTypeList[i].TREE_NO + '" checked>');
+						prodTypeCnt++;
+					}
+					else {
+						tempHtml.push('<input type="checkbox" name="inputProdType" onclick="searchProdType(\'\');" id="MODE' + i + '" value="' + prodTypeList[i].TREE_NO + '">');
+					}
+					tempHtml.push('<label for="MODE' + i + '"><span></span>' + prodTypeList[i].TREE_NM + '</label>');
+					tempHtml.push('</div>');
+					tempHtml.push('</li>');
+				}
+				tempHtml.push('</ul></td>');
+			}
+
+			if ( prodTypeList.length == prodTypeCnt ) {
+				$('#inputProdType').prop('checked', true);
+			}
+		}
+	}else{
+		if ( prodTypeListYn == 'Y' ) {
+			if ( prodTypeList.length > 0 ) {
+				tempHtml.push('<td><ul>');
+				for ( var i=0; i < prodTypeList.length; i++ ) {
+					tempHtml.push('<li>');
+					/* if ( prodTypeNo.indexOf(prodTypeList[i].TREE_NO) != -1 ) { */
+					if(prodTypeNo.indexOf(prodTypeList[i].TREE_NO) != -1 || prodTypeList.length <= 1) {
+						tempHtml.push('<div class="checkbox active">');
+						tempHtml.push('<input type="checkbox" name="inputProdType" onclick="searchProdType(\'\');" id="MODE' + i + '" value="' + prodTypeList[i].TREE_NO + '" checked>');
+						prodTypeCnt++;
+					} else {
+						tempHtml.push('<div class="checkbox">');
+						tempHtml.push('<input type="checkbox" name="inputProdType" onclick="searchProdType(\'\');" id="MODE' + i + '" value="' + prodTypeList[i].TREE_NO + '">');
+					}
+					tempHtml.push('<label for="MODE' + i + '"><span></span>' + prodTypeList[i].TREE_NM + '</label>');
+					tempHtml.push('</div>');
+					tempHtml.push('</li>');
+				}
+				tempHtml.push('</ul></td>');
+			}
+
+			if ( prodTypeList.length == prodTypeCnt ) {
+				$('#inputProdType').prop('checked', true);
+				$('#inputProdType').parents('.checkbox').addClass('active');
+			}
+		}
+	}
+	
+	for ( var i=0; i < specValueList.length; i++ ) {
+		if ( i == 0 ) {
+			tempHtml.push('<td><ul class="scroll-filter">');
+		}
+		else if ( prevSpecColId != specValueList[i].SPEC_COL_ID ) {
+			tempHtml.push('</ul></td><td><ul class="scroll-filter">');
+		}
+		tempHtml.push('<li>');
+		if(pageName == "ufs2"){
+			if(specValueList[i].PCMS_VAL_ID == "PV015003" || specValueList[i].PCMS_VAL_ID == "PV015002"){
+				tempHtml.push('<div class="checkbox active">');
+				tempHtml.push('<input type="checkbox" onclick="searchCheckbox(\'\');" name="' + specValueList[i].SPEC_COL_ID + '" id="' + specValueList[i].PCMS_VAL_ID + '" value="' + specValueList[i].PCMS_VAL_ID + '" checked>');
+			}else{
+				tempHtml.push('<div class="checkbox">');
+				tempHtml.push('<input type="checkbox" onclick="searchCheckbox(\'\');" name="' + specValueList[i].SPEC_COL_ID + '" id="' + specValueList[i].PCMS_VAL_ID + '" value="' + specValueList[i].PCMS_VAL_ID + '">');
+			}
+		}
+		else{
+			tempHtml.push('<div class="checkbox">');
+			tempHtml.push('<input type="checkbox" onclick="searchCheckbox(\'\');" name="' + specValueList[i].SPEC_COL_ID + '" id="' + specValueList[i].PCMS_VAL_ID + '" value="' + specValueList[i].PCMS_VAL_ID + '">');
+		}
+		tempHtml.push('<label for="' + specValueList[i].PCMS_VAL_ID + '"><span></span>' + specValueList[i].SPEC_PCMS_VAL + '</label>');
+		tempHtml.push('</div>');
+		
+		if ( specValueList[i].DAYS < 30 ) {
+			tempHtml.push('<span class="ico-new">NEW</span>');
+		}
+		tempHtml.push('</li>');
+		
+		prevSpecColId = specValueList[i].SPEC_COL_ID;
+		
+		if ( i == specValueList.length -1 ) {
+			tempHtml.push('</ul></td>');
+		}
+		
+	}
+	tempHtml.push('</tr>');
+	$('#dev-checkboxTable tbody').html(tempHtml.join(''));
+	
+	for ( var i=0; i < specNameList.length; i++ ) {
+		if (($('input[name="' + specNameList[i].SPEC_COL_ID + '"]').length) < 3) {
+			$('input[name="' + specNameList[i].SPEC_COL_ID + '"]').attr("disabled", true);
+		}
+	}
+
+	prodInit();
+}
+
+
+function createMobileSpecHtml() {
+	var mobileTempHtml = new Array();
+	var prodTypeNo = $('#prodTypeNo').val();
+	var mobileProdTypeCnt = 0;
+
+	if(pageName == "techs"){
+		if ( typTreeList.indexOf(Number($('#treeNo').val())) > -1 ) {
+			if ( prodTypeList.length > 0 ) {
+				mobileTempHtml.push('<dt class="accordion-title">');
+				mobileTempHtml.push(    '<div class="checkbox">');
+				mobileTempHtml.push(        '<input type="checkbox" onclick="searchMobileProdType(\'inputProdType\');" name="mobileinputProdType" id="mobileinputProdType" />');
+				if(pageName == "module" || pageName == "ddr5dm" || $('#treeNo').val() == '1020'){
+					mobileTempHtml.push(        '<label for="mobileinputProdType"><span></span>DIMM Type</label>');
+				}else{
+					mobileTempHtml.push(        '<label for="mobileinputProdType"><span></span>Product Series</label>');
+				}
+				mobileTempHtml.push(    '</div>');
+				mobileTempHtml.push(    '<a href="#accorContent0" class="accordion-toggle" role="button" aria-controls="accorContent0"><i class="arw arw-toggle"></i></a>');
+				mobileTempHtml.push('</dt>');
+				mobileTempHtml.push('<dd id="accorContent0" class="accordion-content" aria-hidden="true">');
+				mobileTempHtml.push(    '<div class="accordion-inner">');
+				mobileTempHtml.push(        '<ul>');
+				for ( var i=0; i < prodTypeList.length; i++ ) {
+					mobileTempHtml.push(        '<li>');
+					if ( prodTypeNo.indexOf(prodTypeList[i].TREE_NO) != -1 ) {
+						mobileTempHtml.push(        '<div class="checkbox active">');
+						mobileTempHtml.push(            '<input type="checkbox" onclick="searchMobileProdType(\'\');" name="mobileinputProdType" id="mobileinputProdType' + i + '" value="' + prodTypeList[i].TREE_NO + '" checked>');
+						mobileProdTypeCnt++;
+					}
+					else {
+						mobileTempHtml.push(        '<div class="checkbox">');
+						mobileTempHtml.push(            '<input type="checkbox" onclick="searchMobileProdType(\'\');" name="mobileinputProdType" id="mobileinputProdType' + i + '" value="' + prodTypeList[i].TREE_NO + '">');
+					}
+					mobileTempHtml.push(                '<label for="mobileinputProdType' + i +'"><span></span>' + prodTypeList[i].TREE_NM + '</label>');
+					mobileTempHtml.push(            '</div>');
+					mobileTempHtml.push(        '</li>');
+				}
+				mobileTempHtml.push(        '</ul>');
+				mobileTempHtml.push(    '</div>');
+				mobileTempHtml.push('</dd>');
+			}
+
+		}
+	}else{
+		
+		if ( prodTypeListYn == 'Y' ) {
+			if ( prodTypeList.length > 0 ) {
+				mobileTempHtml.push('<dt class="accordion-title">');
+				mobileTempHtml.push(    '<div class="checkbox" id="prodCh">');
+				mobileTempHtml.push(        '<input type="checkbox" onclick="searchMobileProdType(\'inputProdType\');" name="mobileinputProdType" id="mobileinputProdType" />');
+				if(pageName == "module" || pageName == "ddr5dm" || pageName == "udimm" || pageName == "sodimm"){
+					mobileTempHtml.push(        '<label for="mobileinputProdType"><span></span>DIMM Type <em id="chCnt"></em></label>');
+				}else{
+					mobileTempHtml.push(        '<label for="mobileinputProdType"><span></span>Product Series <em id="chCnt"></em></label>');
+				}
+				mobileTempHtml.push(    '</div>');
+				mobileTempHtml.push(    '<a href="#accorContent0" id="accorContentA0" class="accordion-toggle" role="button" aria-controls="accorContent0"><i class="arw arw-toggle"></i></a>');
+				mobileTempHtml.push('</dt>');
+				mobileTempHtml.push('<dd id="accorContent0" class="accordion-content" aria-hidden="true">');
+				mobileTempHtml.push(    '<div class="accordion-inner">');
+				mobileTempHtml.push(        '<ul>');
+				for ( var i=0; i < prodTypeList.length; i++ ) {
+					mobileTempHtml.push(        '<li>');
+					if ( prodTypeNo.indexOf(prodTypeList[i].TREE_NO) != -1 ) {
+						mobileTempHtml.push(         '<div class="checkbox active">');
+						mobileTempHtml.push(            '<input type="checkbox" onclick="searchMobileProdType(\'\');" name="mobileinputProdType" id="mobileinputProdType' + i + '" value="' + prodTypeList[i].TREE_NO + '" checked>');
+						mobileProdTypeCnt++;
+					}
+					else {
+						mobileTempHtml.push(         '<div class="checkbox">');
+						mobileTempHtml.push(            '<input type="checkbox" onclick="searchMobileProdType(\'\');" name="mobileinputProdType" id="mobileinputProdType' + i + '" value="' + prodTypeList[i].TREE_NO + '">');
+					}
+					mobileTempHtml.push(                '<label for="mobileinputProdType' + i +'"><span></span>' + prodTypeList[i].TREE_NM + '</label>');
+					mobileTempHtml.push(            '</div>');
+					mobileTempHtml.push(        '</li>');
+				}
+				mobileTempHtml.push(        '</ul>');
+				mobileTempHtml.push(    '</div>');
+				mobileTempHtml.push('</dd>');
+			}
+
+			
+		}
+	}
+	
+	for ( var i=0; i < specNameList.length; i++ ) {
+		mobileTempHtml.push('<dt class="accordion-title">');
+		mobileTempHtml.push(    '<div class="checkbox">');
+		mobileTempHtml.push(        '<input type="checkbox" onclick="searchMobileCheckbox(\'' + specNameList[i].SPEC_COL_ID + '\',\'' + (i+1) + '\',\'\');" name="mobile_' + specNameList[i].SPEC_COL_ID + '" id="mobile_' + specNameList[i].SPEC_COL_ID + '" />');
+		mobileTempHtml.push(        '<label for="mobile_' + specNameList[i].SPEC_COL_ID + '"><span></span>' + specNameList[i].SPEC_PCMS_NM + ' <em id="chCnt_'+i+'"></em></label>');
+		mobileTempHtml.push(    '</div>');
+		mobileTempHtml.push(    '<a href="#accorContent' + (i+1) + '" id="accorContentA' + (i+1) + '" class="accordion-toggle" role="button" aria-controls="accorContent' + (i+1) + '"><i class="arw arw-toggle"></i></a>');
+		mobileTempHtml.push('</dt>');
+		mobileTempHtml.push('<dd id="accorContent' + (i+1) + '" class="accordion-content" aria-hidden="true">');
+		mobileTempHtml.push(    '<div class="accordion-inner">');
+		mobileTempHtml.push(        '<ul>');
+		for ( var j=0; j < specValueList.length; j++ ) {
+			if ( specNameList[i].SPEC_COL_ID == specValueList[j].SPEC_COL_ID ) {
+				mobileTempHtml.push(            '<li>');
+				mobileTempHtml.push(                '<div class="checkbox">');
+				mobileTempHtml.push(                    '<input type="checkbox" onclick="searchMobileCheckbox(\'\',\'' + (i+1) + '\',\'' + specNameList[i].SPEC_COL_ID + '\');" name="mobile_' + specValueList[j].SPEC_COL_ID + '" id="mobile_' + specValueList[j].PCMS_VAL_ID + '" value="' + specValueList[j].PCMS_VAL_ID + '" />');
+				mobileTempHtml.push(                    '<label for="mobile_' + specValueList[j].PCMS_VAL_ID + '"><span></span>' + specValueList[j].SPEC_PCMS_VAL + '</label>');
+				mobileTempHtml.push(                '</div>');
+				mobileTempHtml.push(            '</li>');
+			}
+		}
+		mobileTempHtml.push(        '</ul>');
+		mobileTempHtml.push(    '</div>');
+		mobileTempHtml.push('</dd>');
+	}
+
+	$('#dev-resCheckboxTable').html(mobileTempHtml.join(''));
+	
+	for ( var i=0; i < specNameList.length; i++ ) {
+		if ($('input[name="mobile_' + specNameList[i].SPEC_COL_ID + '"]').length < 3) {
+			$('input[name="mobile_' + specNameList[i].SPEC_COL_ID + '"]').attr("disabled", true);
+			$('input[name="mobile_' + specNameList[i].SPEC_COL_ID + '"]').parents('.accordion-title').addClass("disabled");
+			$('input[name="mobile_' + specNameList[i].SPEC_COL_ID + '"]').parents('.accordion-content').addClass("disabled");
+		}
+	}
+
+	if ( prodTypeListYn == 'Y' ) {
+		if ( prodTypeList.length == mobileProdTypeCnt ) {
+			$('#mobileinputProdType').prop('checked', true);
+			$('#prodCh').addClass('active');
+		}
+	}
+
+	if ( !$('#mobileinputProdType').is(':checked') ) {
+		$('#accorContentA0').parents('.accordion-title').addClass('is-active');
+	    $('#accorContentA0').attr("aria-expanded", "true");
+	    $('#accorContent0').addClass('is-active');
+	    $('#accorContent0').attr("aria-hidden", "false");
+	    $('#accorContent0').attr("style", "display: block");
+	}
+	
+	for ( var i=0; i < specNameList.length; i++ ) {
+		if ( !$('#mobile_'+specNameList[i].SPEC_COL_ID).is(':checked') ) {
+			if ($('input[name="mobile_' + specNameList[i].SPEC_COL_ID + '"]').length >= 3) {
+				$('#accorContentA'+(i+1)).parents('.accordion-title').addClass('is-active');
+			    $('#accorContentA'+(i+1)).attr("aria-expanded", "true");
+			    $('#accorContent'+(i+1)).addClass('is-active');
+			    $('#accorContent'+(i+1)).attr("aria-hidden", "false");
+			    $('#accorContent'+(i+1)).attr("style", "display: block");
+			}
+		}else{
+			$('#accorContentA'+(i+1)).parents('.accordion-title').removeClass('is-active');
+		    $('#accorContentA'+(i+1)).attr("aria-expanded", "false");
+		    $('#accorContent'+(i+1)).removeClass('is-active');
+		    $('#accorContent'+(i+1)).attr("aria-hidden", "true");
+		    $('#accorContent'+(i+1)).attr("style", "display: none");
+		}
+	}
+
+	// 	chCnt();
+	prodInit();
+}
+
+function chCnt(){
+	var allCnt;
+	var chlen;
+	if ( prodTypeListYn == 'Y' ) {
+		var dimmChLen = $("input:checkbox[name='mobileinputProdType']:checked").length;
+	
+		if(dimmChLen >= prodTypeList.length){
+			dimmChLen=dimmChLen-1;
+		}
+		$("#chCnt").html(" ( "+dimmChLen+" / "+prodTypeList.length+" selected )");
+	}
+	for ( var i=0; i < specNameList.length; i++ ) {
+		allCnt=0;
+		for ( var j=0; j < specValueList.length; j++ ) {
+			chlen = $("input:checkbox[name='mobile_" + specValueList[j].SPEC_COL_ID + "']:checked").length;
+			if ( specNameList[i].SPEC_COL_ID == specValueList[j].SPEC_COL_ID ) {
+				allCnt++;
+				if(chlen >= allCnt){
+					chlen=chlen-1;
+				}
+				$("#chCnt_"+i).html(" ( "+chlen+" / "+allCnt+" selected )");
+				
+			}
+		}
+	}
+
+	
+}
+
+/* 결과표 Html 생성 */
+function createProdHtml(data) {
+	var prodSpecNames = new Array();
+	var tempHtml      = new Array();
+	var mobileTempHtml      = new Array();
+
+	prodSpecNames.push({ 'SPEC_PCMS_NM' : 'Part No.', 'SPEC_COL_ID' : 'PROD_ID' });
+	if(pageName == "module" || pageName == "ddr5dm" || $('#treeNo').val() == '1020' || pageName == "udimm" || pageName == "sodimm"){
+		prodSpecNames.push({ 'SPEC_PCMS_NM' : 'DIMM Type', 'SPEC_COL_ID' : 'TREE_NM' });
+	}
+	
+	for ( var i=0; i < specNameList.length; i++ ) {
+		prodSpecNames.push(specNameList[i]);
+	}
+
+	if(pageName == "techs"){
+		var attTypeCd     = $('.select_step01 ul li.selected').attr('id');
+		
+		if ( attTypeCd == 'TRT06' ) {
+			prodSpecNames.push({ 'SPEC_PCMS_NM' : 'Datasheet', 'SPEC_COL_ID' : 'ATT_NO' });
+		} else if ( attTypeCd == 'TRT07') {
+			prodSpecNames.push({ 'SPEC_PCMS_NM' : 'Serial Presence Detect', 'SPEC_COL_ID' : 'ATT_NO' });
+		} else if ( attTypeCd == 'TRT08') {
+			prodSpecNames.push({ 'SPEC_PCMS_NM' : 'CIS Chip Information', 'SPEC_COL_ID' : 'ATT_NO' });
+		}
+	}
+
+	// 결과표 table head 생성
+	tempHtml.push('<tr>');
+	for ( var i=0; i < prodSpecNames.length; i++ ) {
+		if ( i == 0 ) {
+			tempHtml.push('<th scope="col" class="w240">' + prodSpecNames[i].SPEC_PCMS_NM + '</th>');
+		} else {
+			tempHtml.push('<th scope="col">' + prodSpecNames[i].SPEC_PCMS_NM + '</th>');
+		}
+	}
+	tempHtml.push('</tr>');
+	$('#dev-resultTable thead').html(tempHtml.join(''));
+	
+	tempHtml.splice(0, tempHtml.length);
+	// 결과표 table body 생성
+	if(data.length > 0){
+		for (var i = 0; i < data.length; i++) {
+			tempHtml.push('<tr>');
+			for (var j = 0; j < prodSpecNames.length; j++) {
+				var prodSpecId = prodSpecNames[j].SPEC_COL_ID;
+				if (data[i][prodSpecId] != undefined) {
+					if(pageName == "techs"){
+						if ( prodSpecId == 'PROD_ID' ) {
+							tempHtml.push('<td class="w240">');
+// 							tempHtml.push(    '<div class="checkbox"><input type="checkbox" onclick="setCompareChk(\'' + i + '\');setCompareList(\'' + i + '\',\'' + data[i].RNUM + '\');" name="pn" id="pn_' + data[i].RNUM + '">');
+// 							tempHtml.push(        '<label for="pn_' + data[i].RNUM + '" class="part_number_chk"><span></span></label>');
+							tempHtml.push(        '<a href="javascript:void(0);" onclick="openPopupProdDetail(\'' + data[i].PROD_ID + '\'); return false;" class="part-no-link" title="' + data[i][prodSpecId] + ' Detail View. Open a New Window">');
+							tempHtml.push(            '<strong>' + data[i].DISP_PROD_ID + '</strong>');
+							tempHtml.push(        '</a>');
+							tempHtml.push(    '</div>');
+							tempHtml.push('</td>');
+						} else if ( prodSpecId == 'ATT_NO' && data[i].ATT_NO != null ) {
+							tempHtml.push('<td>');
+							/* "prd" === "prd" ? */
+									tempHtml.push(
+										  '<a href="https://mis-prod-koce-producthomepage-cdn-01-blob-ep.azureedge.net/web/' + data[i].ATT_FILE_NM +'" class="btn-download">Download<span></span></a>');
+								/* :	tempHtml.push(
+										  '<a href="/download.do?attNo=' + data[i].ATT_NO + '&attTypeCd=' + attTypeCd + '" class="btn-download">Download<span></span></a>'); */
+							tempHtml.push('</td>');
+						} else {
+							tempHtml.push('<td>' + data[i][prodSpecId] + '</td>');
+						}
+					} else {
+						if ( prodSpecId == 'PROD_ID' ) {
+							tempHtml.push('<td class="w240">');
+							tempHtml.push(    '<div class="checkbox"><input type="checkbox" onclick="setCompareChk(\'' + data[i].RNUM + '\');setCompareList(\'' + i + '\',\'' + data[i].RNUM + '\');" name="pn" id="pn_' + data[i].RNUM + '">');
+							tempHtml.push(        '<label for="pn_' + data[i].RNUM + '" class="part_number_chk"><span></span></label>');
+						
+							tempHtml.push(            '<a href="javascript:void(0);" onclick="openPopupProdDetail(\'' + data[i].PROD_ID + '\'); return false;" class="part-no-link" title="' + data[i][prodSpecId] + ' Detail View. Open a New Window">');
+							tempHtml.push(                		  '<strong>' + data[i].DISP_PROD_ID + '</strong>');
+							tempHtml.push(            '</a>');
+							tempHtml.push(    '</div>');
+							tempHtml.push('</td>');
+						} else {
+							tempHtml.push('<td>' + data[i][prodSpecId] + '</td>');
+						}
+					}
+				}
+			}
+			tempHtml.push('</tr>');
+		}
+	} else {
+		tempHtml.push('<td class="no-result" colspan='+prodSpecNames.length+' style="text-align: center;">'); 
+		tempHtml.push(    'No matching results were found. Please try again with different filters.');
+		tempHtml.push('</td>');
+	}
+	
+	$('#dev-resultTable tbody').html(tempHtml.join(''));
+	
+	/***** 모바일 버전  *****/
+	for ( var i = 0; i < data.length; i++ ) {
+		if ( i < 10 ) {
+			mobileTempHtml.push('<dt class="accordion-title" id="mobileProdName_'+i+'">');
+		} else {
+			mobileTempHtml.push('<dt class="accordion-title" id="mobileProdName_'+i+'" style="display: none;">');
+		}
+		if(pageName != "techs"){
+			mobileTempHtml.push(    '<div class="checkbox">');
+			mobileTempHtml.push(        '<input type="checkbox" onclick="setMobileCompareChk(\'' + data[i].RNUM + '\');setCompareList(\'' + i + '\',\'' + data[i].RNUM + '\');" name="mobile_pn" id="mobile_pn_' + data[i].RNUM + '">');
+			mobileTempHtml.push(        '<label for="mobile_pn_' + data[i].RNUM + '"><span></span></label>');
+			mobileTempHtml.push(    '</div>');
+		}
+		mobileTempHtml.push(    '<a href="javascript:void(0);" onclick="openPopupProdDetail(\'' + data[i].PROD_ID + '\'); return false;" class="part-no-link" title="">');
+		mobileTempHtml.push(        '<strong>' + data[i].DISP_PROD_ID + '</strong>');
+		mobileTempHtml.push(    '</a>');
+		mobileTempHtml.push(    '<a href="#accorContentP' + i + '" class="accordion-toggle" role="button" aria-controls="accorContentP' + i + '"><i class="arw arw-toggle"></i></a>');
+		mobileTempHtml.push('</dt>');
+		mobileTempHtml.push('<dd id="accorContentP' + i + '" class="accordion-content" aria-hidden="true">');
+		mobileTempHtml.push(    '<div class="accordion-inner">');
+//			tempHtml.push(        '<dl class="part-no">');
+		for (var j = 0; j < prodSpecNames.length; j++) {
+			var prodSpecId = prodSpecNames[j].SPEC_COL_ID;
+			if (data[i][prodSpecId] != undefined) {
+				if ( prodSpecId != 'PROD_ID' ) {
+					if ( prodSpecId == 'ATT_NO' && data[i].ATT_NO != null ) {
+						mobileTempHtml.push(        '<dl class="tech-down">');
+						mobileTempHtml.push(            '<dt>' + prodSpecNames[j].SPEC_PCMS_NM + '</dt>');
+						mobileTempHtml.push(            '<dd>');
+						/* "prd" === "prd" ? */
+								mobileTempHtml.push(		'<a href="https://mis-prod-koce-producthomepage-cdn-01-blob-ep.azureedge.net/web/' + data[i].ATT_FILE_NM +'" class="btn-download">Download<span></span></a>')
+							/* :	mobileTempHtml.push(		'<a href="/download.do?attNo=' + data[i].ATT_NO + '&attTypeCd=' + attTypeCd + '" class="btn-download">Download<span></span></a>'); */
+						mobileTempHtml.push(            '</dd>');
+						mobileTempHtml.push(        '</dl>');
+					}
+					else {
+						mobileTempHtml.push(        '<dl>');
+						mobileTempHtml.push(            '<dt>' + prodSpecNames[j].SPEC_PCMS_NM + '</dt>');
+						mobileTempHtml.push(            '<dd>' + data[i][prodSpecId] + '</dd>');
+						mobileTempHtml.push(        '</dl>');
+					}
+				}
+			}
+		}
+		mobileTempHtml.push(    '</div>');
+		mobileTempHtml.push('</dd>');
+	}
+
+	$('#mobileResultCnt').html(data.length);
+	$('#resultCnt').html(data.length);
+	$('#dev-resResultTable').html(mobileTempHtml.join(''));
+	
+	//다시 불러올때 더보기 현재 표시개수를 10으로 초기화
+	loadMoreCnt = 10;
+	if ( data.length > 10 ) {
+		$('#dev-loadMoreDiv').show();
+		$("#loadMoreCnt").html("Show 10 more results ("+loadMoreCnt+"/"+data.length+")");
+	} else {
+		$('#dev-loadMoreDiv').hide();
+	}
+}
+
+/* Application 검색 */
+function searchApplication(idx, data) {
+
+	if ( !$('#dev-applicationDiv .btn_tab[data-idx="'+ idx +'"]').hasClass('act') ) {
+		searchMode = 'app';
+		$('#prodTypeNo').val(null);
+		$('#specGrpId').val(null);
+		$('#appTypCd').val(data);
+		
+		$('#dev-applicationDiv .btn_tab').removeClass('act');
+		$('#dev-applicationDiv .btn_tab[data-idx="'+ idx +'"]').addClass('act');
+		
+	}
+
+	if ( !$('#dev-mobileApplicationDiv .btn_tab[data-idx="'+ idx +'"]').hasClass('act') ) {
+		searchMode = 'app';
+		$('#prodTypeNo').val(null);
+		$('#specGrpId').val(null);
+		$('#appTypCd').val(data);
+		
+		$('#dev-mobileApplicationDiv .btn_tab').removeClass('act');
+		$('#dev-mobileApplicationDiv .btn_tab[data-idx="'+ idx +'"]').addClass('act');
+		
+	}
+
+	if(pageName == "techs"){
+		getTechSpecFinder($('#treeNo').val(), $('#prodTypeVal').val());
+	}else{
+		getSpecFinder();
+	}
+}
+
+/* Product Mode 검색 */
+function searchProdMode(idx, data) {
+	if ( !$('#dev-prodModeDiv .btn_tab[data-idx="'+ idx +'"]').hasClass('act') ) {
+		searchMode = 'gen';
+		$('#prodTypeNo').val(null);
+		$('#specGrpId').val(data);
+	
+		$('#dev-prodModeDiv .btn_tab').removeClass('act');
+		$('#dev-prodModeDiv .btn_tab[data-idx="'+ idx +'"]').addClass('act');
+	}
+
+	if ( !$('#dev-mobileProdModeDiv .btn_tab[data-idx="'+ idx +'"]').hasClass('act') ) {
+		searchMode = 'gen';
+		$('#prodTypeNo').val(null);
+		$('#specGrpId').val(data);
+	
+		$('#dev-mobileProdModeDiv .btn_tab').removeClass('act');
+		$('#dev-mobileProdModeDiv .btn_tab[data-idx="'+ idx +'"]').addClass('act');
+	}
+	
+	if(pageName == "techs"){
+		getTechSpecFinder($('#treeNo').val(), $('#prodTypeVal').val());
+	}else{
+		getSpecFinder();
+	}
+}
+
+/* Product Type 검색 */
+function searchProdType(ckeckboxHeadName) {
+	searchMode = 'mod';
+	// 해당 스펙에 대해 all 체크 적용 여부
+	if (ckeckboxHeadName != '') {
+		if ($('#' + ckeckboxHeadName).is(':checked')) {
+			$('[name="' + ckeckboxHeadName + '"]').prop('checked', true);
+			$('[name="mobile' + ckeckboxHeadName + '"]').prop('checked', true);
+			$('#prodCh').addClass('active');
+			$('#' + ckeckboxHeadName).parents('.checkbox').addClass('active');
+		}
+		else {
+			$('[name="' + ckeckboxHeadName + '"]').prop('checked', false);
+			$('[name="mobile' + ckeckboxHeadName + '"]').prop('checked', false);
+			$('#prodCh').removeClass('active');
+			$('#' + ckeckboxHeadName).parents('.checkbox').removeClass('active');
+		}
+	}
+
+	var prodTypeNoArr = [];
+	var inputProdType = $('input:checkbox[name="inputProdType"]');
+	
+	for ( var i=0; i < inputProdType.length; i++ ) {
+		if ( inputProdType.eq(i).is(':checked') ) {
+			if ( inputProdType.eq(i).val() != 'on' ) {
+				prodTypeNoArr.push(inputProdType.eq(i).val());
+			}
+		}
+	}
+	$('#prodTypeNo').val([prodTypeNoArr]);
+	
+	if(pageName == "techs"){
+		getTechSpecFinder($('#treeNo').val(), $('#prodTypeVal').val());
+	}else{
+		getSpecFinder();
+	}
+}
+
+/* Product Type 검색 */
+function searchMobileProdType(ckeckboxHeadName) {
+	searchMode = 'mod';
+
+	// 해당 스펙에 대해 all 체크 적용 여부
+	if (ckeckboxHeadName != '') {
+		if ($('#mobile' + ckeckboxHeadName).is(':checked')) {
+			$('[name="mobile' + ckeckboxHeadName + '"]').prop('checked', true);
+			$('[name="' + ckeckboxHeadName + '"]').prop('checked', true);
+			$('#prodCh').addClass('active');
+		}
+		else {
+			$('[name="mobile' + ckeckboxHeadName + '"]').prop('checked', false);
+			$('[name="' + ckeckboxHeadName + '"]').prop('checked', false);
+			$('#prodCh').removeClass('active');
+		}
+	}
+	
+	var prodTypeNoArr = [];
+	var inputProdType = $('input:checkbox[name="mobileinputProdType"]');
+
+	for ( var i=0; i < inputProdType.length; i++ ) {
+		if ( inputProdType.eq(i).is(':checked') ) {
+			if ( inputProdType.eq(i).val() != 'on' ) {
+				prodTypeNoArr.push(inputProdType.eq(i).val());
+			}
+		}
+	}
+	$('#prodTypeNo').val([prodTypeNoArr]);
+
+	if(pageName == "techs"){
+		getTechSpecFinder($('#treeNo').val(), $('#prodTypeVal').val());
+	}else{
+		getSpecFinder();
+	}
+}
+
+/* 체크박스 검색 */
+function searchCheckbox(ckeckboxHeadName) {
+	var specId;
+	var checkedSpecIdCnt;
+	var checkedList = new Array();
+	var resultData = new Array();
+	var prevKey;
+	var isOk;
+	
+	// 해당 스펙에 대해 all 체크 적용 여부
+	if ( ckeckboxHeadName != '' ) {
+		if ( $('#' + ckeckboxHeadName).is(':checked') == true ) {
+			$('[name="' + ckeckboxHeadName + '"]').prop('checked', true);
+			$('[name="mobile_' + ckeckboxHeadName + '"]').prop('checked', true);
+		}
+		else {
+			$('[name="' + ckeckboxHeadName + '"]').prop('checked', false);
+			$('[name="mobile_' + ckeckboxHeadName + '"]').prop('checked', false);
+		}
+	}
+
+	for ( var i=0; i < specNameList.length; i++ ) {
+		specId = $('input:checkbox[name="' + specNameList[i].SPEC_COL_ID + '"]').not('#' + specNameList[i].SPEC_COL_ID);
+		checkedSpecIdCnt = 0;
+		for ( var j=0; j < specId.length; j++ ) {
+			if ( specId.eq(j).is(':checked') ) {
+				checkedList.push({ "key": specNameList[i].SPEC_COL_ID, "value": $('label[for="' + specId.eq(j).val() + '"]').text() });
+				checkedSpecIdCnt++;
+			}
+			if ( checkedSpecIdCnt == specId.length ) {
+				$('#' + specNameList[i].SPEC_COL_ID ).prop('checked', true);
+				$('#' + specNameList[i].SPEC_COL_ID ).parents('.checkbox').addClass('active');
+				$('#mobile_' + specNameList[i].SPEC_COL_ID ).prop('checked', true);
+				$('#mobile_' + specNameList[i].SPEC_COL_ID ).parents('.checkbox').addClass('active');
+			}
+			else {
+				$('#' + specNameList[i].SPEC_COL_ID ).prop('checked', false);
+				$('#' + specNameList[i].SPEC_COL_ID ).parents('.checkbox').removeClass('active');
+				$('#mobile_' + specNameList[i].SPEC_COL_ID ).prop('checked', false);
+				$('#mobile_' + specNameList[i].SPEC_COL_ID ).parents('.checkbox').removeClass('active');
+			}
+		}
+
+		for ( var j=0; j < specValueList.length; j++ ) {
+			if ( $('#' + specValueList[j].PCMS_VAL_ID ).is(':checked') == true ) {
+				$('#' + specValueList[j].PCMS_VAL_ID ).parents('.checkbox').addClass('active');
+				$('#mobile_' + specValueList[j].PCMS_VAL_ID ).prop('checked', true);
+				$('#mobile_' + specValueList[j].PCMS_VAL_ID ).parents('.checkbox').addClass('active');
+			}else{
+				$('#' + specValueList[j].PCMS_VAL_ID ).parents('.checkbox').removeClass('active');
+				$('#mobile_' + specValueList[j].PCMS_VAL_ID ).prop('checked', false);
+				$('#mobile_' + specValueList[j].PCMS_VAL_ID ).parents('.checkbox').removeClass('active');
+			}
+		}
+
+		if ( !$('#mobile_'+specNameList[i].SPEC_COL_ID).is(':checked') ) {
+			if ($('input[name="mobile_' + specNameList[i].SPEC_COL_ID + '"]').length >= 3) {
+				$('#accorContentA'+(i+1)).parents('.accordion-title').addClass('is-active');
+			    $('#accorContentA'+(i+1)).attr("aria-expanded", "true");
+			    $('#accorContent'+(i+1)).addClass('is-active');
+			    $('#accorContent'+(i+1)).attr("aria-hidden", "false");
+			    $('#accorContent'+(i+1)).attr("style", "display: block");
+			}
+		}else{
+			$('#accorContentA'+(i+1)).parents('.accordion-title').removeClass('is-active');
+		    $('#accorContentA'+(i+1)).attr("aria-expanded", "false");
+		    $('#accorContent'+(i+1)).removeClass('is-active');
+		    $('#accorContent'+(i+1)).attr("aria-hidden", "true");
+		    $('#accorContent'+(i+1)).attr("style", "display: none");
+		}
+	}
+
+	// 	chCnt();
+	// 체크된게 하나도 없다면 처음 결과표 전체를 보여준다.
+	if ( checkedList.length == 0 ) {
+		createProdHtml(prodList);
+
+		prodInit();
+	}
+	else {
+		// 결과표 검색하는 부분
+		for ( var i=0; i < prodList.length; i++ ) {
+			prevKey = '';
+			isOk = false;
+			
+			for ( var j=0; j < checkedList.length; j++ ) {
+				if ( prevKey == prodList[i][checkedList[j].key] ) {
+					if ( !isOk ) {
+						if ( prodList[i][checkedList[j].key] == checkedList[j].value ) {
+							isOk = true;
+						}
+					}
+				}
+				else {
+					prevKey = prodList[i][checkedList[j].key];
+					
+					if ( !isOk && j > 0) {
+						break;
+					}
+					if ( prodList[i][checkedList[j].key] == checkedList[j].value ) {
+						isOk = true;
+					}
+					else {
+						isOk = false;
+					}
+				}
+			}
+			if ( isOk ) {
+				resultData.push(prodList[i]);
+			}
+		}
+		createProdHtml(resultData);
+		accordionEvent();
+
+		prodInit();
+	}
+}
+
+/* 체크박스 검색 */
+function searchMobileCheckbox(ckeckboxHeadName, idx, subCheckboxName) {
+	var specId;
+	var checkedSpecIdCnt;
+	var checkedList = new Array();
+	var resultData = new Array();
+	var prevKey;
+	var isOk;
+
+	// 해당 스펙에 대해 all 체크 적용 여부
+	if ( ckeckboxHeadName != '' ) {
+		if ( $('#mobile_' + ckeckboxHeadName).is(':checked') == true ) {
+			$('[name="' + ckeckboxHeadName + '"]').prop('checked', true);
+			$('[name="mobile_' + ckeckboxHeadName + '"]').prop('checked', true);
+		}
+		else {
+			$('[name="' + ckeckboxHeadName + '"]').prop('checked', false);
+			$('[name="mobile_' + ckeckboxHeadName + '"]').prop('checked', false);
+		}
+	}
+
+	for ( var i=0; i < specNameList.length; i++ ) {
+		specId = $('input:checkbox[name="mobile_' + specNameList[i].SPEC_COL_ID + '"]').not('#mobile_' + specNameList[i].SPEC_COL_ID);
+		checkedSpecIdCnt = 0;
+		
+		for ( var j=0; j < specId.length; j++ ) {
+			if ( specId.eq(j).is(':checked') ) {
+				checkedList.push({ "key": specNameList[i].SPEC_COL_ID, "value": $('label[for="mobile_' + specId.eq(j).val() + '"]').text() });
+				checkedSpecIdCnt++;
+			}
+			if ( checkedSpecIdCnt == specId.length ) {
+				$('#' + specNameList[i].SPEC_COL_ID ).prop('checked', true);
+				$('#' + specNameList[i].SPEC_COL_ID ).parents('.checkbox').addClass('active');
+				$('#mobile_' + specNameList[i].SPEC_COL_ID ).prop('checked', true);
+				$('#mobile_' + specNameList[i].SPEC_COL_ID ).parents('.checkbox').addClass('active');
+			}
+			else {
+				$('#' + specNameList[i].SPEC_COL_ID ).prop('checked', false);
+				$('#' + specNameList[i].SPEC_COL_ID ).parents('.checkbox').removeClass('active');
+				$('#mobile_' + specNameList[i].SPEC_COL_ID ).prop('checked', false);
+				$('#mobile_' + specNameList[i].SPEC_COL_ID ).parents('.checkbox').removeClass('active');
+			}
+		}
+
+		for ( var j=0; j < specValueList.length; j++ ) {
+			if ( $('#mobile_' + specValueList[j].PCMS_VAL_ID ).is(':checked') == true ) {
+				$('#' + specValueList[j].PCMS_VAL_ID ).prop('checked', true);
+				$('#' + specValueList[j].PCMS_VAL_ID ).parents('.checkbox').addClass('active');
+				$('#mobile_' + specValueList[j].PCMS_VAL_ID ).parents('.checkbox').addClass('active');
+			}else{
+				$('#' + specValueList[j].PCMS_VAL_ID ).prop('checked', false);
+				$('#' + specValueList[j].PCMS_VAL_ID ).parents('.checkbox').removeClass('active');
+				$('#mobile_' + specValueList[j].PCMS_VAL_ID ).parents('.checkbox').removeClass('active');
+			}
+		}
+		
+	}
+
+	if($('#mobile_'+ckeckboxHeadName).is(':checked') || $('#mobile_'+subCheckboxName).is(':checked')){
+		$('#accorContentA'+idx).parents('.accordion-title').removeClass('is-active');
+	    $('#accorContentA'+idx).attr("aria-expanded", "false");
+	    $('#accorContent'+idx).removeClass('is-active');
+	    $('#accorContent'+idx).attr("aria-hidden", "true");
+	    $('#accorContent'+idx).attr("style", "display: none");
+	}else{
+	    $('#accorContentA'+idx).parents('.accordion-title').addClass('is-active');
+	    $('#accorContentA'+idx).attr("aria-expanded", "true");
+	    $('#accorContent'+idx).addClass('is-active');
+	    $('#accorContent'+idx).attr("aria-hidden", "false");
+	    $('#accorContent'+idx).attr("style", "display: block");
+	}
+
+// 	chCnt();
+	
+	// 체크된게 하나도 없다면 처음 결과표 전체를 보여준다.
+	if ( checkedList.length == 0 ) {
+		createProdHtml(prodList);
+
+		prodInit();
+	}
+	else {
+		// 결과표 검색하는 부분
+		for ( var i=0; i < prodList.length; i++ ) {
+			prevKey = '';
+			isOk = false;
+			
+			for ( var j=0; j < checkedList.length; j++ ) {
+				if ( prevKey == prodList[i][checkedList[j].key] ) {
+					if ( !isOk ) {
+						if ( prodList[i][checkedList[j].key] == checkedList[j].value ) {
+							isOk = true;
+						}
+					}
+				}
+				else {
+					prevKey = prodList[i][checkedList[j].key];
+					
+					if ( !isOk && j > 0) {
+						break;
+					}
+					if ( prodList[i][checkedList[j].key] == checkedList[j].value ) {
+						isOk = true;
+					}
+					else {
+						isOk = false;
+					}
+				}
+			}
+			if ( isOk ) {
+				resultData.push(prodList[i]);
+			}
+		}
+		createProdHtml(resultData);
+		accordionEvent();
+
+		prodInit();
+	}
+}
+
+/* 제품 상세보기 팝업 */
+function openPopupProdDetail(prodId) {
+	$('#bg-inner').fadeIn();
+	$('.pop-detail').show();
+	$('body').addClass('over_hidden');
+
+// 	if($('.pop-detail').css("display") == "block"){
+	window.history.pushState(null, '', location.href);
+
+	window.onpopstate = () => {
+		history.go(1);
+	};
+	
+	fnGetDetailProdInfo(prodId);
+}
+
+/* Compare 리스트 세팅 */
+function setCompareList(idx, rnum) {
+
+	var chlen = $("input:checkbox[name='pn']:checked").length;
+
+	if(deviceType == "mobile"){
+		if ( $("#mobile_pn_"+rnum).is(':checked') == true ) {
+			$("#mobileProdName_"+idx).addClass('active');
+			$('#pn_' + rnum ).parents('.checkbox').addClass('active');
+			
+		}else{
+			$("#mobileProdName_"+idx).removeClass('active');
+			$('#pn_' + rnum ).parents('.checkbox').removeClass('active');
+		}
+	}else{
+		if ( $("#pn_"+rnum).is(':checked') == true ) {
+			$("#mobileProdName_"+idx).addClass('active');
+			$('#pn_' + rnum ).parents('.checkbox').addClass('active');
+			
+		}else{
+			$("#mobileProdName_"+idx).removeClass('active');
+			$('#pn_' + rnum ).parents('.checkbox').removeClass('active');
+		}
+	}
+	
+	if ( chlen < 2 ) {
+		$('.btn-wrap .btn3.compare').addClass('disable');
+		$('.btn-wrap .btn-clear').addClass('disable');
+		$('.btn-wrap .btn3.compare').off();
+		
+		if(chlen == 0){
+			$('.btn-wrap .btn3.compare').text("Select 2 more products to Compare");
+		}else if(chlen == 1){
+			$('.btn-wrap .btn3.compare').text("Select 1 more products to Compare");
+		}
+	}
+	else {
+		$('.btn-wrap .btn3.compare').removeClass('disable');
+		$('.btn-wrap .btn-clear').removeClass('disable');
+		$('.btn-wrap .btn3.compare').on('click', function(e) {			
+			e.preventDefault();			
+            $('#bg').fadeIn();
+
+            $('body').addClass('over_hidden');
+            
+            if($(window).width() < 1024){ 
+    			$('.pop-compare').slideDown(500); 
+            }else{ 
+            	$('.pop-compare').show(); 
+            }
+
+    		window.history.pushState(null, '', location.href);
+
+    		window.onpopstate = () => {
+    			history.go(1);
+    		};
+
+            setCompare(chlen, idx);
+        });
+
+		$('.btn-wrap .btn3.compare').text("Compare " + chlen + " Specs");
+	}
+
+}
+
+/* Compare 리스트 세팅 */
+function setCompare(chlen, idx) {
+	var prodSpecNames = new Array();
+	var headTempHtml      = "";
+	var tempHtml      = "";
+	var mobileHeadTempHtml= new Array();
+	var mobileTempHtml = "";
+
+	var isExist = false;
+
+	compareList = [];
+
+	var len = $("input:checkbox[name='mobile_pn']").length;
+	var mobileCompareCh = $('input:checkbox[name="mobile_pn"]');
+	var chListLen = $("input:checkbox[name='mobile_pn']:checked").length;
+
+	for ( var i=0; i < len; i++ ) {
+		compareList.push(prodList[i]);
+	}
+
+	
+	prodSpecNames.push({ 'SPEC_PCMS_NM' : 'Part No.', 'SPEC_COL_ID' : 'DISP_PROD_ID' });
+	if(pageName == "module" || pageName == "ddr5dm" || $('#treeNo').val() == '1020' || pageName == "udimm" || pageName == "sodimm"){
+		prodSpecNames.push({ 'SPEC_PCMS_NM' : 'DIMM Type', 'SPEC_COL_ID' : 'TREE_NM' });
+	}
+	
+	for ( var i=0; i < specNameList.length; i++ ) {
+		prodSpecNames.push(specNameList[i]);
+	}
+
+	headTempHtml += '<tr>';
+	for ( var i=0; i < prodSpecNames.length; i++ ) {
+		if ( i == 0 ) {
+			headTempHtml += '<th scope="col" class="w200">' + prodSpecNames[i].SPEC_PCMS_NM + '</th>';
+		}
+		else {
+			headTempHtml += '<th scope="col">' + prodSpecNames[i].SPEC_PCMS_NM + '</th>';
+		}
+	}
+	headTempHtml += '</tr>';
+	$('#dev-compareTable thead').html(headTempHtml);
+	
+	if ( chlen == 0 ) {
+		$('#dev-compareTable tbody').html('');
+	}
+	else {	
+		var compareCh = $('input:checkbox[name="pn"]');
+		
+		for ( var i=0; i < len; i++ ) {
+			if(compareCh.eq(i).is(':checked') == true){
+				tempHtml += '<tr>';
+				for (var j = 0; j < prodSpecNames.length; j++) {
+	                var prodSpecId = prodSpecNames[j].SPEC_COL_ID;
+
+	                if ( j == 0 ) {
+	                	tempHtml += '<td class="step'+(j+1)+' w200">';
+	                }
+	                else {
+	                	tempHtml += '<td class="step'+(j+1)+'" data-title="' + prodSpecNames[j].SPEC_PCMS_NM + '">';
+	                }
+	                
+	                if (compareList[i][prodSpecId] != undefined) {
+	                	if ( j == 0 ) {
+		                	tempHtml += '<a href="javascript:void(0);" onclick="openPopupProdDetail(\''+prodList[i].PROD_ID+'\');" class="part-no-link" title>' + compareList[i][prodSpecId] + '</a>';
+		                }
+		                else {
+		                	tempHtml += compareList[i][prodSpecId];
+		                }
+	                }
+	                tempHtml += '</td>';
+	            }
+				tempHtml += '</tr>';
+			}
+		}
+		$('#dev-compareTable tbody').html(tempHtml);
+	}
+
+	mobileHeadTempHtml.push('Results ' + chlen);
+	mobileHeadTempHtml.push('<button type="button" class="btn-clear" onclick="clearCompareList();">clear all</button>');
+	$('#mobileCompareHead').html(mobileHeadTempHtml.join(''));
+
+	for( var i=0; i < compareList.length; i++ ){
+		
+		if(mobileCompareCh.eq(i).is(':checked') == true){
+		
+			mobileTempHtml += '<dl id="compareList_'+i+'">';
+			mobileTempHtml += 	'<dt>';
+			mobileTempHtml += 		'<a href="javascript:void(0);" onclick="openPopupProdDetail(\''+prodList[i].PROD_ID+'\');" class="part-no-link" title><strong>' + prodList[i].DISP_PROD_ID + '</strong></a>';
+			mobileTempHtml += 		'<button type="button" class="btn close" onclick="deleteCompareList('+i+','+len+','+compareList[i].RNUM+');">close</button>';
+			mobileTempHtml += 	'</dt>';
+			mobileTempHtml += 	'<dd>';
+
+			for (var j = 0; j < prodSpecNames.length; j++) {
+				var prodSpecId = prodSpecNames[j].SPEC_COL_ID;
+				if (compareList[i][prodSpecId] != undefined) {
+					if ( prodSpecId != 'DISP_PROD_ID' ) {
+						mobileTempHtml += 		'<dl>';
+						mobileTempHtml += '<dt>' + prodSpecNames[j].SPEC_PCMS_NM + '</dt>';
+						mobileTempHtml += '<dd>' + compareList[i][prodSpecId] + '</dd>';
+						mobileTempHtml +=       '</dl>';
+					}
+				}
+			}
+			
+			mobileTempHtml += 	'</dd>';
+			mobileTempHtml += '</dl>';
+	
+		}
+		$('#dev-mobileCompare').html(mobileTempHtml);
+	}
+
+	compareList = [];
+
+	for ( var i=0; i < len; i++ ) {
+		if(mobileCompareCh.eq(i).is(':checked')){
+					compareList.push(prodList[i]);
+		}
+	}
+	
+}
+
+function deleteCompareList(i, len, idx){
+	var mobileHeadTempHtml = '';
+	var listCount = $('#dev-mobileCompare').children('dl').length -1;
+
+	$('#mobileCompareHead').html(mobileHeadTempHtml);
+	
+	$("#compareList_"+i).remove();
+	$("#mobile_pn_"+idx).prop('checked', false);
+	$("#mobileProdName_"+i).removeClass('active');
+	$("#pn_"+idx).prop('checked', false);
+	$('#pn_'+idx).parents('.checkbox').removeClass('active');
+	
+	mobileHeadTempHtml += 'Results ' + listCount;
+	mobileHeadTempHtml += '<button type="button" class="btn-clear" onclick="clearCompareList();">clear all</button>';
+	$('#mobileCompareHead').html(mobileHeadTempHtml);
+
+	$('.btn-wrap .btn3.compare').text("Compare " + listCount + " Specs");
+	
+	if(listCount < 2){
+
+		if(listCount == 1){
+			prodInit(listCount);
+		}else{
+			prodInit();
+		}
+	}
+}
+
+function clearCompareList(){
+	$('#bg2').fadeIn();
+	$("#clearConfirm").show();
+}
+
+function clearConfirm(confirm){
+
+	var len = $("input:checkbox[name='mobile_pn']").length;
+	
+	if(confirm == "Y"){
+		for (var i=0 ; i<len ; i++) {
+			$('[name="pn"]').prop('checked', false);
+			$('[name="mobile_pn"]').prop('checked', false);
+			$("#mobileProdName_"+i).removeClass('active');
+			$('#pn_'+i).parents('.checkbox').removeClass('active');
+		}
+
+		$("#complete").show();
+		$('#bg2').fadeOut();
+		prodInit();
+		$("#clearConfirm").hide();
+
+		clearComplete();
+		
+	}else{
+		$("#clearConfirm").hide();
+		$('#bg2').fadeOut();
+	}
+
+	
+}
+
+function clearComplete(){
+	
+	setTimeout(function() {
+// 		$("#complete").hide();
+		$('.pop-container.pop-compare .close').click();
+	}, 2000);
+	
+}
+
+function setCompareChk(idx){
+	if($('#pn_' + idx).is(':checked') == true){
+		$('#mobile_pn_' + idx).prop('checked', true);
+	}else{
+		$('#mobile_pn_' + idx).prop('checked', false);
+	}
+}
+
+function setMobileCompareChk(idx){
+	if($('#mobile_pn_' + idx).is(':checked') == true){
+		$('#pn_' + idx).prop('checked', true);
+	}else{
+		$('#pn_' + idx).prop('checked', false);
+	}
+}
+
+/* Spec finder 항목 엑셀 다운로드 */
+function excelDownloadSpecFinder(isCompare) {
+	
+	excelParam = {
+		excelName     : getExcelName(),
+		columnHeader  : getColumnHeader(),
+		columnModel   : getColumnModel(),
+		allRowsInGrid : getAllRowsInGrid(isCompare)
+	}
+
+	var jsonString = JSON.stringify(excelParam);
+	excelDownload(jsonString);
+}
+
+/* 엑셀 파일명 가져오기 */
+function getExcelName() {
+	var excelName = 'SKhynix_' + 'eSSD' ;
+
+	if ( specGrpIdListYn == 'Y' ) {
+		for ( var i=0; i < specGrpIdList.length; i++ ) {
+			if ( specGrpIdList[i].SPEC_GRP_ID == $('#specGrpId').val() ) {
+				excelName += '_' + specGrpIdList[i].TREE_NM ;
+			}
+		}
+	}
+
+	return excelName;
+}
+
+/* 엑셀 Column Header 가져오기 */
+function getColumnHeader() {
+	var columnHeader = new Array();
+
+	columnHeader.push('Part No.');
+	if(pageName == "module" || pageName == "ddr5dm" || $('#treeNo').val() == '1020' || pageName == "udimm" || pageName == "sodimm"){
+		columnHeader.push('DIMM Type');
+	}else if(pageName == "ddr"){
+		columnHeader.push('Product Series');
+	}
+
+	for ( var i=0; i < specNameList.length; i++ ) {
+		columnHeader.push(specNameList[i].SPEC_PCMS_NM);
+	}
+	
+	return columnHeader;
+}
+
+/* 엑셀 Column Model 가져오기 */
+function getColumnModel() {
+	var columnModel = new Array();
+	var map = new Map();
+
+	columnModel.push( {'name' : 'DISP_PROD_ID'     , 'align' : 'left'} );
+	if(pageName == "module" || pageName == "ddr" || pageName == "ddr5dm" || $('#treeNo').val() == '1020'){
+		columnModel.push( {'name' : 'TREE_NM'          , 'align' : 'left'} );	
+	}
+
+	for ( var i=0; i < specNameList.length; i++ ) {
+		columnModel.push( {'name' : specNameList[i].SPEC_COL_ID, 'align' : 'left'});
+	}
+	
+	return columnModel;
+}
+
+/* 엑셀 data 가져오기 */
+function getAllRowsInGrid(isCompare) {
+	if ( isCompare ) {
+		return compareList;
+	}
+	else {
+		return prodList;
+	}
+}
+
+
+function loadMore() {
+	var hideData = $('#dev-resResultTable').find('dt.accordion-title:hidden');
+	var showDataLength = ( hideData.length < 10 ? hideData.length : 10 );
+
+	for ( var i=0; i < showDataLength; i++ ) {
+		hideData.eq(i).show();
+	}
+
+	loadMoreCnt += 10;
+	$("#loadMoreCnt").html("Show 10 more results ("+loadMoreCnt+"/"+prodList.length+")");
+	
+	if ( $('#dev-resResultTable').find('dt.accordion-title:hidden').length == 0 ) {
+		$('#dev-loadMoreDiv').hide();
+		loadMoreCnt = 10;
+	}
+}
+
+function prodInit(listCnt){
+
+	if(listCnt == 0){
+		compareList = [];
+	}
+
+	$('.btn-wrap .btn3.compare').text("Select 2 more products to Compare");
+	
+	$('.btn-wrap .btn3.compare').addClass('disable');
+	$('.btn-wrap .btn3.compare').off();
+	$('.btn-wrap .btn-clear').addClass('disable');
+}
+
+
+function fnGetDetailProdInfo(prodId) {
+	showProgress();
+	var param = {};
+	param.prodId = prodId;
+	param.eolYn = $("#eolYn").val();
+	
+	CallService("getProdInfo", "/products/popup/getProdDtlInfo.do", JSON.stringify(param), null, "false", "POST", "fnGetDetailProdCallBack");
+}
+
+function fnGetDetailProdCallBack(svcId, data) {
+	switch (svcId) {
+		case "getProdInfo" :
+			var popHeight = 520;
+			if (data != null) {
+				var prodInfo = data.prodInfo;
+				
+				if (prodInfo != null) {
+
+					$("#pageDepth").html("");
+					var treePathList = 'PRODUCTS > SSD > Enterprise SSD > PE9000 Series'.split(' > ');
+					treePathList.map((obj, i) => {
+						if(obj === "DDR5 Module" || obj === "DDR4 Module"){
+							return false;
+						}
+						
+						var spanText = document.createElement("span");
+						spanText.innerHTML = obj;
+						if(i !== 0){
+							spanText.classList.add("arrow-tri");
+							if(i === treePathList.length-1){
+								spanText.classList.add("current");
+							}
+
+							/* if(obj === "DDR5 Module"){
+								spanText.innerHTML = "UDIMM";
+							} else if(obj === "DDR4 Module"){
+								spanText.innerHTML = "RDIMM/LRDIMM";
+							} else if(obj === "DDR3 Module"){
+								spanText.innerHTML = "SODIMM";
+							} */
+						}
+						
+						document.getElementById("pageDepth").appendChild(spanText);
+					});
+					
+					var ancsNm = ""; 
+					if(pageName == "cis-d"){
+						ancsNm = prodInfo.PROD_PATH;
+					}else{
+						ancsNm = prodInfo.ANCS_NM;
+					}
+					
+					$("#titleAncs").html(ancsNm);
+					$("#prodTitle").html( prodInfo.DISP_PROD_ID ); //+ "<br>(" + prodInfo.OLD_BASIC_PROD_ID + ")" );
+					if (data.specValueList != null) {
+						if ("cSSD|eSSD".indexOf(prodInfo.PROD_TYPE_VAL) < 0) {
+							var specHtml = "";
+							var strLen = 190;
+							for (var i=0; i<data.specValueList.length; i++) {
+								specHtml += "<tr>\n";
+								specHtml += "	<th>" + data.specValueList[i].SPEC_PCMS_NM + "</th>\n";
+								specHtml += "	<td>" + data.specValueList[i].SPEC_PCMS_VAL + "</td>\n";
+								specHtml += "</tr>\n";
+							}
+							$("#tbSpec").html(specHtml);
+							
+							$("#secSSD_FF").hide();
+							$("#secSSDSpec").hide();
+							$("#secNonSSDSpec").show();
+							popHeight += (data.specValueList.length > 10) ? 480 : 48 * data.specValueList.length;
+
+							var attHtml = "";
+							var attCnt = 0;
+							if (data.prodAttList != null && data.prodAttList != "") {
+								for (var i=0; i<data.prodAttList.length; i++) {
+									if(pageName == "cis-d" && (data.prodAttList[i].TRT_TYPE_CD == "TRT06" || data.prodAttList[i].TRT_TYPE_CD == "TRT08")){
+										attHtml += "<button type='button' onclick=\"fnDownload('" + data.prodAttList[i].TRT_TYPE_CD + "', '" + data.prodAttList[i].TRT_NO + "', '" + data.prodAttList[i].ATT_FILE_NM + "')\">" + data.prodAttList[i].TRT_TYPE_NM ;
+										if(data.prodAttList[i].TRT_ADD_INFO != null && data.prodAttList[i].TRT_ADD_INFO != ""){
+											attHtml += " (" + data.prodAttList[i].TRT_ADD_INFO + ")";
+										}
+										attHtml += "</button>";
+									}else{
+										attHtml += "<button type='button' onclick=\"fnDownload('" + data.prodAttList[i].TRT_TYPE_CD + "', '" + data.prodAttList[i].TRT_NO + "', '" + data.prodAttList[i].ATT_FILE_NM + "')\">" + data.prodAttList[i].TRT_TYPE_NM + "</button>";
+									}
+									
+									attCnt++;
+								}
+								if("MODULE|cSSD".indexOf(prodInfo.PROD_TYPE_VAL) >= 0){
+									attHtml += "<button class='link red' type='button' onclick=\"fnHandlingGuide()\">Handling Guide</button>";
+								}
+							}else{
+								if("MODULE|cSSD".indexOf(prodInfo.PROD_TYPE_VAL) >= 0){
+									attHtml += "<button class='link red' type='button' onclick=\"fnHandlingGuide()\">Handling Guide</button>";
+								}
+							}
+							if(attHtml != ""){
+								$("#ulAtt1").show();
+								$("#ulAtt1").html(attHtml);
+							}else{
+								$("#ulAtt1").hide();
+							}
+							
+							popHeight += Math.ceil(attCnt / 4) * 70;
+						}
+						else {
+							var valList = data.specValueList;
+							var modelNmIdx = valList.findIndex( function(x) { return x.SPEC_PCMS_NM == "Model Name"; })
+							if (modelNmIdx > -1) {
+								ancsNm += " > " + valList[modelNmIdx].SPEC_PCMS_VAL;
+								$("#titleAncs").html(ancsNm);
+							}
+							var arrFFList = [ 
+								{"r_val" : 'STD 2.5"', 		"d_val" : 'STD 2.5"', 	"width" : "69.85 ±0.25mm", 	"length" : "100 ±0.25mm", 	"thick" : "7 +0.2/-0.5mm", 		"weight" : "70g ±5% (480/960/1920GB)\n74 ±5% (3840GB)"},
+								{"r_val" : 'STD 2.5"', 		"d_val" : 'STD 2.5"', 	"width" : "69.85 ±0.25mm", 	"length" : "100 ±0.25mm", 	"thick" : "7 +0.2/-0.5mm", 		"weight" : "61g ±5% (256/512GB, 1TB)"},
+								{"r_val" : 'M.2 22110', 	"d_val" : 'M.2 22110', 	"width" : "22 ±0.13mm", 	"length" : "110 ±0.13mm", 	"thick" : "Max 4.23mm", 		"weight" : "13g ±5%"},
+								{"r_val" : 'U.2 7mm', 		"d_val" : 'U.2 7mm', 	"width" : "69.85 ±0.15mm", 	"length" : "100 ±0.15mm", 	"thick" : "7 +0.2/-0.5mm", 		"weight" : "84.7g ±5%"},
+								{"r_val" : 'U.3/2 15mm', 	"d_val" : 'U.3/2 15mm', "width" : "69.85 ±0.25mm", 	"length" : "100 ±0.25mm", 	"thick" : "14.75 ±0.25mm", 		"weight" : "135.6g ±5%"},
+								{"r_val" : 'U.3 15mm', 		"d_val" : 'U.3 15mm', 	"width" : "69.85 ±0.25mm", 	"length" : "100 ±0.25mm", 	"thick" : "14.75 ±0.25mm", 		"weight" : "135.6g ±5%"},
+								{"r_val" : 'E1.L 18mm', 	"d_val" : 'E1.L 18mm', 	"width" : "38.40 ±0.25mm", 	"length" : "318.75 ±0.55mm", "thick" : "18 +0.35/-0.60mm", 	"weight" : "334g ±5%"},
+								{"r_val" : 'E1.L 9.5mm', 	"d_val" : 'E1.L 9.5mm', "width" : "38.40 ±0.25mm", 	"length" : "318.75 ±0.55mm", "thick" : "9.5 ±0.35mm", 		"weight" : "218g ±5%"},
+								{"r_val" : 'E1.S 15mm', 	"d_val" : 'E1.S 15mm', 	"width" : "33.75 ±0.25mm", 	"length" : "118.75 ±0.55mm", "thick" : "15 +0.35/-0.60mm", 	"weight" : "TBD"},
+								{"r_val" : 'M.2 2280 (M)', 	"d_val" : 'M.2 2280', 	"width" : "22.00 ±0.15mm", 	"length" : "80.00 ±0.15mm", "thick" : "Max 2.23mm", 		"weight" : "Max 8.0g"},
+								{"r_val" : 'M.2 2280 (V)', 	"d_val" : 'M.2 2280', 	"width" : "22.00 ±0.13mm", 	"length" : "80.00 ±0.13mm", "thick" : "Max 2.38mm", 		"weight" : "Max 5.3g"},
+								{"r_val" : 'M.2 2280', 		"d_val" : 'M.2 2280', 	"width" : "22.00 ±0.15mm", 	"length" : "80.00 ±0.15mm", "thick" : "Max 2.23mm", 		"weight" : "Max 8.0g"},
+								{"r_val" : 'M.2 2242', 		"d_val" : 'M.2 2242', 	"width" : "22.00 ±0.13mm", 	"length" : "40.00 ±0.13mm", "thick" : "Max 2.38mm", 		"weight" : "Max 3.2g"},
+								{"r_val" : 'M.2 2230', 		"d_val" : 'M.2 2230', 	"width" : "22.00 ±0.13mm", 	"length" : "30.00 ±0.13mm", "thick" : "Max 2.38mm", 		"weight" : "Max 2.6g"}
+							];
+							var obj = valList.filter( function(x) { return x.SPEC_PCMS_NM == "Form Factor"; });
+							var ff = (obj != null && obj.length > 0) ? obj[0].SPEC_PCMS_VAL : "";
+							var ffObj = arrFFList.filter( function(x) { return x.r_val == ff; });
+							if (ffObj != null && ffObj.length > 0) {
+								var idx = (prodInfo.PROD_TYPE_VAL == "cSSD" && ffObj.length == 2) ? 1 : 0;
+								$("#tdFF_nm").html(ffObj[idx].d_val);
+								$("#tdFF_width").html(ffObj[idx].width);
+								$("#tdFF_length").html(ffObj[idx].length);
+								$("#tdFF_thick").html(ffObj[idx].thick);
+								$("#tdFF_weight").html(ffObj[idx].weight);
+							}
+
+							$("#spnFormF").html(ff);
+							fnSetSpecVal(valList, "Interface", "spnIntrf");
+							fnSetSpecVal(valList, "Capacity", "spnCapa");
+							fnSetSpecVal(valList, "Sequencial Read", "spnSeqR");
+							fnSetSpecVal(valList, "Sequencial Write", "spnSeqW");
+							fnSetSpecVal(valList, "Random Read", "spnRandR");
+							fnSetSpecVal(valList, "Random Write", "spnRandW");
+							fnSetSpecVal(valList, "Active Read", "spnActR");
+							fnSetSpecVal(valList, "Active Write", "spnActW");
+							fnSetSpecVal(valList, (prodInfo.SPEC_GRP_ID == "SG1018" ? "Host Idle" : "Active Idle"), "spnActI");
+							$("#thIdle").html(prodInfo.SPEC_GRP_ID == "SG1018" ? "Host Idle" : "Active Idle");
+							if (prodInfo.PROD_TYPE_VAL == "eSSD") {
+								fnSetSpecVal(valList, "DWPD", "spnDwpd");
+								$("#trDwpd").show();
+							}
+							
+							$("#secNonSSDSpec").hide();
+							$("#secSSD_FF").show();
+							$("#secSSDSpec").show();
+							popHeight += 480;
+
+							var attHtml = "";
+							var attCnt = 0;
+							if (data.prodAttList != null && data.prodAttList != "") {
+								for (var i=0; i<data.prodAttList.length; i++) {
+									attHtml += "<button type='button' onclick=\"fnDownload('" + data.prodAttList[i].TRT_TYPE_CD + "', '" + data.prodAttList[i].TRT_NO + "', '" + data.prodAttList[i].ATT_FILE_NM + "')\">" + data.prodAttList[i].TRT_TYPE_NM + "</button>";
+									attCnt++;
+								}
+								if("MODULE|cSSD".indexOf(prodInfo.PROD_TYPE_VAL) >= 0){
+									attHtml += "<button class='link red' type='button' onclick=\"fnHandlingGuide()\">Handling Guide</button>";
+								}
+							}else{
+								if("MODULE|cSSD".indexOf(prodInfo.PROD_TYPE_VAL) >= 0){
+									attHtml += "<button class='link red' type='button' onclick=\"fnHandlingGuide()\">Handling Guide</button>";
+								}
+							}
+							if(attHtml != ""){
+								$("#ulAtt3").show();
+								$("#ulAtt3").html(attHtml);
+							}else{
+								$("#ulAtt3").hide();
+							}
+								
+							popHeight += Math.ceil(attCnt / 4) * 70;
+						}
+					}
+
+				}
+				else {
+					alert("제품 정보가 없습니다.");
+					window.close();
+				}
+			}
+
+			window.resizeTo(1460, popHeight);
+			hideProgress();
+			break;
+		case "download" :
+			if (data == null) {
+			} 
+				
+	}
+}
+
+function fnHandlingGuide(){
+	$('#dnFrm').attr('action', '/support/downloads/techs.go');
+	$('#dnFrm').attr('method', 'POST');
+	$('#dnFrm').submit();
+}
+
+function fnSetSpecVal(list, specNm, objId) {
+	var obj = list.filter( function(x) { return x.SPEC_PCMS_NM == specNm; });
+	var ff = (obj != null && obj.length > 0) ? obj[0].SPEC_PCMS_VAL : "";
+	$("#"+objId).html(ff);
+}
+
+function fnDownload(typeCd, trtNo, fileNm) {
+	$("#attTypeCd").val(typeCd);
+	$("#attNo").val(trtNo);
+	$("#dnA").attr("href", "https://mis-prod-koce-producthomepage-cdn-01-blob-ep.azureedge.net/web/" + fileNm);
+	
+	/* "prd" === "prd" ? */
+			document.getElementById("dnA").click();
+		/* :	document.getElementById("dnFrm").submit(); */
+}
+
+</script>
+			<!-- product spec finder -->
+		</section>
+		
+		<!-- View Applications -->
+		
+		<section class="view-app" id="app">
+			<div class="s-inner">
+				<h3 class="tit02">View Applications</h3>
+				<ul>
+					
+						<li data-item="1">
+							<a href="/solutions/application/server/server.go">
+								<strong>Server</strong>
+								<img src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/images/promotion/solutions/related/Related-Solutions_Server_231019.png" alt="">
+							</a>
+						</li>
+					
+						<li data-item="2">
+							<a href="/solutions/application/network/network.go">
+								<strong>Networking</strong>
+								<img src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/images/promotion/solutions/related/Related-Solutions_Networking.png" alt="">
+							</a>
+						</li>
+					 	
+				</ul>
+			</div>
+		</section>
+		
+		
+		<!-- Further Materials -->
+		<section class="read-more" id="furtherMaterials">
+			
+	<div class="s-inner">
+		<h3 class="tit02">Further Materials</h3>
+		<div class="swiper-container">	
+			<div class="swiper-wrapper">
+				
+					<div class="swiper-slide">
+						
+							
+							
+								<div class="ctl_li">
+									<div class="item-img">
+										<img src="https://mis-prod-koce-producthomepage-cdn-01-blob-ep.azureedge.net/web/SK-20241209145056873.jpg" alt="SK hynix Gen4 eSSD (M.2)">
+										<a href="https://mis-prod-koce-producthomepage-cdn-01-blob-ep.azureedge.net/web/SK-20241209145057565.pdf" title="Down" class="btn-down"><span class="blind">Down</span></a>
+					 				</div>
+									<div class="text" title="PE9010 M.2 Boot drive Solution for AI datacenter">
+									<a href="https://mis-prod-koce-producthomepage-cdn-01-blob-ep.azureedge.net/web/SK-20241209145057565.pdf" >
+										
+											
+												<span>CATALOG</span>
+											
+											
+										
+										<p class="ellipsis2">PE9010 M.2 Boot drive Solution for AI datacenter</p>
+									</a>
+								</div>
+							</div>
+							
+								
+						
+				 	</div>
+				
+			</div>
+		</div>
+		
+		<!-- swiper-wrapper -->
+		<div class="swiper-pagination"></div>
+		
+		<!-- Add Arrows -->
+		<div class="swiper-buttons">
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+	</div>
+
+		</section>
+	</div>
+</main>
+<!-- //main_contents -->
+
+<!-- footer -->
+
+
+<script>
+$(document).ready(function() {
+
+	var browser = window.navigator.userAgent;
+
+	if(browser.indexOf('MSIE') > 0 || browser.indexOf('Trident') > 0){
+		$("#bg").fadeIn();
+		$("#popError").show();
+	}
+
+	$("#popErrorClose").click(function(e){
+		$("#bg").fadeOut();
+		$("#popError").hide();
+	});
+});
+
+function setFooterMenu(menuObj) {
+	var relatedSiteCont = $("#relatedSiteCont").html();
+	var fstMenuList = menuObj.filter( function(x) { return x.menuLvl == "1"});
+	var menuHtml = "";
+
+	for (var i=0; i<fstMenuList.length; i++) {
+		var menu1 = fstMenuList[i];
+		menuHtml += '<li>';
+		menuHtml += '	<h3>' + menu1.menuNm + '</h3>';
+		secMenuList = menuObj.filter( function(x) { return x.upMenuId == menu1.menuId });
+		for (var k=0; k<secMenuList.length; k++) {
+			var menu2 = secMenuList[k];
+			menuHtml += (menu2.menuUrl == null || menu2.menuUrl == "") ? '<span>' + menu2.menuNm + '</span>' : '<a href="' + menu2.menuUrl + '">' + menu2.menuNm + '</a>';
+		}
+		menuHtml += '</li>';
+	}
+	$("#footer_menu").html(menuHtml + relatedSiteCont);
+}
+
+</script>
+
+<!-- footer -->
+<footer id="footer">
+    <div class="s-inner">
+    	<section class="sitemap">
+	        <h2><a href="/home.go"><img src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/images/common/flogo_210803.svg" alt="sk hynix"></a></h2>
+            <ul id="footer_menu"></ul>   
+                    
+            <div class="copyright">
+	            <p>COPYRIGHT ©2021<br>SK hynix INC.</p>
+	            <p>ALL RIGHTS RESERVED.</p>
+            </div>       
+	    </section>
+	
+	    <!-- button_top -->
+	    <a href="" class="topBtn" title="to go up"><span class="blind"></span></a>
+	    <!-- //button_top -->
+	
+	    <section class="footAD">
+	        <div class="footAD-inner">
+	            <h4>Do you have some questions?</h4>
+	            <h3>Please <a href="" class="text">Contact US</a><a href="" class="img"><span class="blind">link shortcuts</span></a></h3>
+	        </div>
+	    </section>
+    </div>
+</footer>
+<!-- //footer -->
+
+    <ul id="relatedSiteCont" style="display:none;">
+	    <li class="footer-link">
+	        <a href="https://www.skhynix.com/eng" target="_blank" rel="noopener noreferrer" class="go-link">About SK hynix</a>
+	        <a href="https://sustainability.skhynix.com" target="_blank" rel="noopener noreferrer" class="go-link">ESG Strategy</a>
+	         <a href="/support/forest.go" class="go-link">Memory ForEST</a>
+	        <a href="https://news.skhynix.com/press-center/press-release/" target="_blank" rel="noopener noreferrer" class="go-link">Newsroom</a>
+	        <a href="/html/policy.html" target="_blank" rel="noopener noreferrer" class="go-link">Privacy Policy</a>  
+	        <span class="sns">
+		        <a href="https://x.com/SKhynix" target="_blank" class="tw">X</a>
+		        <a href="https://www.linkedin.com/company/sk-hynix" target="_blank" class="in">Linkedin</a>
+	        </span>  
+	    </li>
+    </ul>
+	<div id="mx">
+        <div class="pop_bg"></div>
+			<!-- Modal lodaer type01 -->
+	        <div class="loader_type01 loader_modal" id="modalLoader01" style="display:none">
+	            <div class="loader_body spinner">
+	                <div class="spinner_container container1">
+	                    <div class="circle circle1"></div>
+	                    <div class="circle circle2"></div>
+	                    <div class="circle circle3"></div>
+	                    <div class="circle circle4"></div>
+	                </div>
+	                <div class="spinner_container container2">
+	                    <div class="circle circle1"></div>
+	                    <div class="circle circle2"></div>
+	                    <div class="circle circle3"></div>
+	                    <div class="circle circle4"></div>
+	                </div>
+	            </div>
+	            <div class="loader_txt">LOADING</div>
+	        </div>
+	        <!-- //Modal lodaer type01 -->
+	    <!-- Alert Popupup -->
+        <div id="alert1" class="pop_alert" style="display:none">
+        	<!-- 
+            <a href="#" class="close_area">
+                <span class="pop_btn pop_btn_close">
+                    <span class="blind">팝업 닫기</span>
+                </span>
+            </a>
+             -->
+            <div class="pop_con_area pop_con_center"><!-- Center정렬 컨텐츠 적용할 경우 pop_con_center 적용 -->
+                <div class="ico_area">
+                    <span class="pop_ico pop_ico_confirm_b">
+                        <span class="blind">팝업 아이콘</span>
+                    </span>
+                </div>
+                <div class="info_area">
+                    <div class="tit_area" id='alert1_title'></div>
+                    <div class="desc_area">
+                    	<textarea id="alert1_desc" style="width:400px; height:60px;border:none;font-weight:normal; color:#76787c;overflow:hidden;text-align:center;" readOnly></textarea>
+                    </div>
+                </div>
+            </div>
+            <div id='wf_btn_area' class="btn_section">
+               <div class="center_section">
+                   <a href="javascript:alertConfirm();" class="bnt_txt btn_type_a btn_color_d">
+                       <span class="txt"> 확 인 </span>
+                   </a>
+               </div>
+           </div>
+           <div style="height:5px;"></div>
+        </div>
+        <script>
+        	function alertConfirm() {
+        		var field1 = $("#alert1_hidden_field1").val();
+        		if(field1 != '') {
+        			if(typeof(window[field1]) == "function"){
+           				eval(field1+"();");
+           			}
+        			else {
+            			location.href=$("#alert1_hidden_field1").val();
+        			}
+        		} else {
+        			$('#mx').fadeOut();
+        			$('#alert1').fadeOut();
+        			//e.preventDefault();
+        		}
+        	}
+        </script>
+        <!-- //Alert Popupup -->
+	</div>
+	
+	<!-- pop-ie -->
+<div class="pop-error" id="popError" style="display:none;">
+	<!-- <dl class="pop-msg">		
+		<dt>Sorry for the inconvenience.</dt>
+		<dd class="txt">This website is not supported on Internet Explorer.<br> 
+			(* Please visit using Chrome, Edge, or Safari.)  
+		</dd>
+		<dd><a href="javascript:;" class="btn-round" id="popErrorClose">CLOSE</a></dd>
+	</dl> -->
+	<div class="ie-open">		
+		<p class="msg">SK hynix's website is<br>optimized for Microsoft Edge and the Chrome browser.</p>
+		<p class="info">Please use either one and refrain from using Internet Explorer<br>because using the latter may result in limited access or a lower system speed.</p>
+		<div class="ico_ieOnly">
+			<p class="blind">Internet Explorer(X) Microsoft Edge(O) Chrome(O)</p>
+		</div>
+		<div class="down-url">
+			<span>Download site URL</span>
+			<p>
+				<a href="https://www.microsoft.com/edge" target="_blank">https://www.microsoft.com/edge</a><br>
+				<a href="https://www.google.com/chrome/" target="_blank">https://www.google.com/chrome/</a>
+			</p>
+		</div>
+		<p><a href="javascript:;" class="btn-round" id="popErrorClose">CLOSE</a></p>
+	</div>	
+</div>
+<!-- //pop-ie -->
+	
+    <input type="hidden" id="alert1_hidden_field1"/>    
+
+<!-- 추석 팝업 추가 -->
+<div class="pop_msg_wrap" id="HolidaysPop">
+	<div class="popup-bg"></div>
+	<div class="pop_inr">
+		<div class="pop_body">
+			<div class="txt_wrap">
+				<strong>Holiday Notice</strong>
+				<div class="tbox">
+					<p class="t1">We will be on holiday from<br> <span>Sept 28th to Oct 3rd</span> for Korean Thanksgiving Day.</p>
+					<p class="t2">Therefore, we may be slow to answer inquiries.<br> We will reply to you in order of receipt after we return.</p>
+					<p class="t3">Thank you for your understanding.</p>
+					<a href="javascript:void(0)"  onclick="openPopContact('#HolidaysPop'); return false;" class="first link_close">Move to Contact Us</a><a href="javascript:void(0);" class="last stayClose">Close</a>
+				</div>
+			</div>
+			<a href="javascript:void(0)" class="rtClose stayClose"><i>close</i></a>
+		</div><!-- //pop_body-->
+	</div><!-- //pop_inr-->
+</div><!-- //pop_msg_wrap-->
+<!-- // 추석 팝업 추가 -->
+
+
+<!-- 설문 팝업 배너 -->
+<div id="popBanner" class="popBanner on" style="display:none">
+	<div class="btn-wrap">
+		<div class="w1680">
+			<div class="txt_box">
+				<span class="i">Let us know what you think.</span>
+				<span class="poll_mo_txt">Website Feedback Survey</span>
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSeKwP3ilp72c8-Z6wBn0qJpmB-y8iFtX3WBH_JyX4MiPbQ71A/viewform" class="btn_pop2 btn-link-no"  target="_blank"><span class="btns_txt"><em class="t pc_t">Website Feedback Survey</em><em class="t go_mo">GO</em></span></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--//popBanner -->
+
+<!-- 시스템 점검 팝업 -->
+<div id="quick_dimmed_popup2" class="quick_dimmed_popup" style="display:none"></div>
+<div id="layer_popup_system_maintenance" class="layerPopup_newyear quick_button_wrap" style="display:none;">
+	<div class="layerBox">
+        <div class="cont">
+            <div>
+				<img src="/images/main/system_maintenance20260210.png" />
+			</div>
+        </div>
+        <div id="check">
+        	<input type="checkbox" name="chkbox" value="checkbox" id='systemMaintPopPopCloseOneDay' tabindex="1">
+        	<label for="systemMaintPopPopCloseOneDay">Don't show this message today</label>
+		</div>
+		<div id="close"><a href="javascript:void(0);" onclick="closePopSystemMaint();" tabindex="2"><img src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/images/common/ico_close.png" alt="Close"></a></div>
+	</div>
+</div><!--//pollPop-->
+<!--// 시스템 점검 팝업 -->
+<style>
+header {z-index: 100;}
+.quick_button_wrap {max-width: initial;}
+.quick_button_wrap.layerPopup_newyear .layerBox {width: 380px; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%);z-index: 10000}
+.quick_button_wrap.layerPopup_newyear .cont img {display: block;} 
+.quick_button_wrap.layerPopup_newyear #check {position: relative; background: #fff;padding: 10px;}
+.quick_button_wrap.layerPopup_newyear #check input[type="checkbox"] {left: 10px;}
+.quick_button_wrap.layerPopup_newyear #check label {padding-left: 30px;}
+.layerPopup_newyear a img {width: 14px; height: 14px; vertical-align: middle;}
+@media screen and (max-width: 767px) {
+.quick_button_wrap {left: 20px; top: 20px; transform: initial;}
+.quick_button_wrap.layerPopup_newyear .layerBox {width: auto; left: 20px; top: 20px; transform: initial;}
+}
+@media screen and (max-width: 420px) {
+.quick_button_wrap.layerPopup_newyear .cont img {width: 100%;display: block;} 
+.quick_button_wrap.layerPopup_newyear .layerBox {width: calc(100% - 40px);}
+}
+</style>
+
+<!-- 설문 팝업 배너 -->
+<script language="JavaScript">
+	var browser = window.navigator.userAgent; 
+	if(browser.indexOf('MSIE') < 0 && browser.indexOf('Trident') < 0){ 
+		var today = new Date();
+	    var now = "" + today.getFullYear();
+	    now += (today.getMonth() + 1) > 9 ? (today.getMonth() + 1) : "0" + (today.getMonth() + 1);
+	    now += today.getDate() > 9 ? today.getDate() : "0" + today.getDate();
+	    now += today.getHours() > 9 ? today.getHours() : "0" + today.getHours();
+	    now += today.getMinutes() > 9 ? today.getMinutes() : "0" + today.getMinutes();
+	    now = now * 1;
+		
+	    var startTime = 202212250000;
+	    var endTime = 202312032359;
+	
+		var cookieArr = document.cookie.split(";");
+		var popBool = true;
+
+		if(now < startTime || now > endTime) popBool = false;
+		
+		if(popBool) $("#popBanner").css("display", "block");
+		if(popBool) $(".topBtn").css("bottom", "90px");
+		if(popBool) $("#wrap").css("padding-bottom", "50px");
+	}
+</script>
+<!--// 설문 팝업 배너 -->
+
+<!-- 시스템 점검 팝업 -->
+<script language="JavaScript">
+var browser = window.navigator.userAgent; 
+if(browser.indexOf('MSIE') < 0 && browser.indexOf('Trident') < 0){ 
+	var today = new Date();
+    var now = "" + today.getFullYear();
+    now += (today.getMonth() + 1) > 9 ? (today.getMonth() + 1) : "0" + (today.getMonth() + 1);
+    now += today.getDate() > 9 ? today.getDate() : "0" + today.getDate();
+    now += today.getHours() > 9 ? today.getHours() : "0" + today.getHours();
+    now += today.getMinutes() > 9 ? today.getMinutes() : "0" + today.getMinutes();
+    now = now * 1;
+	
+    var startTime = 202602091000;
+    var endTime = 202602102000;
+
+	var cookieArr = document.cookie.split(";");
+	var popBool = true;
+	
+	if(now < startTime || now > endTime) popBool = false;
+	
+	for(var i = 0; i < cookieArr.length; i++) {
+		var cookieData = cookieArr[i].split("=");
+		if($.trim(cookieData[0]) == "closeSystemMaintPop") {
+			popBool = false;
+			break;
+		}
+	}
+	
+	if(popBool) $("#layer_popup_system_maintenance").css("display", "block");
+	if(popBool) $("#quick_dimmed_popup2").css("display", "block");
+	
+	function closePopSystemMaint() {
+		if($("#systemMaintPopPopCloseOneDay").is(":checked")) {
+			var eTime = new Date();
+			eTime.setDate(eTime.getDate() + 1);
+			document.cookie = "closeSystemMaintPop=1; expires=" + eTime + ";";
+		}
+		$("#layer_popup_system_maintenance").css("display", "none");
+		$("#quick_dimmed_popup2").css("display", "none");
+	}
+}
+</script>
+<!--//시스템 점검 팝업 -->
+
+<!-- 제품상세페이지 메인 -->
+<script src="https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/js/2026.11.05.1/aos.js"></script>
+<script type="text/javascript">
+/*공통*/
+AOS.init({
+	easing: 'ease-in-out-sine'
+});
+</script>
+
+
+<!-- popup -->
+<div id="bg"></div>
+<!-- mov-pop -->
+<div class="mov-pop">
+    <div class="pop-header">
+       <span class="close-mov">CLOSE</span>
+    </div>
+    <div class="pop-body" id="clipPopBody">
+        <iframe id="clipPopup" width="1280" height="720" style="border:none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!-- pop-spec -->
+<div class="pop-container pop-spec">
+	<div class="pop-header">	
+		<h4>Compare Spec</h4>			
+		<button type="button" class="btn close">close</button>
+	</div>
+	<div class="pop-body">
+		<div class="select-model">
+			<div class="pc">
+				<strong>Select Model</strong>
+				<div class="model-list" id="modelListRadioArea">
+					<dl>
+						<dt>
+							<span class="radio">
+								<input type="radio" name="radio-model-chk" id="radio0" disabled>
+								<label for="radio0"></label>
+							</span>
+						</dt>
+						<dd class="specImg"></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="mobile">
+				<strong>Select Model</strong>
+				<span class="specTit"></span>
+				<strong>Compare Model</strong>
+				<select id="selectCompare" class="select-box select_mspec">
+					<option value="0">Select a model to compare</option>
+				</select>
+			</div>
+		</div>
+		
+		<div class="compare-model-spec">
+			<div class="scroll-x">
+				<div class="selected-items">
+					<div>
+						<em class="specTit"></em>
+						<span class="specImg"></span>
+					</div>
+					<div class="add-th">
+						<em></em>
+						<span class="guide-msg">Select a Model<br />In the right Area<br />to Compare Specs</span>
+					</div>
+				</div>
+				
+				<div class="product-table-wrap">
+					<table>
+						<caption>table for Compare spec</caption>
+						<tbody>
+				            <tr>
+				                <th>Capacity</th>
+				                <td class="p_capa td"></td>
+			                	<td class="a_capa add-td"></td>
+				            </tr>
+				            <tr>
+				                <th>Sequential R/W</th>
+				                <td class="p_srw td"></td>
+								<td class="a_srw add-td"></td>
+				            </tr>
+				            <tr>
+				                <th>Random R/W</th>
+				                <td class="p_rrw td"></td>
+								<td class="a_rrw add-td"></td>
+				            </tr>
+				            <tr>
+				                <th>Power consumption</th>
+				                <td class="p_pcs td"></td>
+								<td class="a_pcs add-td"></td>
+				            </tr>
+				            <tr>
+				                <th>SoC</th>
+				                <td class="p_soc td"></td>
+			            	    <td class="a_soc add-td"></td>
+				            </tr>
+				            <tr>
+				                <th>Interface</th>
+				                <td class="p_inf td"></td>
+								<td class="a_inf add-td"></td>
+				            </tr>
+				            <tr>
+				                <th>NAND</th>
+				                <td class="p_nand td"></td>
+			            	    <td class="a_nand add-td"></td>
+				            </tr>
+				            <tr>
+				                <th>Form Factor</th>
+				                <td class="p_ff td"></td>
+			            	    <td class="a_ff add-td"></td>
+				            </tr>
+				            <tr>
+				                <th>DWPD</th>
+				                <td class="p_dwpd td"></td>
+			            	    <td class="a_dwpd add-td"></td>
+				            </tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="btn-wrap m-bottom">
+		<button type="button" class="btn-round red close mobile">CLOSE</button>
+		<button type="button" onclick="excelDownloadSpecFinder(false);" class="btn-round btn-download" id="saveCompareExcel"><span class="pc">Save as </span>Excel</button>
+	</div>
+</div>
+
+</div><!-- //wrap -->
+
+<script>
+var pageName = "pe9000";
+
+$(document).ready(function() {
+	getPortfolio(1025);
+	compareEvent(); 
+	swiperFunc();
+
+	//Model Specs
+	$('.spec-tab ul li.active a').trigger("click");
+    $(document).on('click','.spec-tab ul li a', function(e) {
+        e.preventDefault();
+        var num = $(this).parents('li').index()+1;
+        $(this).parents('li').addClass('active').siblings().removeClass('active');
+        $('.tab-con'+num).css('display','block').siblings('.tab-con').css('display', 'none');
+    });
+
+	//Model Specs - Compare Specs 버튼 클릭
+	$("#compareSpecs").click((e) => {
+		e.preventDefault();
+		$("#bg").fadeIn();
+		$(".pop-spec").show();
+
+		//Compare Spec 좌측
+		const idx = $(".spec-tab ul li.active").attr("idx");
+		const title = $(".spec-tab ul li.active").attr("val");
+		const attNo = $(".spec-tab ul li.active input").val();
+		$(".specTit").text(title);
+		$(".specImg").empty();
+		$(".specImg").append("<img src='https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/getImage.do?attNo="+attNo+"&attTypeCd=SPEC1' alt='SK hynix&apos;s " + title + " series of enterprise SSDs'>");
+
+		//Compare Spec 우측
+		$('.add-th').html("<em></em><span class='guide-msg'>Select a Model<br />In the right Area<br />to Compare Specs</span>");
+		const arr = ["capa","srw","rrw","pcs","soc","inf","nand","ff","dwpd"];
+		arr.map((obj) => {
+			$(".p_" + obj).html($("#" + obj + idx).text());
+		});
+
+		//Compare Spec 선택영역
+		$("#radio0").siblings("label").html("<span></span>" + title);
+		$(".spec-tab ul li.active").siblings().map((i, obj) => {
+			//PC
+			const dlRadio = document.createElement("dl");
+			const dtRadio = document.createElement("dt");
+			const ddRadio = document.createElement("dd");
+			const spanRadio = document.createElement("span");
+			const inputRadio = document.createElement("input");
+			const labelRadio = document.createElement("label");
+			const imgRadio = document.createElement("img");
+			spanRadio.classList.add("radio");
+			inputRadio.setAttribute("type", "radio");
+			inputRadio.setAttribute("name", "radio-model");
+			inputRadio.setAttribute("id", "radio"+$(obj).attr("idx"));
+			labelRadio.setAttribute("for", "radio"+$(obj).attr("idx"));
+			labelRadio.innerHTML = "<span></span>" + $(obj).attr("val");
+			labelRadio.setAttribute("value", $(obj).attr("idx"));
+			imgRadio.setAttribute("src", "https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/getImage.do?attNo=" + $(obj).children("input").val() + "&attTypeCd=SPEC1");
+			imgRadio.setAttribute("alt", "SK hynix's " + $(obj).attr("val") + " series of enterprise SSDs");
+			document.getElementById("modelListRadioArea").appendChild(dlRadio)
+														 .appendChild(dtRadio)
+														 .appendChild(spanRadio)
+														 .appendChild(inputRadio)
+														 .parentNode
+														 .appendChild(labelRadio)
+														 .parentNode
+														 .parentNode
+														 .parentNode
+														 .appendChild(ddRadio)
+														 .appendChild(imgRadio);
+
+			//Mobile
+			const option = document.createElement("option");
+			option.innerHTML = $(obj).attr("val") + "<input type='hidden' name='imgAttNo' value='" + $(obj).children("input").val() + "' />";
+			option.setAttribute("value", $(obj).attr("idx"));
+			document.getElementById("selectCompare").appendChild(option);
+		});
+
+		//Model Specs - Compare Radio Change Event
+		//Radio Event Bind
+		$("input[name='radio-model']:radio").change((e) => {
+			const idx = $(e.target).siblings("label").attr("value");
+			const title = $(e.target).siblings("label").text();
+			const imgSrc = $(e.target).parents("dt").siblings("dd").children("img").attr("src")
+			
+			$('.add-th').html("<em>"+title+"</em><span><img src='"+imgSrc+"' alt='SK hynix&apos;s " + title + " series of enterprise SSDs'></span>");
+			const arr = ["capa","srw","rrw","pcs","soc","inf","nand","ff","dwpd"];
+			arr.map((obj) => {
+				$(".a_" + obj).html($("#" + obj + idx).text());
+			});
+		});
+
+		window.history.pushState(null, '', location.href);
+
+		window.onpopstate = () => {
+			history.go(1);
+		};
+	});
+
+	//Model Specs - Compare Select Change Event
+	$("#selectCompare").change((e) => {
+		const idx = $(e.target).children(":selected").val();
+		const title = $(e.target).children(":selected").text();
+		const imgAttNo = $(e.target).children(":selected").children("input[name='imgAttNo']").val();
+
+		$('.add-th').html("<em>"+title+"</em><span><img src='https://mis-prod-koce-producthomepage-cdn-01-ep.azureedge.net/getImage.do?attNo="+imgAttNo+"&attTypeCd=SPEC1' alt='SK hynix&apos;s " + title + " series of enterprise SSDs'></span>");
+		const arr = ["capa","srw","rrw","pcs","soc","inf","nand","ff","dwpd"];
+		arr.map((obj) => {
+			$(".a_" + obj).html($("#" + obj + idx).text());
+		});
+	});
+	
+	//Model Specs - Compare Specs 닫기
+	$(".pop-spec .close").click((e) => {
+		e.preventDefault();
+		$("#bg").fadeOut();
+		$(".pop-spec").hide();
+		$("#modelListRadioArea dl:eq(0)").siblings().remove();
+		$("#selectCompare option:eq(0)").siblings().remove();
+		const arr = ["capa","srw","rrw","pcs","soc","inf","nand","ff","dwpd"];
+		arr.map((obj) => {
+			$(".a_" + obj).html("");
+		});
+
+		window.onpopstate = () => {
+			history.go(-1);
+		};
+	});
+	
+    $("#saveCompareExcel").click((e) => {
+        e.preventDefault();
+
+        // 표시되는 페이지의 내용으로 DATA 생성.
+        let colModel = [];
+        let colNames = [];
+    	let objText = {};
+    	let objText2 = {};
+
+        $("div.compare-model-spec div.product-table-wrap tbody tr").map((i, el) =>{
+        	colNames.push($(el).children("th").text());
+        	colModel.push({
+				name : $(el).children("th").text(),
+				align : "left"
+            });
+
+        	objText[$(el).children("th").text()] = $(el).children("td.td").text();
+        	objText2[$(el).children("th").text()] = $(el).children("td.add-td").text();
+        });
+        
+    	excelParam = {
+   			excelName : "PE9000 Series Compare",
+   			columnHeader : colNames,
+   			columnModel : colModel,
+   			allRowsInGrid : [objText, objText2]
+    	}
+    	excelDownload(JSON.stringify(excelParam));
+    });
+
+    $("#saveExcel").click((e) => {
+        e.preventDefault();
+
+        // 표시되는 페이지의 내용으로 DATA 생성.
+        let colModel = [];
+        let colNames = [];
+
+        $("div.tab-con:visible strong").map((i, el) => {
+        	colNames.push($(el).text());
+        	colModel.push({
+				name : $(el).text(),
+				align : "left"
+            });
+        });
+
+    	let objText = {};
+        $("div.tab-con:visible p").map((i, el) =>{
+        	objText[colNames[i]] = $(el).text();
+        });
+
+    	excelParam = {
+   			excelName : "PE9000 Series " + $(".spec-tab li.active").text(),
+   			columnHeader : colNames,
+   			columnModel : colModel,
+   			allRowsInGrid : [objText]
+    	}
+    	excelDownload(JSON.stringify(excelParam));
+    });
+});
+
+</script>
+</body>
+
+</html>

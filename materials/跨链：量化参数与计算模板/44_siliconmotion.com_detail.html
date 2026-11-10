@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>博客-慧榮苟嘉章：AI浪潮下的記憶體榮景與斷鏈風險-Silicon Motion</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="慧荣科技(Silicon Motion Technology Corp., NasdaqGS: SIMO)是全球最大的NAND Flash主控芯片供货商，同时也是SSD主控芯片的市场领导者。我们拥有最多的主控芯片解决方案及相关技术专利，主要用于搭载SSD及eMMC/UFS存储装置的数据中心、个人计算机、智能型手机、车规专用存储及其他商业级和工业级应用。我们同时提供大型数据中心企业级SSD与工业级SSD解决方案。">
+    <meta name="keywords" content="Silicon Motion, 慧荣科技, Silicon Motion, Inc., Semiconductor">
+    <meta name="copyright" content=""/>
+    <meta name="author" content=""/>
+    <meta name="robots" content="all"/>
+    <meta name="_globalsign-domain-verification" content="0QcQQ1xkMev46LEBIpsVL8-M0G6dcOeen4PoEEkANN"/>
+    <link rel="shortcut icon" href="https://www.siliconmotion.com/images/favicon.ico">
+    <link rel="canonical" href="https://www.siliconmotion.com/chs/company/blog/AI-Inference-Revolution/detail"/>
+            <link rel="alternate" hreflang="en" href="https://www.siliconmotion.com/company/blog/AI-Inference-Revolution/detail"/>
+            <link rel="alternate" hreflang="zh-TW" href="https://www.siliconmotion.com/cht/company/blog/AI-Inference-Revolution/detail"/>
+            <link rel="alternate" hreflang="zh-CN" href="https://www.siliconmotion.com/chs/company/blog/AI-Inference-Revolution/detail"/>
+            <link rel="alternate" hreflang="ja" href="https://www.siliconmotion.com/jp/company/blog/AI-Inference-Revolution/detail"/>
+            <link rel="alternate" hreflang="ko" href="https://www.siliconmotion.com/kr/company/blog/AI-Inference-Revolution/detail"/>
+        <meta name="theme-color" content="#000">
+    <meta name="msapplication-navbutton-color" content="#000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <meta property="og:description" content="慧荣科技(Silicon Motion Technology Corp., NasdaqGS: SIMO)是全球最大的NAND Flash主控芯片供货商，同时也是SSD主控芯片的市场领导者。我们拥有最多的主控芯片解决方案及相关技术专利，主要用于搭载SSD及eMMC/UFS存储装置的数据中心、个人计算机、智能型手机、车规专用存储及其他商业级和工业级应用。我们同时提供大型数据中心企业级SSD与工业级SSD解决方案。"/>
+    <meta property="og:site_name" content="Silicon Motion"/>
+    <meta property="og:title" content="博客-慧榮苟嘉章：AI浪潮下的記憶體榮景與斷鏈風險-Silicon Motion"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.siliconmotion.com/images/touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.siliconmotion.com/images/touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.siliconmotion.com/images/touch-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="https://www.siliconmotion.com/images/touch-icon-57.png">
+    <meta http-equiv="cache-control" content="max-age=0"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <link href="https://www.siliconmotion.com/css/style.css?v=3" rel="stylesheet">
+    <link href="https://www.siliconmotion.com/css/aos.css" rel="stylesheet">
+                    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900" rel="stylesheet">
+        <link href="https://www.siliconmotion.com/dist/spinners.css" rel="stylesheet">
+    <meta name="csrf-token" content="oaAznzz2b5qtpLrQxhabw2ODNPQO8m9YXuIqQIdO">
+    
+    <script src="https://www.google.com/recaptcha/api.js?hl=zh-CN" async defer></script>
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NM9NG4W');</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DWDM6L5EGG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DWDM6L5EGG');
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NM9NG4W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header class="mainheader">
+    <div class="ctrl-bar">
+        <div class="in-box container">
+    <a class="logo" href="https://www.siliconmotion.com/chs"></a>
+    <div class="main-menu">
+        <nav class="p-menu dot-menu">
+            <ul id="oe_menu" class="mainmenu">
+                <li class="nav-col ">
+                    <a class="navItem hasSiblings" href="javascript:void(0)" title="产品">产品</a>
+                    <section class="dropmenu pro-nav">
+                        
+                        <div class="container pro-menu pro-menu-dest">
+                                                            <div class="pro-menu-col row">
+                                    <div class="col-xl-3 col-lg-12 pb-lg-3">
+                                        <span class="title title-sm">AI 工厂</span>
+                                    </div>
+                                    <div class="col-xl-9 col-lg-12">
+                                        <div class="row">
+                                                                                            <div class="col-4 pt-3 pt-lg-0 pb-3 pb-lg-0">
+                                                    <a title="企业级 SSD 主控芯片" href="javascript:;">
+                                                        <span class="sub-title subtitle-xs">企业级 SSD 主控芯片</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="企业级 SSD 主控芯片"
+                                                                   href="https://www.siliconmotion.com/chs/products/enterprise/detail">企业级 SSD 主控芯片</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                            <div class="col-4 pt-3 pt-lg-0 pb-3 pb-lg-0">
+                                                    <a title="企业级启动盘解决方案" href="javascript:;">
+                                                        <span class="sub-title subtitle-xs">企业级启动盘解决方案</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="企业级 PCIe NVMe 启动 SSD 解决方案"
+                                                                   href="https://www.siliconmotion.com/chs/products/Enterprise-PCIe-NVMe-Boot-SSD-Solutions/detail">企业级 PCIe NVMe 启动 SSD 解决方案</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                                                            <div class="pro-menu-col row">
+                                    <div class="col-xl-3 col-lg-12 pb-lg-3">
+                                        <span class="title title-sm">边缘AI</span>
+                                    </div>
+                                    <div class="col-xl-9 col-lg-12">
+                                        <div class="row">
+                                                                                            <div class="col-4 pt-3 pt-lg-0 pb-3 pb-lg-0">
+                                                    <a title="边缘 SSD 主控芯片" href="javascript:;">
+                                                        <span class="sub-title subtitle-xs">边缘 SSD 主控芯片</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="边缘 SSD 主控芯片"
+                                                                   href="https://www.siliconmotion.com/chs/products/client/detail">边缘 SSD 主控芯片</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                            <div class="col-4 pt-3 pt-lg-0 pb-3 pb-lg-0">
+                                                    <a title="嵌入式 eMMC/UFS 主控芯片" href="javascript:;">
+                                                        <span class="sub-title subtitle-xs">嵌入式 eMMC/UFS 主控芯片</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="UFS"
+                                                                   href="https://www.siliconmotion.com/chs/products/UFS/detail">UFS</a>
+                                                            </li>
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="eMMC"
+                                                                   href="https://www.siliconmotion.com/chs/products/eMMC/detail">eMMC</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                                                            <div class="pro-menu-col row">
+                                    <div class="col-xl-3 col-lg-12 pb-lg-3">
+                                        <span class="title title-sm">物理 AI</span>
+                                    </div>
+                                    <div class="col-xl-9 col-lg-12">
+                                        <div class="row">
+                                                                                            <div class="col-4 pt-3 pt-lg-0 pb-3 pb-lg-0">
+                                                    <a title="Ferri 车用与物理 AI 解决方案" href="javascript:;">
+                                                        <span class="sub-title subtitle-xs">Ferri 车用与物理 AI 解决方案</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="FerriSSD®"
+                                                                   href="https://www.siliconmotion.com/chs/products/FerriSSD/detail">FerriSSD®</a>
+                                                            </li>
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="Ferri-UFS®"
+                                                                   href="https://www.siliconmotion.com/chs/products/Ferri-UFS/detail">Ferri-UFS®</a>
+                                                            </li>
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="Ferri-eMMC®"
+                                                                   href="https://www.siliconmotion.com/chs/products/Ferri-eMMC/detail">Ferri-eMMC®</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                                                            <div class="pro-menu-col row">
+                                    <div class="col-xl-3 col-lg-12 pb-lg-3">
+                                        <span class="title title-sm">其它</span>
+                                    </div>
+                                    <div class="col-xl-9 col-lg-12">
+                                        <div class="row">
+                                                                                            <div class="col-4 pt-3 pt-lg-0 pb-3 pb-lg-0">
+                                                    <a title="显示接口解决方案" href="javascript:;">
+                                                        <span class="sub-title subtitle-xs">显示接口解决方案</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="USB 显示"
+                                                                   href="https://www.siliconmotion.com/chs/products/USB-Display-Docking-SoC/detail">USB 显示</a>
+                                                            </li>
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="嵌入式GPU"
+                                                                   href="https://www.siliconmotion.com/chs/products/Embedded-GPUs/detail">嵌入式GPU</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                        
+                        <div class="container pro-menu pro-menu-mobile scrollCusmb mCustomScrollbar" data-mcs-theme="theme">
+                            <div class="d-flex">
+                                                                    <div>
+                                        <span class="title title-md">AI 工厂</span>
+                                        <div class="d-flex">
+                                                                                            <div class="pro-menu-col">
+                                                    <a title="企业级 SSD 主控芯片" href="javascript:;">
+                                                        <span class="sub-title subtitle-sm">企业级 SSD 主控芯片</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="企业级 SSD 主控芯片"
+                                                                   href="https://www.siliconmotion.com/chs/products/enterprise/detail">企业级 SSD 主控芯片</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                            <div class="pro-menu-col">
+                                                    <a title="企业级启动盘解决方案" href="javascript:;">
+                                                        <span class="sub-title subtitle-sm">企业级启动盘解决方案</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="企业级 PCIe NVMe 启动 SSD 解决方案"
+                                                                   href="https://www.siliconmotion.com/chs/products/Enterprise-PCIe-NVMe-Boot-SSD-Solutions/detail">企业级 PCIe NVMe 启动 SSD 解决方案</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                                                    <div>
+                                        <span class="title title-md">边缘AI</span>
+                                        <div class="d-flex">
+                                                                                            <div class="pro-menu-col">
+                                                    <a title="边缘 SSD 主控芯片" href="javascript:;">
+                                                        <span class="sub-title subtitle-sm">边缘 SSD 主控芯片</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="边缘 SSD 主控芯片"
+                                                                   href="https://www.siliconmotion.com/chs/products/client/detail">边缘 SSD 主控芯片</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                            <div class="pro-menu-col">
+                                                    <a title="嵌入式 eMMC/UFS 主控芯片" href="javascript:;">
+                                                        <span class="sub-title subtitle-sm">嵌入式 eMMC/UFS 主控芯片</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="UFS"
+                                                                   href="https://www.siliconmotion.com/chs/products/UFS/detail">UFS</a>
+                                                            </li>
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="eMMC"
+                                                                   href="https://www.siliconmotion.com/chs/products/eMMC/detail">eMMC</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                                                    <div>
+                                        <span class="title title-md">物理 AI</span>
+                                        <div class="d-flex">
+                                                                                            <div class="pro-menu-col">
+                                                    <a title="Ferri 车用与物理 AI 解决方案" href="javascript:;">
+                                                        <span class="sub-title subtitle-sm">Ferri 车用与物理 AI 解决方案</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="FerriSSD®"
+                                                                   href="https://www.siliconmotion.com/chs/products/FerriSSD/detail">FerriSSD®</a>
+                                                            </li>
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="Ferri-UFS®"
+                                                                   href="https://www.siliconmotion.com/chs/products/Ferri-UFS/detail">Ferri-UFS®</a>
+                                                            </li>
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="Ferri-eMMC®"
+                                                                   href="https://www.siliconmotion.com/chs/products/Ferri-eMMC/detail">Ferri-eMMC®</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                                                    <div>
+                                        <span class="title title-md">其它</span>
+                                        <div class="d-flex">
+                                                                                            <div class="pro-menu-col">
+                                                    <a title="显示接口解决方案" href="javascript:;">
+                                                        <span class="sub-title subtitle-sm">显示接口解决方案</span>
+                                                    </a>
+                                                    <ul class="pro-menu-list">
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="USB 显示"
+                                                                   href="https://www.siliconmotion.com/chs/products/USB-Display-Docking-SoC/detail">USB 显示</a>
+                                                            </li>
+                                                                                                                    <li class="pro-menu-item">
+                                                                <a title="嵌入式GPU"
+                                                                   href="https://www.siliconmotion.com/chs/products/Embedded-GPUs/detail">嵌入式GPU</a>
+                                                            </li>
+                                                                                                            </ul>
+                                                </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                        
+                                            </section>
+                </li>
+                <li class="nav-col">
+                    <a class="navItem" href="https://www.siliconmotion.com/application/chs/applications.html">应用</a>
+                </li>
+                <li class="nav-col active">
+                    <a class="navItem hasSiblings" href="javascript:void(0)">公司</a>
+                    <section class="dropmenu">
+                        <div class="menu-block container row justify-content-center">
+                            <div class="col-sm-4 mb-3 mb-sm-0">
+                                <span class="sub-title subtitle-xs">关于慧荣</span>
+                                <ul class="dropmenu-list">
+                                                                                                                        <li>
+                                                <a class="dropmenu-item"
+                                                   href="https://www.siliconmotion.com/chs/company/overview"
+                                                   title="公司简介">公司简介</a>
+                                            </li>
+                                                                                                                                                                                                        
+                                                                                                                                                                                                        <li>
+                                                <a class="dropmenu-item" href="https://www.siliconmotion.com/chs/company/leadership"
+                                                   title="管理团队">管理团队</a>
+                                            </li>
+                                                                                                                                                                
+                                                                                                                                                                                                                                                <li>
+                                                <a class="dropmenu-item" href="https://siliconmotiontechnologycorporation.gcs-web.com/" title="投资者关系">投资者关系</a>
+                                            </li>
+                                                                                                                        
+                                                                                                                                                                                                                                                                                        <li>
+                                                <a class="dropmenu-item" href="https://www.siliconmotion.com/chs/company/careers"
+                                                   title="人力资源">人力资源</a>
+                                            </li>
+                                                                                
+                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                <li>
+                                                <a class="dropmenu-item"
+                                                   href="https://www.siliconmotion.com/chs/company/corporate"
+                                                   title="企业公民">企业公民</a>
+                                            </li>
+                                                                                                                                                                                                        
+                                                                                                            </ul>
+                            </div>
+                            <div class="col-sm-4 mb-3 mb-sm-0">
+                                <span class="sub-title subtitle-xs">媒体</span>
+                                <ul class="dropmenu-list">
+                                    <li>
+                                        <a class="dropmenu-item" href="https://www.siliconmotion.com/chs/company/press" title="新闻中心">新闻中心</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropmenu-item" href="https://www.siliconmotion.com/chs/company/upcoming" title="Events">活动</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropmenu-item" href="https://www.siliconmotion.com/chs/company/blog" title="博客">博客</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 mb-3 mb-sm-0">
+                                <span class="sub-title subtitle-xs">联系</span>
+                                <ul class="dropmenu-list">
+                                    <li>
+                                        <a class="dropmenu-item" href="https://www.siliconmotion.com/chs/company/locations" title="位置">位置</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+                <li class="nav-col ">
+                    <a class="navItem hasSiblings" href="javascript:void(0)">支持</a>
+                    <section class="dropmenu">
+                        <div class="menu-block container row justify-content-center">
+                            <div class="col-sm-4 mb-3 mb-sm-0">
+                                <span class="sub-title subtitle-xs">合作伙伴</span>
+                                <ul class="dropmenu-list">
+                                    <li>
+                                        <a class="dropmenu-item" href="https://www.siliconmotion.com/chs/support/sales" title="Where to Buy">Where to Buy</a>
+                                    </li>
+                                                                    </ul>
+                            </div>
+                            <div class="col-sm-4 mb-3 mb-sm-0">
+                                <span class="sub-title subtitle-xs">产品资源</span>
+                                <ul class="dropmenu-list">
+                                    <li>
+                                        <a class="dropmenu-item" href="https://www.siliconmotion.com/chs/support/download" title="下载中心">下载中心</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 mb-3 mb-sm-0">
+                                <span class="sub-title subtitle-xs">服务</span>
+                                <ul class="dropmenu-list">
+                                    <li>
+                                        <a class="dropmenu-item" href="https://www.siliconmotion.com/chs/support/contact"
+                                           title="联络我们">联络我们</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropmenu-item" href="/support/psirt.html" title="PSIRT">PSIRT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+            </ul>
+            <div class="header-icon mb"></div>
+        </nav>
+    </div>
+    <div class="minor-menu">
+        <div class="header-icon pc">
+                        <a class="contact" href="https://www.siliconmotion.com/chs/support/contact" title="联络我们">
+                <span>联络我们</span>
+                <i class="icon-contact"></i>
+            </a>
+            <div class="lang">
+                <div class="now">
+                    <a href="javascript:void(0)">
+                        <i class="icon-lang"></i>
+                    </a>
+                </div>
+                <div class="list">
+                                            <form method="POST" action="https://www.siliconmotion.com/change-lang" accept-charset="UTF-8" class="form-lang"><input name="_token" type="hidden" value="oaAznzz2b5qtpLrQxhabw2ODNPQO8m9YXuIqQIdO">
+                        <input name="currentUrl" type="hidden" value="chs/company/blog/AI-Inference-Revolution/detail">
+                        <input name="changeLang" type="hidden" value="en">
+                        <button class="btn-lang "
+                                type="submit"
+                                title="EN">English</button>
+                        </form>
+                                            <form method="POST" action="https://www.siliconmotion.com/change-lang" accept-charset="UTF-8" class="form-lang"><input name="_token" type="hidden" value="oaAznzz2b5qtpLrQxhabw2ODNPQO8m9YXuIqQIdO">
+                        <input name="currentUrl" type="hidden" value="chs/company/blog/AI-Inference-Revolution/detail">
+                        <input name="changeLang" type="hidden" value="cht">
+                        <button class="btn-lang "
+                                type="submit"
+                                title="CHT">繁中</button>
+                        </form>
+                                            <form method="POST" action="https://www.siliconmotion.com/change-lang" accept-charset="UTF-8" class="form-lang"><input name="_token" type="hidden" value="oaAznzz2b5qtpLrQxhabw2ODNPQO8m9YXuIqQIdO">
+                        <input name="currentUrl" type="hidden" value="chs/company/blog/AI-Inference-Revolution/detail">
+                        <input name="changeLang" type="hidden" value="chs">
+                        <button class="btn-lang active"
+                                type="submit"
+                                title="CHS">简中</button>
+                        </form>
+                                            <form method="POST" action="https://www.siliconmotion.com/change-lang" accept-charset="UTF-8" class="form-lang"><input name="_token" type="hidden" value="oaAznzz2b5qtpLrQxhabw2ODNPQO8m9YXuIqQIdO">
+                        <input name="currentUrl" type="hidden" value="chs/company/blog/AI-Inference-Revolution/detail">
+                        <input name="changeLang" type="hidden" value="jp">
+                        <button class="btn-lang "
+                                type="submit"
+                                title="JPN">日本語</button>
+                        </form>
+                                            <form method="POST" action="https://www.siliconmotion.com/change-lang" accept-charset="UTF-8" class="form-lang"><input name="_token" type="hidden" value="oaAznzz2b5qtpLrQxhabw2ODNPQO8m9YXuIqQIdO">
+                        <input name="currentUrl" type="hidden" value="chs/company/blog/AI-Inference-Revolution/detail">
+                        <input name="changeLang" type="hidden" value="kr">
+                        <button class="btn-lang "
+                                type="submit"
+                                title="KOR">한국어</button>
+                        </form>
+                                    </div>
+            </div>
+            <a class="search" href="javascript:void(0)">
+                <i class="fas fa-search search-icon"></i>
+                <form method="get" action="https://www.siliconmotion.com/chs/search">
+                    <input class="line-input str" type="text" name="q" placeholder="Keywords">
+                </form>
+                <span class="cls-search"><i class="fas fa-times-circle"></i></span>
+            </a>
+        </div>
+        <div class="mobi-cover"></div>
+        <div class="js-cls--btn">
+            <a href="javascript:void(0)" class="navTrigger"><i></i><i></i><i></i></a>
+        </div>
+    </div>
+</div>
+    <script src="https://www.siliconmotion.com/dist/login.js"></script>
+    </div>
+</header>
+<main>
+        
+    <section class="detail blog-detail sec-pd">
+        <div class="container">
+            <div class="media">
+    <a class="media-btn" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.siliconmotion.com%2Fchs%2Fcompany%2Fblog%2FAI-Inference-Revolution%2Fdetail&title=%E6%85%A7%E6%A6%AE%E8%8B%9F%E5%98%89%E7%AB%A0%EF%BC%9AAI%E6%B5%AA%E6%BD%AE%E4%B8%8B%E7%9A%84%E8%A8%98%E6%86%B6%E9%AB%94%E6%A6%AE%E6%99%AF%E8%88%87%E6%96%B7%E9%8F%88%E9%A2%A8%E9%9A%AA" target="_blank" data-aos="fade-up" data-aos-duration="1000">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a class="media-btn" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.siliconmotion.com%2Fchs%2Fcompany%2Fblog%2FAI-Inference-Revolution%2Fdetail&p[title]=%E6%85%A7%E6%A6%AE%E8%8B%9F%E5%98%89%E7%AB%A0%EF%BC%9AAI%E6%B5%AA%E6%BD%AE%E4%B8%8B%E7%9A%84%E8%A8%98%E6%86%B6%E9%AB%94%E6%A6%AE%E6%99%AF%E8%88%87%E6%96%B7%E9%8F%88%E9%A2%A8%E9%9A%AA" target="_blank" data-aos="fade-up" data-aos-duration="1500">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a class="media-btn" href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.siliconmotion.com%2Fchs%2Fcompany%2Fblog%2FAI-Inference-Revolution%2Fdetail&title=%E6%85%A7%E6%A6%AE%E8%8B%9F%E5%98%89%E7%AB%A0%EF%BC%9AAI%E6%B5%AA%E6%BD%AE%E4%B8%8B%E7%9A%84%E8%A8%98%E6%86%B6%E9%AB%94%E6%A6%AE%E6%99%AF%E8%88%87%E6%96%B7%E9%8F%88%E9%A2%A8%E9%9A%AA" target="_blank" data-aos="fade-up" data-aos-duration="2000">
+        <i class="fab fa-weibo"></i>
+    </a>
+    <a class="media-btn" href="#" target="_blank" data-aos="fade-up" data-aos-duration="2500">
+        <i class="fab fa-weixin"></i>
+    </a>
+</div>
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="newstitle">
+                        <div class="hero mb-5">
+                            <h6 class="sub-title subtitle-xs mb-3">June 11, 2026</h6>
+                            <h2 class="title title-xxl">慧榮苟嘉章：AI浪潮下的記憶體榮景與斷鏈風險</h2>
+                        </div>
+                        <div class="d-xl-flex justify-content-between">
+                            <div class="breadcrumbs mb-5">
+                                <ul class="breadcrumb-list">
+                                                                            <li class="item">
+                                            <a href="https://www.siliconmotion.com/chs">首页</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="javascript:;">公司</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="https://www.siliconmotion.com/chs/company/blog">博客</a>
+                                        </li>
+                                                                            <li class="item">
+                                            <a href="javascript:;">慧榮苟嘉章：AI浪潮下的記憶體榮景與斷鏈風險</a>
+                                        </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                                            <div class="imgouter" data-aos="fade-up">
+                            <img src="https://www.siliconmotion.com/cache/ql7q70gbr5ZZLKCTWQkpN3meBSKnQYHsqoulDEbwl08Ds3Qu.png" alt="慧榮苟嘉章：AI浪潮下的記憶體榮景與斷鏈風險">
+                        </div>
+                                    </div>
+                <div class="col-lg-8 pd_top_50">
+                    <div class="editor">
+                        
+                        <link href="https://www.siliconmotion.com/css/style-add.css" rel="stylesheet" />
+<article class="smi-blog">
+<p>轉載自 <a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=13&amp;id=754248" target="_blank">DigiTimes</a>, 2026-06-02.</p>
+<a class="btn" href="https://www.siliconmotion.com/chs/support/contact/sales" target="_blank">联络我们</a>
+
+<p>生成式AI浪潮改變了產業的生態，起初市場目光大多鎖定在NVIDIA的GPU與先進封裝。廠商將稀缺產能幾乎全數押注在HBM（高頻寬記憶體），以支撐AI的訓練需求。然而，慧榮科技（Silicon Motion）總經理苟嘉章指出，隨著產業進入「推論（Inference）」時代，這個認知正在被徹底翻轉。</p>
+
+<p>自2026年3月NVIDIA GTC大會後，執行長黃仁勳明確讓市場看到Vera Rubin 架構對NAND的巨大需求──隨著模型應用從訓練轉向推論，內容與上下文的存取變得至關重要。苟嘉章觀察到，市場已從兩年前「沒人關心儲存」演變成「沒有一家全球雲端服務大廠或智慧型手機大廠，其對DRAM與NAND的需求能被完全滿足」。甚至連儲存模組廠與記憶體大廠的股價，也因這波需求噴發及缺貨漲價，出現了數倍甚至十倍的驚人漲幅。</p>
+
+<h3>技術架構典範轉移：CMX與邊緣AI的興起</h3>
+
+<p>苟嘉章分析，推論應用帶動了對大容量、高頻寬與高IOPS儲存的渴求。特別是NVIDIA定義的CMX情境記憶體儲存平台架構，要求每個Rubin GPU需配備 16TB的硬碟，這意味著一套NV72 Vera-Rubin系統可能就需要超過1 Petabyte 的儲存設備。NVIDIA為因應AI推論快速成長的需求，推出了可由GPU直接存取的 CMX儲存架構， 讓KV Cache能夠充分發揮效益。此架構同時也為儲存產業帶來更多商機，但這也讓NAND的供貨更困難。</p>
+
+<p>除了雲端伺服器，邊緣運算的應用也正在爆發。苟嘉章特別預估，隨著Meta等大廠推動，2026年智慧眼鏡的出貨量將達到6,000萬支的驚人規模。這些穿戴式裝置對嵌入式儲存的需求，將成為NAND儲存市場另一股強大的成長動能，進一步加劇產能競爭。</p>
+
+<p>慧榮作為全球控制器的領頭羊，正透過專利的 PerformaShape技術，解決多租戶環境下 GPU 存取空間時的QoS問題，確保在多個GPU同時進行推論運算或邊緣裝置存取時，傳輸速度不會下滑，奠定了慧榮在 AI生態系中不可或缺的地位。</p>
+
+<h3>繁榮背後的陰影：苟嘉章的斷鏈警示與「產能勸說」</h3>
+
+<p>然而，在景氣一片大好之際，苟嘉章直言目前的記憶體市場處於一種不平衡的現象。由於三星、海力士、美光等大廠為了追求最大利潤與滿足強勁AI雲端服務大廠的需求，將絕大部分的資本支出（CAPEX）轉向 HBM與DDR5，導致NAND的產能擴充受到嚴重擠壓。</p>
+
+<p>「這對NAND來說是最好的時機，也是最挑戰的環境，」苟嘉章表示。為了防止AI擠壓效應導致傳統產業崩潰，他在過去八個月內積極奔走，會晤三星、海力士、Kioxia、SanDisk、YMTC及美光等大廠，力勸他們保留一部分產能給汽車、手機及 PC 產業。他警告，如果這些基礎產業因為缺貨而斷鏈，邊緣AI將失去發展的土壤，最終將反噬整個科技生態系。</p>
+
+<h3>慧榮的策略布局：從雲端到邊緣的穩定器</h3>
+
+<p>面對未來兩三年的缺貨潮，慧榮扮演的是「過渡方案的提供者」。當NAND原廠因資源集中於AI而外包非核心專案時，慧榮成為首選合作夥伴。在PC與手機市場因漲價而受挫時，慧榮協助客戶轉向車用、智慧物聯網 (AIoT) 等應用，例如2026年出貨爆發的智慧眼鏡市場。</p>
+
+<p>特別是在汽車領域，慧榮已耕耘十年。當大廠意欲放棄小眾需求時，慧榮主動承擔責任，確保全球汽車供應鏈不會因記憶體短缺而停擺。「我們不是只看營收長紅，我們希望盡到責任，」苟嘉章感性地表示。在 AI帶來的榮景背後，慧榮正努力修補供應鏈的裂縫。</p>
+
+<h3>記憶體市場未來2-3年前景預估</h3>
+
+<p>當前儲存產業已正式進入推論與邊緣應用的爆發期。苟嘉章指出，這種榮景伴隨著嚴峻的供需失衡，預計將延續至2027-2028年。受限於土地取得困難、無塵室興建耗時以及半導體設備交期長達一年等結構性因素，新增產能短期內難以開出。苟嘉章預測，DRAM的缺貨情況需至2027年底才可能緩解，而NAND的舒緩時間點會更晚。在產能、土地和無塵室極度有限的情況下，記憶體大廠優先投入 HBM 的策略，將使傳統PC、手機、消費性電子及汽車應用面臨長期配置不足的挑戰。</p>
+
+<p>在這樣的環境下，慧榮憑藉技術優勢扮演產業補位的角色。透過PerformaShape技術，有效解決AI推論的效能瓶頸。在當紅的AI伺服器快速發展下，也藉技術優勢，提供企業級開機碟（Boot Drive）給AI GPU、TPU與DPU等全球領先企業。當原廠因資源吃緊而不得不將PCIe Gen5等主流與嵌入式專案外包時，慧榮便順勢承接商機，持續推升市佔率。特別是在智慧物聯網與車用等新興領域，慧榮提供穩定的控制器與儲存解決方案，填補了原廠產能位移後或無人力支持的真空。</p>
+
+<p>最後，苟嘉章強調慧榮作為控制器龍頭大廠，責無旁貸地擔負起了供應鏈保護與產能再平衡的領導者責任，協助全球客戶在複雜的地緣政治與產能競爭中尋求過渡方案，確保整體產業鏈在AI浪潮下不至於失衡亂套，進而能共同邁向穩健成長，迎接明亮的未來 。</p>
+<a class="btn" href="https://www.siliconmotion.com/chs/support/contact/sales" target="_blank">联络我们</a></article>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="related-detail related-insight bg-gray" data-aos="fade-up">
+                        <h3 class="title title-xl">相关见解</h3>
+                                                    <a class="item" href="https://www.siliconmotion.com/chs/company/blog/Storage-Powers-Every-Layer-of-the-Modern-AI-Server/detail" title="存储赋能现代 AI 服务器的每一层架构">
+                                <div class="date">October 14, 2026</div>
+                                <p>存储赋能现代 AI 服务器的每一层架构</p>
+                            </a>
+                                                    <a class="item" href="https://www.siliconmotion.com/chs/company/blog/Powering-Agentic-AI-from-Physical-Intelligence-to-Assured-AI-Infrastructure/detail" title="FMS2026 演讲实录：存储如何赋能无处不在的 Agentic AI">
+                                <div class="date">October 13, 2026</div>
+                                <p>FMS2026 演讲实录：存储如何赋能无处不在的 Agentic AI</p>
+                            </a>
+                                                    <a class="item" href="https://www.siliconmotion.com/chs/company/blog/AI-is-starving-the-edge/detail" title="媒体专访丨慧荣科技资深副总段喜亭：警惕数据中心产能虹吸，守护 AI 落地最后一公里">
+                                <div class="date">August 24, 2026</div>
+                                <p>媒体专访丨慧荣科技资深副总段喜亭：警惕数据中心产能虹吸，守护 AI 落地最后一公里</p>
+                            </a>
+                                            </div>
+                    <div class="related-detail related-product bg-secondary mt-7" data-aos="fade-up">
+                        <h3 class="title title-xl">相关产品</h3>
+                                                    <div class="item">
+                                <div class="cat">企业级启动盘解决方案</div>
+                                                                    <a class="" href="https://www.siliconmotion.com/chs/products/Enterprise-PCIe-NVMe-Boot-SSD-Solutions/detail" title="企业级 PCIe NVMe 启动 SSD 解决方案">企业级 PCIe NVMe 启动 SSD 解决方案</a>
+                                                            </div>
+                                                    <div class="item">
+                                <div class="cat">Ferri 车用与物理 AI 解决方案</div>
+                                                                    <a class="" href="https://www.siliconmotion.com/chs/products/FerriSSD/detail" title="FerriSSD®">FerriSSD®</a>
+                                                                    <a class="" href="https://www.siliconmotion.com/chs/products/Ferri-UFS/detail" title="Ferri-UFS®">Ferri-UFS®</a>
+                                                                    <a class="" href="https://www.siliconmotion.com/chs/products/Ferri-eMMC/detail" title="Ferri-eMMC®">Ferri-eMMC®</a>
+                                                            </div>
+                                                    <div class="item">
+                                <div class="cat">企业级 SSD 主控芯片</div>
+                                                                    <a class="" href="https://www.siliconmotion.com/chs/products/enterprise/detail" title="企业级 SSD 主控芯片">企业级 SSD 主控芯片</a>
+                                                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="mainfooter">
+    <div class="container pd_top_30 pd_btm_30">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="sitemenu">
+                                            <a class="sitemenu-list" href="https://www.siliconmotion.com/chs/company/overview">公司</a>
+                                        <a class="sitemenu-list" href="https://siliconmotiontechnologycorporation.gcs-web.com/">投资者关系</a>
+                    <a class="sitemenu-list" href="https://www.siliconmotion.com/chs/company/careers">人力资源</a>
+                    <a class="sitemenu-list" href="https://www.siliconmotion.com/chs/support/sales">支持</a>
+                    <a class="sitemenu-list" href="https://www.siliconmotion.com/chs/support/contact">联络我们</a>
+                </div>
+                <div class="sub-brand">
+                                    </div>
+            </div>
+            <div class="col-lg-5 text-lg-right mt-3">
+                <div class="community">
+                                            <a class="community-list" href="https://www.facebook.com/profile.php?id=100063887982393&amp;mibextid=LQQJ4d" target="_blank"><i class="icon-fb"></i></a>
+                                                                <a class="community-list" href="https://www.linkedin.com/company/siliconmotion/" target="_blank"><i class="icon-linkedin"></i></a>
+                                                                <a class="community-list" href="https://www.youtube.com/channel/UCB4_AXjqQV_LgCRlNgzsctQ" target="_blank"><i class="icon-youtube"></i></a>
+                                                                                                        <a class="community-list" href="https://weibo.com/p/1006066525885619/home?from=page_100606&amp;mod=TAB#place" target="_blank"><i class="icon-weibo"></i></a>
+                                                            
+                    <a class="community-list qrcode-popover" href="javascript:;" data-container="body" data-toggle="popover" data-placement="top" data-src="https://www.siliconmotion.com/images/qrcode.jpg"><i class="icon-weixin"></i></a>
+                    
+                    <a class="community-list qrcode-modal" href="javascript:;" data-toggle="modal" data-target="#qrcodeModerCon"><i class="icon-weixin"></i></a>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="minorfooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="webrule mb-3 mb-lg-0">
+                        <a class="webrule-list" href="https://www.siliconmotion.com/chs/policy">政策</a>
+                        <a class="webrule-list" href="https://www.siliconmotion.com/chs/legal">法律声明</a>
+                        <a class="webrule-list" href="https://www.siliconmotion.com/chs/sitemap">网站地图</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-lg-right">
+                    <div class="copyright">© 2026 Silicon Motion Technology Corp. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<a id="top"></a>
+<div class="modal fade" id="qrcodeModerCon" tabindex="-1" role="dialog" aria-labelledby="qrcodeModerConTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="https://www.siliconmotion.com/images/qrcode.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<form method="POST" action="https://www.siliconmotion.com/change-lang" accept-charset="UTF-8" id="langForm"><input name="_token" type="hidden" value="oaAznzz2b5qtpLrQxhabw2ODNPQO8m9YXuIqQIdO">
+<input name="currentUrl" type="hidden" value="chs/company/blog/AI-Inference-Revolution/detail">
+<input id="changeLang" name="changeLang" type="hidden">
+</form>
+<div class="d-cookie">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-10 col-md-9">
+                <div class="d-cookie-block">
+                    <h3>SILICON MOTION COOKIES 通知</h3>
+                    <p>本网站使用cookies以提升您的使用体验、统计网络流量、相关数据分析及展示客制化的广告。继续使用本网站表示您同意我们使用cookies。有关更多信息，请参阅Silicon Motion 的<a href="https://www.siliconmotion.com/chs/policy">政策</a>。</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3">
+                <div class="d-cookie-block btn">
+                    <a class="block-link cookie-checked" href="javascript:void(0)">同意</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--[if lt IE 9]><script src="https://www.siliconmotion.com/js/html5.js"></script><![endif]-->
+<script type="text/javascript">
+    if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent))
+        document.write('<script src="https://www.siliconmotion.com/js/ie11-polyfill.js"><\/script>');
+</script>
+<script src="https://www.siliconmotion.com/js/lib.js"></script>
+<script src="https://www.siliconmotion.com/js/weya.js?v=1"></script>
+<script src="https://www.siliconmotion.com/js/dist/cookies.min.js"></script>
+<script src="https://www.siliconmotion.com/plugins/sweetalert2.all.min.js"></script>
+</body>
+</html>
+
