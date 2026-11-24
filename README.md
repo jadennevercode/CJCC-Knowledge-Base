@@ -261,17 +261,7 @@ Prioritize factual fidelity and traceability over readability or stylistic impro
 When uncertain, preserve the original content and flag the uncertainty rather than making assumptions.
 ````
 
-### 5.3 逐页核验与并行分工
-
-````text
-继续完成逐段 OCR 纠错、语义断句、标题层级重建和表格核验，按之前的要求处理全部文档，确保内容和页码可追溯。
-````
-
-````text
-**请启动更多子代理，并行处理剩余文档；各自处理不同文件，统一记录页码和未解决的问题。**
-````
-
-### 5.4 外部事件冲击相关性筛选
+### 5.3 外部事件冲击相关性筛选
 
 ````text
 帮我进行pipeline的下一步 外部事件冲击相关内容筛选，在一个新文件夹中维护，如果有相关内容就保留md，没有就无需保留
