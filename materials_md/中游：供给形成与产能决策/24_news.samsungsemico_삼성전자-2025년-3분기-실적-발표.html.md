@@ -1,0 +1,176 @@
+> 原文件：[24_news.samsungsemico_삼성전자-2025년-3분기-실적-발표.html](https://github.com/jadennevercode/CJCC-Knowledge-Base/blob/564ab11aa9785e569e3853c8a4d7ce86f88e7535/materials/%E4%B8%AD%E6%B8%B8%EF%BC%9A%E4%BE%9B%E7%BB%99%E5%BD%A2%E6%88%90%E4%B8%8E%E4%BA%A7%E8%83%BD%E5%86%B3%E7%AD%96/24_news.samsungsemico_%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-2025%EB%85%84-3%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C.html)
+> 转换方式：HTML DOM → Markdown
+
+# 삼성전자, 2025년 3분기 실적 발표 - 삼성전자 반도체 뉴스룸
+
+[본문 바로가기](https://news.samsungsemiconductor.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-2025%eb%85%84-3%eb%b6%84%ea%b8%b0-%ec%8b%a4%ec%a0%81-%eb%b0%9c%ed%91%9c/#container)
+
+[프레스센터](https://news.samsungsemiconductor.com/kr/category/%eb%89%b4%ec%8a%a4/)
+>
+
+[보도자료](https://news.samsungsemiconductor.com/kr/category/%eb%89%b4%ec%8a%a4/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c/)
+
+# 삼성전자, 2025년 3분기 실적 발표
+
+2025.10.30
+
+공유 레이어 열기
+인쇄하기
+
+- [페이스북](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbit.ly%2F4hzkwnm "새 창으로 페이스북에 공유하기")
+- [X](https://x.com/intent/tweet?text=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90%2C+2025%EB%85%84+3%EB%B6%84%EA%B8%B0+%EC%8B%A4%EC%A0%81+%EB%B0%9C%ED%91%9C&url=https%3A%2F%2Fbit.ly%2F4hzkwnm "새 창으로 X에 공유하기")
+- [카카오톡](https://news.samsungsemiconductor.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-2025%eb%85%84-3%eb%b6%84%ea%b8%b0-%ec%8b%a4%ec%a0%81-%eb%b0%9c%ed%91%9c/ "새 창으로 카카오톡에 공유하기")
+- [이메일](mailto:?subject=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90%2C%202025%EB%85%84%203%EB%B6%84%EA%B8%B0%20%EC%8B%A4%EC%A0%81%20%EB%B0%9C%ED%91%9C&body=https%3A%2F%2Fbit.ly%2F4hzkwnm "이메일로 공유하기")
+
+현재 페이지 주소
+
+주소복사
+
+- ![주소 복사](https://news.samsungsemiconductor.com/kr/wp-content/themes/newsroom/assets/images/banner_link.png)
+- [![페이스북](https://news.samsungsemiconductor.com/kr/wp-content/themes/newsroom/assets/images/banner_facebook.png)](https://www.facebook.com/sharer.php?u=https%3A%2F%2Fbit.ly%2F4hzkwnm "새 창으로 페이스북에 공유하기")
+- [![X](https://news.samsungsemiconductor.com/kr/wp-content/themes/newsroom/assets/images/banner_x.png)](https://x.com/intent/tweet?text=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90%2C+2025%EB%85%84+3%EB%B6%84%EA%B8%B0+%EC%8B%A4%EC%A0%81+%EB%B0%9C%ED%91%9C&url=https%3A%2F%2Fbit.ly%2F4hzkwnm "새 창으로 X에 공유하기")
+- [![카카오톡](https://news.samsungsemiconductor.com/kr/wp-content/themes/newsroom/assets/images/banner_kakaotalk.png)](https://news.samsungsemiconductor.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-2025%eb%85%84-3%eb%b6%84%ea%b8%b0-%ec%8b%a4%ec%a0%81-%eb%b0%9c%ed%91%9c/ "새 창으로 카카오톡에 공유하기")
+- [![메일](https://news.samsungsemiconductor.com/kr/wp-content/themes/newsroom/assets/images/banner_mail.png)](mailto:?subject=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90%2C%202025%EB%85%84%203%EB%B6%84%EA%B8%B0%20%EC%8B%A4%EC%A0%81%20%EB%B0%9C%ED%91%9C&body=https%3A%2F%2Fbit.ly%2F4hzkwnm "이메일로 공유하기")
+
+삼성전자가 연결 기준으로 매출 86.1조원, 영업이익 12.2조원의 2025년 3분기 실적을 발표했다.
+
+전사 매출은 전분기 대비 15% 증가하며 역대 최대 분기 매출을 기록했다.
+
+DS부문은 HBM3E와 서버 SSD 판매 확대로 분기 최대 메모리 매출을 달성하며 전분기 대비 매출이 19% 증가했다.
+
+특히 HBM3E는 전 고객 대상으로 양산 판매 중이고, HBM4도 샘플을 요청한 모든 고객사에게 샘플을 출하했다.
+
+DX부문도 폴더블 신모델 출시 효과와 견조한 플래그십 스마트폰 판매 등으로 전분기 대비 매출이 11% 성장했다.
+
+삼성전자는 미래 성장을 위해 연구개발 투자를 지속하며 3분기 누계 기준 역대 최대 26.9조원의 연구개발비를 집행했다.
+
+환율의 경우 전분기 대비 원화 강세로 달러 거래 비중이 높은 DS부문에서 소폭 부정적 영향이 있었으나, DX부문에서 일부 긍정적 영향이 발생해 전사 전체 영업이익에 미치는 영향은 미미했다.
+
+**[3분기 실적]**
+
+**DS(Device Solutions)부문 매출 33.1조원, 영업이익 7조원**
+
+**메모리**는 HBM3E(High Bandwidth Memory 3E) 판매 확대와 DDR5(Double Data Rate 5), 서버용 SSD(Solid State Drive) 등의 수요 강세로 사상 최고의 분기 매출을 기록했다.
+
+영업이익은 제품 가격 상승과 전분기 발생했던 재고 관련 일회성 비용이 감소하면서 큰 폭으로 개선됐다.
+
+**시스템LSI**는 주요 고객사의 프리미엄 라인업에 SoC(System on Chip)를 안정적으로 공급했으나, 시장 전반의 재고 조정과 계절적 수요 둔화로 실적은 정체됐다.
+
+**파운드리**는 첨단공정 중심으로 분기 최대 수주 실적을 달성했으며, 일회성 비용이 감소하고 라인 가동률이 개선되면서 전분기 대비 실적이 큰 폭 개선됐다.
+
+**DX(Device eXperience)부문 매출 48.4조원, 영업이익 3.5조원**
+
+**MX(Mobile eXperience)**는 갤럭시 Z 폴드7 판매 호조로 전분기 및 전년 동기 대비 매출과 영업이익이 모두 성장했다.
+
+또 플래그십 제품의 매출 비중 확대와 태블릿·웨어러블 신제품 판매 증가로 견조한 두 자릿수 수익성을 유지했다.
+
+**VD(Visual Display)**는 ▲Neo QLED ▲OLED ▲대형 TV 등 프리미엄 제품 판매가 견조했으나, TV 시장 수요 정체와 경쟁 심화로 전분기 대비 실적이 감소했다.
+
+**생활가전**은 계절적 비수기 진입과 미국 관세 영향으로 전분기 대비 영업이익이 감소했다.
+
+**하만 매출 4.0조원, 영업이익 0.4조원**
+
+하만은 소비자 오디오 제품 판매 호조와 전장 부문의 매출 확대로 전분기 대비 매출이 증가했다.
+
+**SDC 매출 8.1조원, 영업이익 1.2조원**
+
+디스플레이는 중소형의 경우 플래그십 스마트폰의 견조한 수요와 신제품 출시 대응으로 판매가 확대되며 실적이 개선됐다. 대형은 QD-OLED 게이밍 모니터 수요 확대로 전분기 대비 판매량이 증가했다.
+
+**[4분기 전망]**
+
+4분기는 AI 산업의 급속한 성장으로 인해 DS, DX부문 모두 새로운 시장 기회가 열릴 것으로 예상된다.
+
+**DS부문**
+
+**메모리**의 경우 D램은 AI 및 서버 수요에 적극 대응할 계획으로 HBM3E와 고용량 서버 DDR5 제품 중심으로 판매를 확대할 계획이다. 낸드도 고용량, 고성능 SSD 판매 확대에 주력할 방침이다.
+
+**시스템LSI**는 프리미엄용 SoC와 이미지센서 판매 확대를 추진할 계획이다.
+
+**파운드리**는 2나노 양산을 본격화하고 가동률 향상 및 원가 개선을 통해 실적 개선을 이어갈 예정이다.
+
+**DX부문**
+
+**MX**는 연말 성수기 프로모션을 통해 갤럭시 S25 시리즈와 폴더블 등 AI스마트폰 판매를 지속 확대할 계획이다. 태블릿, 웨어러블 제품도 신규 프리미엄 제품 중심으로 판매를 강화할 계획이다.
+
+**VD**는 프리미엄 및 대형 TV 중심으로 성수기 수요를 선점해 매출을 확대할 계획이다.
+
+**생활가전**은 AI 가전 등 프리미엄 제품 중심으로 판매를 늘려 전년 대비 매출 성장을 추진할 예정이다.
+
+**하만**
+
+하만은 성수기 오디오 판매 확대와 브랜드 포트폴리오 강화로 전년 동기 대비 매출 성장을 추진할 계획이다.
+
+**SDC**
+
+중소형은 스마트폰 신제품 수요가 지속되는 가운데 다른 응용 제품으로 판매를 확대하고, 대형은 QD-OLED 모니터 신규 라인업 출시로 판매 확대를 추진할 계획이다.
+
+**연간 시설 투자 47.4조원 예상**
+
+삼성전자는 2025년 연간 시설투자를 약 47.4조 원 규모로 집행할 예정이다. 부문별로는 DS부문이 40.9조 원, SDC가 3.3조원 수준이다.
+
+DS부문은 고부가가치 제품 수요 대응을 위한 첨단공정 전환 및 기존 라인 보완 투자에 집중하고, SDC는 기존 라인 보완 및 성능 향상을 위해 투자할 예정이다.
+
+**[2026년 전망]**
+
+2026년은 AI 투자 확대로 반도체 경기 호조가 지속될 것으로 예상된다.
+
+특히, HBM4 수요 또한 증가할 것으로 전망돼 1c 캐파 확대를 통해 적극 대응할 예정이다.
+
+**DS부문**
+
+**메모리**의 경우 D램은 HBM 판매를 지속 확대하고 차별화된 성능 기반의 HBM4 양산에 집중할 방침이다. 또한, AI용 DDR5, LPDDR5x(Low Power Double Rate 5X), GDDR7(Graphics Double Data Rate 7) 등 고부가 가치 제품 판매 비중을 확대할 계획이다.
+
+낸드는 첨단공정 기반의 서버 SSD와 고용량 QLC(Quadruple Level Cell) 등 고부가가치 제품 판매를 강화할 예정이다.
+
+**시스템LSI**는 엑시노스 경쟁력 강화를 통해 주요 고객사 플래그십 모델 탑재를 추진하고, 이미지센서는 2억 화소 등 차별화된 기술 기반으로 점유율 확대를 추진할 계획이다.
+
+**파운드리**는 2나노 신제품과 HBM4 베이스다이(Base-die) 양산에 집중하며 미국 테일러 팹(Fab)을 2026년부터 본격 가동할 예정이다.
+
+**DX부문**
+
+**MX**는 AI 리더십 강화를 통해 플래그십 제품 중심으로 판매를 확대하고 원가 효율화도 지속 추진할 계획이다.
+
+새롭게 출시한 갤럭시 XR 등 혁신 제품과 차세대 AI 경험을 제공하여 갤럭시 생태계를 강화하고 매출 성장을 이어갈 방침이다.
+
+**VD**는 마이크로 RGB 등 혁신 제품으로 프리미엄 리더십을 강화하고 중저가 제품 판매 확대를 통해 매출 성장을 추진할 계획이다.
+
+**생활가전**은 AI 기능 강화와 라인업 확대를 통해 매출 성장을 이어가고, HVAC(Heating, Ventilation, and Air Conditioning) 등 고부가 중심의 사업구조 개선을 추진할 예정이다.
+
+**하만**
+
+하만은 거래선 다변화를 통해 전장 사업 성장을 추진하고, 인수한 브랜드를 활용해 오디오 시장 리더십을 강화할 계획이다.
+
+**SDC**
+
+중소형은 8.6세대 IT OLED 신규 라인에서 경쟁력 있는 제품을 생산해 IT에서 OLED 대세화를 가속화하고, AI 디바이스에 대응하는 차별화 기술과 폴더블 제품 완성도 향상으로 기술 격차를 확대할 방침이다.
+
+대형의 경우 TV는 프리미엄 리더십을 유지하고, 모니터는 제품 라인업 확대와 고객 다변화를 통해 시장에서 QD-OLED 입지를 강화할 예정이다.
+
+## 관련태그
+
+[#2025 3분기 실적발표](https://news.samsungsemiconductor.com/kr/tag/2025-3%eb%b6%84%ea%b8%b0-%ec%8b%a4%ec%a0%81%eb%b0%9c%ed%91%9c/) [#삼성전자 실적발표](https://news.samsungsemiconductor.com/kr/tag/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%ec%8b%a4%ec%a0%81%eb%b0%9c%ed%91%9c/) [#실적발표](https://news.samsungsemiconductor.com/kr/tag/%ec%8b%a4%ec%a0%81%eb%b0%9c%ed%91%9c/) [#삼성실적발표](https://news.samsungsemiconductor.com/kr/tag/%ec%82%bc%ec%84%b1%ec%8b%a4%ec%a0%81%eb%b0%9c%ed%91%9c/)
+
+## 삼성전자 반도체 소식 더 알아보기
+
+- [![](https://news.samsungsemiconductor.com/kr/wp-content/uploads/2025/10/890X593-1-636x424.jpg)
+
+  2025.10.31
+
+  삼성전자, 제56주년 창립기념식 개최](https://news.samsungsemiconductor.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%ec%a0%9c56%ec%a3%bc%eb%85%84-%ec%b0%bd%eb%a6%bd%ea%b8%b0%eb%85%90%ec%8b%9d-%ea%b0%9c%ec%b5%9c/)
+- [![](https://news.samsungsemiconductor.com/kr/wp-content/uploads/2025/10/삼성전자-경영일반-2025-하반기-삼성직무적성검사-GSAT-실시-1-636x424.jpg)
+
+  2025.10.26
+
+  삼성, 2025년 하반기 삼성직무적성검사(GSAT) 실시](https://news.samsungsemiconductor.com/kr/%ec%82%bc%ec%84%b1-2025%eb%85%84-%ed%95%98%eb%b0%98%ea%b8%b0-%ec%82%bc%ec%84%b1%ec%a7%81%eb%ac%b4%ec%a0%81%ec%84%b1%ea%b2%80%ec%82%acgsat-%ec%8b%a4%ec%8b%9c/)
+- [![](https://news.samsungsemiconductor.com/kr/wp-content/uploads/2025/10/인터브랜드-글로벌-100대-브랜드-로고-썸넬-636x424.jpg)
+
+  2025.10.15
+
+  삼성전자, 브랜드가치 6년 연속 세계 5위](https://news.samsungsemiconductor.com/kr/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%eb%b8%8c%eb%9e%9c%eb%93%9c%ea%b0%80%ec%b9%98-6%eb%85%84-%ec%97%b0%ec%86%8d-%ec%84%b8%ea%b3%84-5%ec%9c%84/)
+
+[목록](https://news.samsungsemiconductor.com/kr/category/%eb%89%b4%ec%8a%a4/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c/)
+
+기간 설정
+
+취소
+확인

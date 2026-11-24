@@ -1,0 +1,716 @@
+{
+  "method": "HTML 正文候选段落与 Markdown 字符串比对；仅供人工排查，导航及动态内容可能造成误报或漏报。",
+  "findings": [
+    {
+      "document": "上游：半导体级原材料/22_reports.wacker.com_snapshot.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "Management Report Group Business Fundamentals open submenu Business Model Legal Structure Management & Supervision Products & Services Markets & Positions Economic & Legal Goals & Strategies open submenu WACKER Group Business Divisions Mana",
+          "normalized_chars": 972,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Group Business Fundamentals open submenu Business Model Legal Structure Management & Supervision Products & Services Markets & Positions Economic & Legal",
+          "normalized_chars": 129,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Management Processes open submenu Value-Based Management Planning Cycle Financing Strategy Control Instruments",
+          "normalized_chars": 98,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Business Report open submenu Economy Sectors Statement on Underlying Conditions Key Events Comparing Actual with Forecast Performance",
+          "normalized_chars": 117,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Segments open submenu WACKER SILICONES WACKER POLYMERS WACKER BIOSOLUTIONS WACKER POLYSILICON Other Regions",
+          "normalized_chars": 95,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Financial Position open submenu Financial Management Cash Flow Appropriation of Profits & Rating Executive Board Statement",
+          "normalized_chars": 106,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Risk Management Report open submenu Structures & Tools Central Risk Areas Opportunities Report Evaluation of Overall Risk",
+          "normalized_chars": 104,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 7
+    },
+    {
+      "document": "下游：手机、PC和平板需求传导/42_semiconductor.sams_ufs.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "Products Products Type Applications DRAM Overview DDR HBM GDDR LPDDR SSD Overview PC SSD Datacenter SSD Enterprise  SSD Automotive SSD eStorage Overview UFS eMMC CXL Memory Overview CMM-D MCP Overview uMCP eMCP Processor Overview Mobile Pro",
+          "normalized_chars": 559,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Processor Overview Mobile Processor Automotive Processor Wearable Processor Modem RF UWB Wi-Fi/Bluetooth",
+          "normalized_chars": 91,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Image Sensor Overview Mobile Image Sensor Automotive Image Sensor Global Shutter Sensor ToF Sensor",
+          "normalized_chars": 85,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Support Quality Support Quality Management Customer Service Regulatory Information Product Security Update Tools & Resources Technical Resources Fabrication Process Dictionary Consumer Storage Support Overview Tools & Software Documents FAQ",
+          "normalized_chars": 301,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Quality Support Quality Management Customer Service Regulatory Information Product Security Update",
+          "normalized_chars": 88,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Consumer Storage Support Overview Tools & Software Documents FAQs Warranty Magician Software SSD Upgrade",
+          "normalized_chars": 90,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Foundry Online Foundry Foundry B2B Service CONNECT Overview About Samsung Foundry Company Info Quality Policy Process Technology Overview Logic Node Specialty Technology Process Recommendation Advanced Packaging Overview Advanced Heterogene",
+          "normalized_chars": 609,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Process Technology Overview Logic Node Specialty Technology Process Recommendation",
+          "normalized_chars": 74,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Advanced Packaging Overview Advanced Heterogeneous Integration Package Turnkey Service",
+          "normalized_chars": 78,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "SAFE™ Overview IP Alliance EDA Alliance Cloud Alliance Design Service Alliance MDI Alliance OSAT Alliance 3DCODE",
+          "normalized_chars": 96,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Manufacturing Overview Manufacturing Sites Fab Automation Sustainable Manufacturing MPW Service",
+          "normalized_chars": 86,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Sustainability Overview Overview Governance Downloads BCMS FAQs Planet Planet Climate Change Water Circular Economy Pollution People Our People Health and Safety Supply Chain Empowering Communities",
+          "normalized_chars": 173,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 30
+    },
+    {
+      "document": "下游：汽车、工业及其他应用/49_blog.playstation.c_PS5-THE-ULTIMATE-FAQ.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "The Console Hardware The Ultra High-Speed SSD 3D Audio GPU, CPU and RAM Additional Information",
+          "normalized_chars": 78,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "The PS5 UX and Apps PS5 User Experience PS Store and Digital Content Entertainment Apps Party, Friends, and Network Features Creating and Sharing Content Other Questions",
+          "normalized_chars": 142,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 2
+    },
+    {
+      "document": "下游：汽车、工业及其他应用/49_micron.com_universal-flash-storage-v2.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "The email address you provided is not registered. Please register prior to logging in",
+          "normalized_chars": 71,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "This account currently does not meet compliance standards due to incomplete information and requires a review. Please click on the registration link below to update your details.",
+          "normalized_chars": 150,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your Sign in information is managed by your organization. Please get in touch with your organization's administrator to reset your password.",
+          "normalized_chars": 117,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your registration request has been denied. If you believe this is a mistake, please reach out to our Web Support using the Contact Us form.",
+          "normalized_chars": 112,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "The email address you provided is not registered. Please register prior to logging in",
+          "normalized_chars": 71,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "This account currently does not meet compliance standards due to incomplete information and requires a review. Please click on the registration link below to update your details.",
+          "normalized_chars": 150,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your Sign in information is managed by your organization. Please get in touch with your organization's administrator to reset your password.",
+          "normalized_chars": 117,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your registration request has been denied. If you believe this is a mistake, please reach out to our Web Support using the Contact Us form.",
+          "normalized_chars": 112,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "© 2023 Micron Technology, Inc. All rights reserved. Information, products, and/or specifications are subject to change without notice. All information is provided on an \"AS IS\" basis without warranties of any kind. Drawings may not be to sc",
+          "normalized_chars": 331,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 9
+    },
+    {
+      "document": "产品：NAND到成品的映射/27_sandisk.com_sandisk-ultra-luxe-usb-type-c.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "SSDs EXPLORE SSDS Internal External & Portable Enterprise Compare Top Internal SSDs View All SSDs EXPLORE BY USE Gaming Digital Photography Backups Works with iPhone 16 NAS Enterprise & Data Center MORE Support for SSDs Learn About SSDs SSD",
+          "normalized_chars": 330,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "EXPLORE SSDS Internal External & Portable Enterprise Compare Top Internal SSDs View All SSDs",
+          "normalized_chars": 78,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "EXPLORE BY USE Gaming Digital Photography Backups Works with iPhone 16 NAS Enterprise & Data Center",
+          "normalized_chars": 83,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "MORE Support for SSDs Learn About SSDs SSD vs. HDD Thunderbolt vs. USB-C Compare NVMe SSDs SSD Topics",
+          "normalized_chars": 81,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Internal, external, and portable SSDs for fast speeds, low latency, and flash-powered performance.",
+          "normalized_chars": 80,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Memory Cards EXPLORE MEMORY CARDS SD microSD CompactFlash (CF) CFast CFexpress Compare Top microSDs View All Cards EXPLORE BY USE Gaming Digital Photography Drone, Trail, & Dash Cams Works with Chromebook Memory Card Readers MORE Support fo",
+          "normalized_chars": 367,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "EXPLORE MEMORY CARDS SD microSD CompactFlash (CF) CFast CFexpress Compare Top microSDs View All Cards",
+          "normalized_chars": 85,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "EXPLORE BY USE Gaming Digital Photography Drone, Trail, & Dash Cams Works with Chromebook Memory Card Readers",
+          "normalized_chars": 90,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "MORE Support for Memory Cards Learn About Memory Cards Memory Card Topics Memory Card Compatibility Chart",
+          "normalized_chars": 90,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Find memory cards for content capture, or to add capacity to mobile and handheld gaming consoles.",
+          "normalized_chars": 80,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "USB Flash EXPLORE USB FLASH USB-A USB-C Lightning Micro-B View All USB Flash EXPLORE BY USE Gaming Digital Photography Works with iPhone 16 Back Up iPhone to USB MORE Support for USB Flash Learn About USB Flash Thunderbolt vs. USB-C USB Fla",
+          "normalized_chars": 287,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "EXPLORE BY USE Gaming Digital Photography Works with iPhone 16 Back Up iPhone to USB",
+          "normalized_chars": 70,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 43
+    },
+    {
+      "document": "产品：NAND到成品的映射/27_shop.sandisk.com_sandisk-microsd-express-memory.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "固态硬盘 探索 SSD 内置 外置 和便携式 企业 比较顶级内置 SSD 查看所有 SSD 按用途探索 游戏 数码摄影 备份 支持 iPhone 16 NAS 企业和数据中心 更多 SSD 支持 了解固态硬盘 (SSD) SSD 与 HDD Thunderbolt 与 USB-C 比较 NVMe SSD SSD 主题 {{productReferenceObject.badgesInfo.tagTitle}} {{productReferenceObject.pageTitl",
+          "normalized_chars": 649,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "起价为 {{productReferenceObject.minPricedSkuObj.prices.sale.amountFormatted}} / {{productReferenceObject.minPricedSkuObj.prices.sale.billingPlanName}} {{productReferenceObject.minPricedSkuObj.prices.list.amountFormatted}}",
+          "normalized_chars": 189,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "起价为 {{productReferenceObject.minPricedSkuObj.prices.list.amountFormatted}} {{productReferenceObject.minPricedSkuObj.prices.sale.amountFormatted}} /\n\t\t\t\t\t\t\t\t\t\t\t\t{{productReferenceObject.minPricedSkuObj.prices.sale.billingPlanName}}",
+          "normalized_chars": 189,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "存储卡 探索存储卡 SD microSD CompactFlash (CF) CFast CFexpress 比较顶级 microSD 查看所有存储卡 按用途探索 游戏 数码摄影 无人机、追踪摄像头和行车记录仪 适用于 Chromebook 内存卡读卡器 更多 存储卡支持 了解存储卡 存储卡主题 存储卡兼容性表 {{productReferenceObject.badgesInfo.tagTitle}} {{productReferenceObject.pageTitle}}",
+          "normalized_chars": 659,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "起价为 {{productReferenceObject.minPricedSkuObj.prices.sale.amountFormatted}} / {{productReferenceObject.minPricedSkuObj.prices.sale.billingPlanName}} {{productReferenceObject.minPricedSkuObj.prices.list.amountFormatted}}",
+          "normalized_chars": 189,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "起价为 {{productReferenceObject.minPricedSkuObj.prices.list.amountFormatted}} {{productReferenceObject.minPricedSkuObj.prices.sale.amountFormatted}} /\n\t\t\t\t\t\t\t\t\t\t\t\t{{productReferenceObject.minPricedSkuObj.prices.sale.billingPlanName}}",
+          "normalized_chars": 189,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "USB 闪存盘 探索 USB 闪存盘 USB-A USB-C Lightning Micro-B 查看所有 USB 闪存盘 按用途探索 游戏 数码摄影 支持 iPhone 16 将 iPhone 备份到 USB 更多 USB 闪存盘支持 了解 USB 闪存盘 Thunderbolt 与 USB-C USB 闪存主题 {{productReferenceObject.badgesInfo.tagTitle}} {{productReferenceObject.pageTitle",
+          "normalized_chars": 650,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "起价为 {{productReferenceObject.minPricedSkuObj.prices.sale.amountFormatted}} / {{productReferenceObject.minPricedSkuObj.prices.sale.billingPlanName}} {{productReferenceObject.minPricedSkuObj.prices.list.amountFormatted}}",
+          "normalized_chars": 189,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "起价为 {{productReferenceObject.minPricedSkuObj.prices.list.amountFormatted}} {{productReferenceObject.minPricedSkuObj.prices.sale.amountFormatted}} /\n\t\t\t\t\t\t\t\t\t\t\t\t{{productReferenceObject.minPricedSkuObj.prices.sale.billingPlanName}}",
+          "normalized_chars": 189,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "嵌入式和可拆卸 探索嵌入式闪存盘 e.MMC UFS NVMe 查看所有嵌入式 按用途探索 汽车 工业和物联网 互联家庭 更多 嵌入式闪存盘支持 我们的产品组合 探索可拆卸闪存盘 内置 SSD SD 存储卡 microSD 存储卡 {{productReferenceObject.badgesInfo.tagTitle}} {{productReferenceObject.pageTitle}} 起价为 {{productReferenceObject.minPricedSk",
+          "normalized_chars": 623,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "起价为 {{productReferenceObject.minPricedSkuObj.prices.sale.amountFormatted}} / {{productReferenceObject.minPricedSkuObj.prices.sale.billingPlanName}} {{productReferenceObject.minPricedSkuObj.prices.list.amountFormatted}}",
+          "normalized_chars": 189,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "起价为 {{productReferenceObject.minPricedSkuObj.prices.list.amountFormatted}} {{productReferenceObject.minPricedSkuObj.prices.sale.amountFormatted}} /\n\t\t\t\t\t\t\t\t\t\t\t\t{{productReferenceObject.minPricedSkuObj.prices.sale.billingPlanName}}",
+          "normalized_chars": 189,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 28
+    },
+    {
+      "document": "基础：NAND产品与技术谱系/18_qianzhan.com_snapshot.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "产业研究 I 能源电力 节能环保 金融/保险/投资 医疗/健康/养老 互联网/信息技术 通信/电子/芯片 家用电器 智能/高端装备 机械设备 电气设备 仪器仪表 交通/物流/仓储 汽车产业 化工/新材料 钢铁有色 房产建筑 建材家居 城市规划 现代服务 旅游/酒店/餐饮 文教/体育/娱乐 包装/印刷/纸 食品/饮料/酒 纺织/服装/鞋 零售/日化/快消 农林牧渔 安防/公用其他 精选专题报告 3000+精品报告 产业链招商报告 技术咨询报告 全球产业报告 100大行业全景 行",
+          "normalized_chars": 307,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "产业大数据 I 经济数据 中国宏观 省市宏观 全球宏观 行业经济 进出口 数据系统 全国产业园库 HOT 上市大数据 企业大数据 前瞻图表库 智慧招商系统 HOT 政策大数据 产业决策大数据系统 HOT",
+          "normalized_chars": 83,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "产业规划 I 产业规划 HOT 十五五规划 低空经济 电子信息 新能源汽车 生物医药 集成电路 海洋经济 高端装备 人工智能 现代物流 新能源 食品产业 生产性服务 应急产业 医疗器械 新材料 新消费",
+          "normalized_chars": 80,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 3
+    },
+    {
+      "document": "基础：NAND产品与技术谱系/S54fd69a896df_micron.com_g9-nand.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "The email address you provided is not registered. Please register prior to logging in",
+          "normalized_chars": 71,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "This account currently does not meet compliance standards due to incomplete information and requires a review. Please click on the registration link below to update your details.",
+          "normalized_chars": 150,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your Sign in information is managed by your organization. Please get in touch with your organization's administrator to reset your password.",
+          "normalized_chars": 117,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your registration request has been denied. If you believe this is a mistake, please reach out to our Web Support using the Contact Us form.",
+          "normalized_chars": 112,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "The email address you provided is not registered. Please register prior to logging in",
+          "normalized_chars": 71,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "This account currently does not meet compliance standards due to incomplete information and requires a review. Please click on the registration link below to update your details.",
+          "normalized_chars": 150,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your Sign in information is managed by your organization. Please get in touch with your organization's administrator to reset your password.",
+          "normalized_chars": 117,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your registration request has been denied. If you believe this is a mistake, please reach out to our Web Support using the Contact Us form.",
+          "normalized_chars": 112,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "© 2023 Micron Technology, Inc. All rights reserved. Information, products, and/or specifications are subject to change without notice. All information is provided on an \"AS IS\" basis without warranties of any kind. Drawings may not be to sc",
+          "normalized_chars": 331,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 9
+    },
+    {
+      "document": "基础：行业术语与指标/10_tw.micron.com_snapshot.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "© 2023 Micron Technology, Inc. 保留所有權利。資訊、產品和／或規格若有變動，恕不另行通知。所有提供之資訊皆以「現況」為基準，不提供任何形式的保固。繪圖可能不符合比例。Micron、Micron 標誌及其他所有 Micron 商標皆為 Micron Technology, Inc. 資產。其他所有商標皆屬其各自擁有者所有。",
+          "normalized_chars": 146,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 1
+    },
+    {
+      "document": "基础：行业术语与指标/S061c59d26d9d_micron.com_faqs_1.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "The email address you provided is not registered. Please register prior to logging in",
+          "normalized_chars": 71,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "This account currently does not meet compliance standards due to incomplete information and requires a review. Please click on the registration link below to update your details.",
+          "normalized_chars": 150,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your Sign in information is managed by your organization. Please get in touch with your organization's administrator to reset your password.",
+          "normalized_chars": 117,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your registration request has been denied. If you believe this is a mistake, please reach out to our Web Support using the Contact Us form.",
+          "normalized_chars": 112,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "The email address you provided is not registered. Please register prior to logging in",
+          "normalized_chars": 71,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "This account currently does not meet compliance standards due to incomplete information and requires a review. Please click on the registration link below to update your details.",
+          "normalized_chars": 150,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your Sign in information is managed by your organization. Please get in touch with your organization's administrator to reset your password.",
+          "normalized_chars": 117,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your registration request has been denied. If you believe this is a mistake, please reach out to our Web Support using the Contact Us form.",
+          "normalized_chars": 112,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "© 2023 Micron Technology, Inc. All rights reserved. Information, products, and/or specifications are subject to change without notice. All information is provided on an \"AS IS\" basis without warranties of any kind. Drawings may not be to sc",
+          "normalized_chars": 331,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 9
+    },
+    {
+      "document": "基础：行业术语与指标/S3b2ba9c7e565_trendforce.com_flash_spot.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "Research Report Back Research Report AI & Smart Terminals AI Server / Data Center Consumer Electronics Robot Semiconductors Memory & Storage IC Design Wafer Fabrication / Foundry Semiconductor Device IC Testing & Packaging Optoelectronics &",
+          "normalized_chars": 467,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Membership Back Semiconductor N Display N Optoelectronics N Green Energy ICT Applications Research Selected Topics",
+          "normalized_chars": 100,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Price Trends Back DRAM DRAM Spot Price DRAM Contract Price Module Spot Price GDDR Spot Price LPDDR Spot Price Mobile DRAM Contract Price NAND Flash NAND Flash Spot Price NAND Flash Contract Price Wafer Spot Price Memory Card Spot Price PC-C",
+          "normalized_chars": 508,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 3
+    },
+    {
+      "document": "基础：行业术语与指标/S58b96507f810_micron.com_choosing-the-right-nand.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "The email address you provided is not registered. Please register prior to logging in",
+          "normalized_chars": 71,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "This account currently does not meet compliance standards due to incomplete information and requires a review. Please click on the registration link below to update your details.",
+          "normalized_chars": 150,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your Sign in information is managed by your organization. Please get in touch with your organization's administrator to reset your password.",
+          "normalized_chars": 117,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your registration request has been denied. If you believe this is a mistake, please reach out to our Web Support using the Contact Us form.",
+          "normalized_chars": 112,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "The email address you provided is not registered. Please register prior to logging in",
+          "normalized_chars": 71,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "This account currently does not meet compliance standards due to incomplete information and requires a review. Please click on the registration link below to update your details.",
+          "normalized_chars": 150,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your Sign in information is managed by your organization. Please get in touch with your organization's administrator to reset your password.",
+          "normalized_chars": 117,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Your registration request has been denied. If you believe this is a mistake, please reach out to our Web Support using the Contact Us form.",
+          "normalized_chars": 112,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "© 2023 Micron Technology, Inc. All rights reserved. Information, products, and/or specifications are subject to change without notice. All information is provided on an \"AS IS\" basis without warranties of any kind. Drawings may not be to sc",
+          "normalized_chars": 331,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 9
+    },
+    {
+      "document": "流通：渠道与交易关系/43_blog.findchips.com_memory-shortage-watch-ddr3l-.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "Shortage Watch: DDR3L Lead Times Pass 39 Weeks as the Memory Crunch Becomes a BOM Risk for Industrial Designs",
+          "normalized_chars": 90,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Legacy memory rarely gets much attention in a sourcing review, because DDR3 and DDR4 DRAM have been mature parts for…",
+          "normalized_chars": 96,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Engineers and buyers usually look for alternate electronic components when a part runs short, a lead time stretches or an…",
+          "normalized_chars": 101,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 3
+    },
+    {
+      "document": "跨链：事件分类与历史案例/32_axtekic.com_micron-factory-power-outage-le.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "Products AXTEK Series AXTEK LDO AXTEK BMS AXTEK LCD DRIVER AXTEK LED DRIVER NYQUEST NYQUEST MCU CMSEMICON 32 Bit MCU 8 Bit MCU ST MICROELECTRONICS STM32 Featured Manufacturers 3Peak Nations Fremont Micro Devices GigaDevice TDK Others Puya M",
+          "normalized_chars": 704,
+          "missing_probe_ratio": 0.7
+        },
+        {
+          "fragment": "Featured Manufacturers 3Peak Nations Fremont Micro Devices GigaDevice TDK Others",
+          "normalized_chars": 71,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "About Us Company Profile Certificates Terms & Conditions Privacy Statement Company Profile Certificates Terms & Conditions Privacy Statement",
+          "normalized_chars": 121,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Hot Applications Home Appliances Beauty Appliances Lighting Kid's Toys Security Alarm Health Care",
+          "normalized_chars": 84,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Products AXTEK Series NYQUEST CMSEMICON ST MICROELECTRONICS Featured Manufacturers Puya MCUs ICMAN Touch Chips ZXInfoTek Holtek MCUs MORNSUN Modules",
+          "normalized_chars": 130,
+          "missing_probe_ratio": 0.67
+        },
+        {
+          "fragment": "AXTEK Series NYQUEST CMSEMICON ST MICROELECTRONICS Featured Manufacturers Puya MCUs ICMAN Touch Chips ZXInfoTek Holtek MCUs MORNSUN Modules",
+          "normalized_chars": 122,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Products AXTEK Series NYQUEST CMSEMICON ST MICROELECTRONICS Featured Manufacturers Puya MCUs ICMAN Touch Chips ZXInfoTek Holtek MCUs MORNSUN Modules",
+          "normalized_chars": 130,
+          "missing_probe_ratio": 0.67
+        },
+        {
+          "fragment": "AXTEK Series NYQUEST CMSEMICON ST MICROELECTRONICS Featured Manufacturers Puya MCUs ICMAN Touch Chips ZXInfoTek Holtek MCUs MORNSUN Modules",
+          "normalized_chars": 122,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 8
+    },
+    {
+      "document": "跨链：供需与价格口径/31_trendforce.com.tw_pcc_oem_ssd_contract.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "研究報告 Back 研究報告 AI與智慧終端 AI伺服器/資料中心 消費性電子 機器人 半導體 記憶體與儲存 IC設計 晶圓製造/代工 半導體元件 IC測試與封裝 光電顯示 顯示終端應用 顯示面板 LED照明應用 LED顯示應用 LED特殊應用 新興科技與應用 汽車/電動車 綠能與儲能",
+          "normalized_chars": 119,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "價格趨勢 Back DRAM DRAM Spot Price DRAM Contract Price Module Spot Price GDDR Spot Price LPDDR Spot Price Mobile DRAM Contract Price NAND Flash NAND Flash Spot Price NAND Flash Contract Price Wafer Spot Price Memory Card Spot Price PC-Client OE",
+          "normalized_chars": 430,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 2
+    },
+    {
+      "document": "跨链：公用工程、物流与区域风险/48_news.samsungsemico_samsung-electronics-releases-2.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "Samsung Semiconductor no longer supports Internet Explorer. Please try using a different browser",
+          "normalized_chars": 83,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 1
+    },
+    {
+      "document": "跨链：公用工程、物流与区域风险/48_semiconductor.sams_climate-change.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "Products Products Type Applications DRAM Overview DDR HBM GDDR LPDDR SSD Overview PC SSD Datacenter SSD Enterprise  SSD Automotive SSD eStorage Overview UFS eMMC CXL Memory Overview CMM-D MCP Overview uMCP eMCP Processor Overview Mobile Pro",
+          "normalized_chars": 559,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Processor Overview Mobile Processor Automotive Processor Wearable Processor Modem RF UWB Wi-Fi/Bluetooth",
+          "normalized_chars": 91,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Image Sensor Overview Mobile Image Sensor Automotive Image Sensor Global Shutter Sensor ToF Sensor",
+          "normalized_chars": 85,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Support Quality Support Quality Management Customer Service Regulatory Information Product Security Update Tools & Resources Technical Resources Fabrication Process Dictionary Consumer Storage Support Overview Tools & Software Documents FAQ",
+          "normalized_chars": 301,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Quality Support Quality Management Customer Service Regulatory Information Product Security Update",
+          "normalized_chars": 88,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Consumer Storage Support Overview Tools & Software Documents FAQs Warranty Magician Software SSD Upgrade",
+          "normalized_chars": 90,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Foundry Online Foundry Foundry B2B Service CONNECT Overview About Samsung Foundry Company Info Quality Policy Process Technology Overview Logic Node Specialty Technology Process Recommendation Advanced Packaging Overview Advanced Heterogene",
+          "normalized_chars": 609,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Process Technology Overview Logic Node Specialty Technology Process Recommendation",
+          "normalized_chars": 74,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Advanced Packaging Overview Advanced Heterogeneous Integration Package Turnkey Service",
+          "normalized_chars": 78,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "SAFE™ Overview IP Alliance EDA Alliance Cloud Alliance Design Service Alliance MDI Alliance OSAT Alliance 3DCODE",
+          "normalized_chars": 96,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Manufacturing Overview Manufacturing Sites Fab Automation Sustainable Manufacturing MPW Service",
+          "normalized_chars": 86,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "Sustainability Overview Overview Governance Downloads BCMS FAQs Planet Planet Climate Change Water Circular Economy Pollution People Our People Health and Safety Supply Chain Empowering Communities",
+          "normalized_chars": 173,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 30
+    },
+    {
+      "document": "跨链：库存与采购概念/30_dramexchange.com_12397.html.md",
+      "status": "needs_manual_review",
+      "fragments": [
+        {
+          "fragment": "SSD Performance SSD Market View SSD Street Price Daily Express DXI Worldwide DRAM output DRAM Spot Price NAND Flash Spot Price DRAM Contract Price NAND Flash Contract Price Wafer Spot Price NAND Flash Wafer Contract Price LPDDR Spot Price e",
+          "normalized_chars": 341,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "DRAM Spot Price NAND Flash Spot Price DRAM Contract Price NAND Flash Contract Price Wafer Spot Price NAND Flash Wafer Contract Price LPDDR Spot Price eMMC Spot Price eMMC Contract Price Mobile DRAM Contract Price Memory Card Spot Price PC-C",
+          "normalized_chars": 266,
+          "missing_probe_ratio": 1.0
+        },
+        {
+          "fragment": "About DRAMeXchange | Advertise with us | Contact | FAQs | Privacy policy | Terms of use | Sitemap | Career | Mobile view",
+          "normalized_chars": 89,
+          "missing_probe_ratio": 1.0
+        }
+      ],
+      "total_flagged_fragments": 3
+    }
+  ]
+}

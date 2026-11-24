@@ -1,0 +1,32 @@
+{
+  "total_documents": 131,
+  "documents_flagged": [
+    {
+      "document": "上游：光刻材料/45_jsr.co.jp_27_Intellectual_Capital.pdf.md",
+      "notes": "正文、专利图和三个链接已核对；研发支出柱状图未标精确值，保留原图及不确定标记。"
+    },
+    {
+      "document": "上游：半导体级原材料/Sb9f1f4cd7755_shinetsu.co.jp_products.pdf.md",
+      "notes": "依据原 PDF 坐标和颜色重建 12 个月日期表并核验日期及星期。"
+    },
+    {
+      "document": "基础：NAND产品与技术谱系/S54fd69a896df_micron.com_g9-nand_1.pdf.md",
+      "notes": "已按原图恢复完整正文、应用矩阵、脚注和免责声明。"
+    },
+    {
+      "document": "基础：行业术语与指标/S061c59d26d9d_micron.com_faqs_1.pdf.md",
+      "notes": "两页空表已按原 PDF 表格线和文字层重建并核验。"
+    }
+  ],
+  "fully_reviewed_documents": 107,
+  "high_risk_page_status_counts": {
+    "reviewed_against_source": 23,
+    "reviewed_with_unresolved_uncertainty": 1
+  },
+  "table_flag_status_counts": {
+    "needs_manual_review": 773,
+    "reviewed_against_source": 54,
+    "reviewed_reconstructed": 7
+  },
+  "html_reviewed_with_missing_dynamic_content": 4
+}

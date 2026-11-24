@@ -1,0 +1,223 @@
+{
+  "description": "Automated source-text/OCR length comparison; flags are candidates requiring visual review, not verified errors. Other pages have not been cleared.",
+  "scanned_pages": 3494,
+  "findings": [
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 9,
+      "source_text_characters": 1155,
+      "ocr_characters": 198,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "补齐正文、图表数值、预测限定及图示标签，保留原页图。"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 15,
+      "source_text_characters": 1279,
+      "ocr_characters": 204,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "已按原页顺序恢复正文、数值、段落和跨页句子；保留原页图。"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 33,
+      "source_text_characters": 867,
+      "ocr_characters": 104,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "已对照原页补全文字、目标和图中分类，保留原页及 OCR 图像。"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 35,
+      "source_text_characters": 728,
+      "ocr_characters": 0,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "已对照原页补全文字、数字和图说；保留原页及 OCR 图像。"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 49,
+      "source_text_characters": 1457,
+      "ocr_characters": 281,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原页恢复质量方针、标准、正文、图说与脚注。"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 58,
+      "source_text_characters": 1953,
+      "ocr_characters": 61,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "根据原页栏位与文本块分组人员、职位和履历日期；保留原页图。"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 59,
+      "source_text_characters": 1808,
+      "ocr_characters": 50,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "根据原页栏位与文本块分组人员、职位和履历日期；保留原页图。"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 64,
+      "source_text_characters": 1540,
+      "ocr_characters": 89,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原页恢复四位社外取締役的发言及对应身份，保留原页图。"
+    },
+    {
+      "document": "上游：光刻材料/45_shinetsu.co.jp_Annual-Report-2025.pdf.md",
+      "page": 8,
+      "source_text_characters": 2169,
+      "ocr_characters": 296,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原页恢复正文、图表数字或按人分组的任职信息及注释。"
+    },
+    {
+      "document": "上游：光刻材料/45_shinetsu.co.jp_Annual-Report-2025.pdf.md",
+      "page": 52,
+      "source_text_characters": 2212,
+      "ocr_characters": 20,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原页恢复正文、图表数字或按人分组的任职信息及注释。"
+    },
+    {
+      "document": "上游：光刻材料/45_tok.co.jp_account_2512_4_en.pdf.md",
+      "page": 24,
+      "source_text_characters": 697,
+      "ocr_characters": 119,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "核对原页图表、数值、正文和来源，并保留原页图。"
+    },
+    {
+      "document": "上游：制造设备与备件/47_tel.com_fy26q4presentations-e.pdf.md",
+      "page": 28,
+      "source_text_characters": 1699,
+      "ocr_characters": 187,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "核对原页图表、数值、正文和来源，并保留原页图。"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 290,
+      "source_text_characters": 1561,
+      "ocr_characters": 305,
+      "status": "reviewed_with_unresolved_uncertainty",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "已核对原页；跨行跨列图示未可靠重构，保留原图、原始文字并标记。"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 406,
+      "source_text_characters": 2191,
+      "ocr_characters": 220,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "依据原 PDF 表格边界与文字层恢复四列、授权期限、金额和脚注。"
+    },
+    {
+      "document": "中游：重点工厂与制造基地/26_www.kioxia-holdings._Integrated-Report-2026-all-en.pdf.md",
+      "page": 20,
+      "source_text_characters": 2196,
+      "ocr_characters": 262,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "对照图示重建标注、段落和挑战列表，保留原图及页码。"
+    },
+    {
+      "document": "中游：重点工厂与制造基地/26_www.kioxia-holdings._Integrated-Report-2026-all-en.pdf.md",
+      "page": 54,
+      "source_text_characters": 3040,
+      "ocr_characters": 323,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "根据原页三栏恢复三位董事的身份、标题及原文发言。"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 10,
+      "source_text_characters": 2386,
+      "ocr_characters": 314,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原页恢复正文、段落、表格/人员信息；保留原页图。"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 13,
+      "source_text_characters": 1862,
+      "ocr_characters": 0,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原页恢复正文、段落、表格/人员信息；保留原页图。"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 25,
+      "source_text_characters": 1544,
+      "ocr_characters": 265,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原页恢复表格行列、日期、金额、脚注及审计限定，保留原页图。"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 239,
+      "source_text_characters": 1366,
+      "ocr_characters": 255,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原页恢复表格行列、日期、金额、脚注及审计限定，保留原页图。"
+    },
+    {
+      "document": "基础：行业术语与指标/S061c59d26d9d_micron.com_faqs_1.pdf.md",
+      "page": 1,
+      "source_text_characters": 1656,
+      "ocr_characters": 66,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原 PDF 表格线及文字层重建四列并对照原页。"
+    },
+    {
+      "document": "基础：行业术语与指标/S061c59d26d9d_micron.com_faqs_1.pdf.md",
+      "page": 2,
+      "source_text_characters": 672,
+      "ocr_characters": 66,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原 PDF 表格线及文字层重建四列并对照原页。"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 232,
+      "source_text_characters": 3128,
+      "ocr_characters": 71,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原页恢复字节范围、位定义和字段说明；保留原有规范措辞与页图。"
+    },
+    {
+      "document": "基础：行业术语与指标/S880cf58be016_kioxia.com_KIOXIA_UFS5_Product_Brief.pdf.md",
+      "page": 2,
+      "source_text_characters": 3122,
+      "ocr_characters": 489,
+      "status": "reviewed_against_source",
+      "supplemented_from_pdf_text_layer": true,
+      "notes": "按原页恢复产品表格、上标指数、脚注、商标和免责声明；对原文数值标点差异保留并标记。"
+    }
+  ],
+  "errors": []
+}

@@ -1,11 +1,11 @@
 # 贡献与维护指南
 
-[返回首页](README.md)
+[返回首页](docs/knowledge-guide/README.md)
 
 ## 新增一条知识
 
 1. 先查对应模块，确认没有同义条目；同一事实指定一个主目录，其他模块通过链接引用。
-2. 在[来源目录](08-sources/README.md)登记资料，并从[模板目录](09-templates/README.md)选择合适模板。
+2. 在[来源目录](docs/knowledge-guide/08-sources/README.md)登记资料，并从[模板目录](docs/knowledge-guide/09-templates/README.md)选择合适模板。
 3. 填写条目编号、资料截止日、适用时间、产品/地区、来源定位与审核状态。
 4. 把内容写入对应模块，并在该模块 README 的“已收录条目”中增加相对链接。
 5. 提交变更时说明新增/修改内容、依据、未解决问题和受影响条目；通过 Pull Request 进行审核。

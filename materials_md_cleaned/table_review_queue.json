@@ -1,0 +1,4195 @@
+{
+  "description": "Remaining table markers after prior page reviews; flags require visual review.",
+  "findings": [
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 87,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 87,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 88,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 88,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 111,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 168,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 198,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 204,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 206,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 209,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 220,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 225,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 228,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 230,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 231,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 232,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 233,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 235,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 248,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 252,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ats.net_annual-report-2025-26.pdf.md",
+      "page": 253,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 7,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 38,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 38,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 38,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 39,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 43,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 43,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 44,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 52,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 53,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 55,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 55,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 56,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
+      "page": 73,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：光刻材料/45_shinetsu.co.jp_Annual-Report-2025.pdf.md",
+      "page": 17,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：光刻材料/45_shinetsu.co.jp_Annual-Report-2025.pdf.md",
+      "page": 25,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：光刻材料/45_shinetsu.co.jp_Annual-Report-2025.pdf.md",
+      "page": 38,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：光刻材料/45_shinetsu.co.jp_Annual-Report-2025.pdf.md",
+      "page": 39,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：光刻材料/45_shinetsu.co.jp_Annual-Report-2025.pdf.md",
+      "page": 40,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：光刻材料/45_shinetsu.co.jp_Annual-Report-2025.pdf.md",
+      "page": 69,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：光刻材料/45_tok.co.jp_account_2512_4_en.pdf.md",
+      "page": 3,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "上游：光刻材料/45_tok.co.jp_account_2512_4_en.pdf.md",
+      "page": 20,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_sec.gov_amat-20251026.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：制造设备与备件/47_tel.com_fy26q4presentations-e.pdf.md",
+      "page": 11,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "上游：制造设备与备件/47_tel.com_fy26q4presentations-e.pdf.md",
+      "page": 17,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "上游：半导体级原材料/23_www.bain.cn_202208220536478028.pdf.md",
+      "page": 9,
+      "status": "reviewed_reconstructed",
+      "note": "已核对原页并重建可可靠对应的行列；保留原图。"
+    },
+    {
+      "document": "上游：半导体级原材料/23_www.bain.cn_202208220536478028.pdf.md",
+      "page": 19,
+      "status": "reviewed_reconstructed",
+      "note": "已核对原页并重建可可靠对应的行列；保留原图。"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 65,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 65,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 65,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 66,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 67,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 67,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 71,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 75,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 94,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 146,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 149,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 151,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 152,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 158,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 162,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 164,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 166,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 168,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 170,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 173,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 178,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 218,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 218,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 223,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 226,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 226,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 229,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 229,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 233,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 241,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 242,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 242,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 243,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 243,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 245,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 247,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 247,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 249,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 249,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 251,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 251,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 262,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 262,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 268,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 269,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 269,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 275,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 275,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 278,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 279,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 287,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 295,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 295,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 297,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 298,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 315,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 325,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 372,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 373,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 374,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 376,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 377,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 414,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 417,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 418,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf.md",
+      "page": 419,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 35,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 63,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 76,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 77,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 78,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 83,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 84,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 85,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 85,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 85,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 86,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 86,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 87,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_assets.linde.com_2025-annual-report-to-sharehol.pdf.md",
+      "page": 89,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "上游：电子气体与沉积前驱体/37_sec.gov_apd-20250930.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "下游：云计算与AI需求传导/29_s21.q4cdn.com_Meta-Reports-Fourth-Quarter-an.pdf.md",
+      "page": 1,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "下游：应用与需求结构/28_file.sgpjbg.com_5ead08a3e51049439a97cd406dae.pdf.md",
+      "page": 5,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "下游：应用与需求结构/28_file.sgpjbg.com_5ead08a3e51049439a97cd406dae.pdf.md",
+      "page": 17,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "下游：应用与需求结构/28_file.sgpjbg.com_5ead08a3e51049439a97cd406dae.pdf.md",
+      "page": 21,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "下游：手机、PC和平板需求传导/42_delltechnologies.c_dell-pro-14-16-laptop-product-.pdf.md",
+      "page": 12,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "下游：手机、PC和平板需求传导/42_images.samsung.com_S25_Series_B2B_spec_sheet_upda.pdf.md",
+      "page": 2,
+      "status": "reviewed_against_source",
+      "notes": "核对四型号参数、表格脚注及原页图。"
+    },
+    {
+      "document": "下游：汽车、工业及其他应用/49_issi.com.cn_UFS-brochure.pdf.md",
+      "page": 1,
+      "status": "reviewed_against_source",
+      "notes": "按原表保留两列 I/F 及电压子列，修复 OCR 术语、温度与正文跨栏断句。"
+    },
+    {
+      "document": "下游：汽车、工业及其他应用/49_product.skhynix.co_pe9000.html.md",
+      "page": null,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "下游：汽车、工业及其他应用/49_siliconmotion.com_detail.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：供给形成与产能决策/S66945ba64724_kioxia-holdings.co_Semi-Annual-Securities-Report-.pdf.md",
+      "page": 15,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "中游：供给形成与产能决策/S66945ba64724_kioxia-holdings.co_Semi-Annual-Securities-Report-.pdf.md",
+      "page": 15,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "中游：供给形成与产能决策/S66945ba64724_kioxia-holdings.co_Semi-Annual-Securities-Report-.pdf.md",
+      "page": 16,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "中游：供给形成与产能决策/S66945ba64724_kioxia-holdings.co_Semi-Annual-Securities-Report-.pdf.md",
+      "page": 18,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "中游：供给形成与产能决策/S7829e821458f_sec.gov_mu-20260903.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：供给形成与产能决策/S7829e821458f_sec.gov_mu-20260903.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：供给形成与产能决策/S7829e821458f_sec.gov_mu-20260903.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：供给形成与产能决策/S7829e821458f_sec.gov_mu-20260903.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：供给形成与产能决策/Scf6b30f20107_sec.gov_mu-20241128.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：供给形成与产能决策/Scf6b30f20107_sec.gov_mu-20241128.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：供给形成与产能决策/Scf6b30f20107_sec.gov_mu-20241128.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 16,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 17,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 17,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 18,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 23,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 24,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 25,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 33,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 41,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 42,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 54,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 57,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 68,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 69,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 90,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 91,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 92,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 95,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 96,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 96,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 97,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 98,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 98,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 99,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 100,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 125,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 125,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 125,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 126,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 126,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 126,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 127,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 127,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 129,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 129,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 129,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 130,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 130,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 131,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 131,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 132,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 140,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 140,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 141,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 142,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 142,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 143,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 144,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 144,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 150,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 151,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 152,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 152,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 153,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 159,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 160,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 163,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 164,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 168,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 173,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 173,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 173,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 176,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 177,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 177,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 177,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 178,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 179,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 179,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 179,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 180,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 180,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 181,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 181,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 182,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 182,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：封装测试与产品分配/40_disc.static.szse.c_a0209878-88e7-443c-b062-6a3304.pdf.md",
+      "page": 183,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "中游：重点工厂与制造基地/26_www.kioxia-holdings._Integrated-Report-2026-all-en.pdf.md",
+      "page": 53,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "产品：NAND到成品的映射/27_apac.kioxia.com_eSSD-CM9-V-E3.S-Product-brief.pdf.md",
+      "page": 1,
+      "status": "reviewed_against_source",
+      "notes": "核对产品型号、跨列共有值、性能、规格及完整脚注。"
+    },
+    {
+      "document": "产品：NAND到成品的映射/27_sandisk.com_sandisk-ultra-luxe-usb-type-c.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "产品：NAND到成品的映射/27_shop.sandisk.com_sandisk-microsd-express-memory.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：NAND产品与技术谱系/20_showfile.cesa.cn_014a616907b1437594f2f27cf20d20ed数据存储产业发展.pdf.md",
+      "page": 20,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：NAND产品与技术谱系/S0cece11bd156_solidigm.com_value-of-data-storage-for-ai-e.pdf.md",
+      "page": 31,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：NAND产品与技术谱系/S0cece11bd156_solidigm.com_value-of-data-storage-for-ai-e.pdf.md",
+      "page": 32,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：NAND产品与技术谱系/S0cece11bd156_solidigm.com_value-of-data-storage-for-ai-e.pdf.md",
+      "page": 34,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/11_Sandisk_10-K_2025.htm.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/11_Sandisk_10-K_2025.htm.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/11_Sandisk_10-K_2025.htm.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/11_Sandisk_10-K_2025.htm.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/11_Sandisk_10-K_2025.htm.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 21,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 23,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 41,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 45,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 45,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 47,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 48,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 49,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 50,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 62,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 63,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 64,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 73,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 77,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 79,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 79,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 84,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 85,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 86,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 111,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 112,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 112,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 113,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 134,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 147,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 160,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 160,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 163,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 164,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 164,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 165,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 165,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 166,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 166,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 170,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 171,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 171,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 173,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 173,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 175,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 176,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 180,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 181,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 181,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 183,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 186,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 188,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 190,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 191,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 193,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 198,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 198,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 201,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 202,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 224,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 225,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 228,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 231,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 231,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 232,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/13_pdf.dfcfw.com_H2_AN202608211828282178_1.pdf.md",
+      "page": 241,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 8,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 12,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 24,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 28,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 34,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 39,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 40,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 41,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 42,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 43,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 45,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 47,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 47,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 59,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/14_images.samsung.com_2025_SEC_AGMReferenceMaterial_.pdf.md",
+      "page": 64,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：厂商与组织结构/Sa5dc97e45ffc_sec.gov_sndk-20260703.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/Sa5dc97e45ffc_sec.gov_sndk-20260703.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/Sa5dc97e45ffc_sec.gov_sndk-20260703.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：厂商与组织结构/Sa5dc97e45ffc_sec.gov_sndk-20260703.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/3_user.eng.umd.edu_micron-tn2919.pdf.md",
+      "page": 4,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：行业术语与指标/3_user.eng.umd.edu_micron-tn2919.pdf.md",
+      "page": 5,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：行业术语与指标/3_user.eng.umd.edu_micron-tn2919.pdf.md",
+      "page": 11,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：行业术语与指标/3_user.eng.umd.edu_micron-tn2919.pdf.md",
+      "page": 25,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 27,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 30,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 31,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 33,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 64,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 74,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 75,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 83,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 106,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 106,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 106,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 108,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 117,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 118,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 120,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 124,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 124,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 126,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 127,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 128,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 158,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 158,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 159,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 164,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 174,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 177,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 187,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 187,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 187,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 189,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 189,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 189,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 192,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 195,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 195,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 196,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 197,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 198,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 212,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 212,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 213,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 214,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 222,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/5_Kioxia_S100UOKQ.pdf.md",
+      "page": 222,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/9_sec.gov_snapshot.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S1365c3911348_americas.kioxia.co_KIOXIA_Auto_UFS_Error_History_.pdf.md",
+      "page": 1,
+      "status": "reviewed_against_source",
+      "notes": "逐页恢复正文、CDB 字节与位范围、脚注、商标和免责声明。"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 65,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 67,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 67,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 67,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 68,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 69,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 69,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 70,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 71,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 74,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 75,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 76,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 77,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 79,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 80,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 81,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 83,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 84,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 86,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 87,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 88,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 89,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 90,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 91,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 91,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 92,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 93,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 94,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 95,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 95,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 96,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 146,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 155,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 156,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 156,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 157,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 158,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 159,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 159,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 160,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 160,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 161,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 161,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 162,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 165,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 167,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 168,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 172,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 177,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 177,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 178,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 178,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 179,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 179,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 179,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 182,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 191,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 192,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 193,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 199,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 203,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 206,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 207,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 208,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 211,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 211,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 212,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 214,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 215,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 219,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 220,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 221,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 224,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 230,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 231,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 233,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 237,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 238,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 239,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 240,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 241,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 241,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 242,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 243,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 245,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 247,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 249,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 251,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 252,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 257,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 258,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 259,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 260,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 262,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 263,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 264,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 265,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 265,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 266,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 269,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 270,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 271,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 271,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 273,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 275,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 276,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 277,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 279,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 280,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 282,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 283,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 284,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 285,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 286,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 287,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 287,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 288,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 289,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 291,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 292,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 293,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 295,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 295,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 298,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 299,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 300,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 302,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 302,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 303,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 304,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 305,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 309,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 310,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 312,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 314,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 315,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 316,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 317,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 321,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 322,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 323,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 324,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 325,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 326,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 327,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 328,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 329,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 331,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 332,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 333,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 334,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 335,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 336,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 338,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 339,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 340,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 341,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 342,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 343,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 344,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 345,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 346,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 349,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 350,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 351,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 352,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 354,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 358,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 359,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 360,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 362,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 368,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 370,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 371,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 372,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 372,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 375,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 376,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 379,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 379,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 380,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 382,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 382,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 384,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 386,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 386,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 389,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 393,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 398,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 403,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 404,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 406,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 407,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 408,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 409,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 409,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 412,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 415,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 416,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 418,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 419,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 420,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 423,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 423,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 425,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 426,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 427,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 430,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 433,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 435,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 436,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 437,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 440,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 447,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 451,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 452,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 453,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 456,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 456,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 460,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 467,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 469,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 472,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 476,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 477,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 478,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 479,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 479,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 480,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 480,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 481,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 482,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 483,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 484,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 486,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 490,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 491,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 492,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 493,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 494,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 494,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 495,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 495,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 502,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 503,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 509,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 510,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 520,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 522,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 522,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 523,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 525,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 528,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 529,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 549,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 553,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 554,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 570,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 571,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 571,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 572,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 574,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 575,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 575,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 577,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 578,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 579,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 580,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 583,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 583,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 592,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 596,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 597,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 598,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 599,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 601,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 601,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 616,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 618,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 619,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 619,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 619,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 638,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 641,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 642,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 643,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 643,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 644,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 644,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 645,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 669,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 676,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 678,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 682,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 682,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 682,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 683,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 683,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 683,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 684,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 684,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 685,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/S485d5fc8c5ee_nvmexpress.org_NVM-Express-Base-Specification.pdf.md",
+      "page": 689,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "基础：行业术语与指标/Sb60ebe684b8b_kioxia.com_KIOXIA_Understanding_ECC_Tech_.pdf.md",
+      "page": 3,
+      "status": "reviewed_against_source",
+      "notes": "核验寄存器、UPIU 字段和脚注；保留并标记原图重复括号。"
+    },
+    {
+      "document": "基础：行业术语与指标/Sc39f5191b7e1_kioxia.com_KIOXIA_Understanding_Logical_B.pdf.md",
+      "page": 2,
+      "status": "reviewed_against_source",
+      "notes": "对照原页恢复 L2P 映射表和图示，并核对其他页的正文、公式及脚注。"
+    },
+    {
+      "document": "基础：行业术语与指标/Sd5c250c4563c_americas.kioxia.co_KIOXIA_e-MMC_Product_Brief.pdf.md",
+      "page": 2,
+      "status": "reviewed_against_source",
+      "notes": "核对全部型号、合并单元格、脚注、容量定义和原页图。"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_s28.q4cdn.com_Q4-25-Earnings-Presentation_2-.pdf.md",
+      "page": 19,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_s28.q4cdn.com_Q4-25-Earnings-Presentation_2-.pdf.md",
+      "page": 25,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_sec.gov_arw-20251231xars.pdf.md",
+      "page": 33,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_sec.gov_arw-20251231xars.pdf.md",
+      "page": 39,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_sec.gov_arw-20251231xars.pdf.md",
+      "page": 40,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_sec.gov_arw-20251231xars.pdf.md",
+      "page": 67,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_sec.gov_arw-20251231xars.pdf.md",
+      "page": 68,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_sec.gov_arw-20251231xars.pdf.md",
+      "page": 70,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_sec.gov_arw-20251231xars.pdf.md",
+      "page": 70,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_sec.gov_arw-20251231xars.pdf.md",
+      "page": 101,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 9,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 10,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 11,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 12,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 13,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 16,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 17,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 18,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 20,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 20,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 21,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 21,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 22,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 23,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 32,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 33,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 34,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 35,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 36,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 37,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 38,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 39,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 40,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 41,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 42,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 46,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 62,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 63,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 64,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 65,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 70,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 71,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 74,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 75,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 76,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 77,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 78,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 79,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 80,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 81,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 82,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 82,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 83,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 84,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 85,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 86,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 86,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 91,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 92,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 92,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 94,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 95,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 115,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 121,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 121,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 122,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 124,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 125,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 126,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 135,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 136,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 137,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 137,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 139,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 139,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 139,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "流通：渠道与交易关系/43_wpgholdings.com_ARP00000038.pdf.md",
+      "page": 140,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/31_kgi.com.hk_memory-sector-17112025e.pdf.md",
+      "page": 2,
+      "status": "reviewed_against_source",
+      "notes": "估值表按原图重建；图 2–11 原图保留，未逐项转录。"
+    },
+    {
+      "document": "跨链：库存与采购概念/30_dramexchange.com_12397.html.md",
+      "page": null,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "跨链：库存与采购概念/30_dramexchange.com_12397.html.md",
+      "page": null,
+      "status": "reviewed_against_source"
+    },
+    {
+      "document": "跨链：库存与采购概念/30_sec.gov_mu-20250828.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：库存与采购概念/30_sec.gov_mu-20250828.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：库存与采购概念/30_sec.gov_mu-20250828.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：库存与采购概念/30_sec.gov_mu-20250828.html.md",
+      "page": null,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "下游：云计算与AI需求传导/29_s21.q4cdn.com_Meta-Reports-Fourth-Quarter-an.pdf.md",
+      "page": 6,
+      "status": "reviewed_against_source",
+      "reason": "财务表格 OCR 和列关系待核验"
+    },
+    {
+      "document": "下游：云计算与AI需求传导/29_s21.q4cdn.com_Meta-Reports-Fourth-Quarter-an.pdf.md",
+      "page": 7,
+      "status": "reviewed_against_source",
+      "reason": "财务表格 OCR 和列关系待核验"
+    },
+    {
+      "document": "下游：云计算与AI需求传导/29_s21.q4cdn.com_Meta-Reports-Fourth-Quarter-an.pdf.md",
+      "page": 8,
+      "status": "reviewed_against_source",
+      "reason": "财务表格 OCR 和列关系待核验"
+    },
+    {
+      "document": "下游：云计算与AI需求传导/29_s21.q4cdn.com_Meta-Reports-Fourth-Quarter-an.pdf.md",
+      "page": 9,
+      "status": "reviewed_against_source",
+      "reason": "财务表格 OCR 和列关系待核验"
+    },
+    {
+      "document": "下游：云计算与AI需求传导/29_s21.q4cdn.com_Meta-Reports-Fourth-Quarter-an.pdf.md",
+      "page": 10,
+      "status": "reviewed_against_source",
+      "reason": "财务表格 OCR 和列关系待核验"
+    },
+    {
+      "document": "下游：手机、PC和平板需求传导/42_delltechnologies.c_dell-pro-14-16-laptop-product-.pdf.md",
+      "page": 8,
+      "status": "reviewed_reconstructed",
+      "note": "已保留原页及布局文本；双列跨行和上标无法可靠重建"
+    },
+    {
+      "document": "下游：手机、PC和平板需求传导/42_delltechnologies.c_dell-pro-14-16-laptop-product-.pdf.md",
+      "page": 9,
+      "status": "reviewed_reconstructed",
+      "note": "已保留原页及布局文本；双列跨行和上标无法可靠重建"
+    },
+    {
+      "document": "下游：手机、PC和平板需求传导/42_delltechnologies.c_dell-pro-14-16-laptop-product-.pdf.md",
+      "page": 10,
+      "status": "reviewed_reconstructed",
+      "note": "已保留原页及布局文本；双列跨行和上标无法可靠重建"
+    },
+    {
+      "document": "下游：手机、PC和平板需求传导/42_delltechnologies.c_dell-pro-14-16-laptop-product-.pdf.md",
+      "page": 11,
+      "status": "reviewed_reconstructed",
+      "note": "已保留原页及布局文本；双列跨行和上标无法可靠重建"
+    },
+    {
+      "document": "上游：半导体级原材料/23_www.bain.cn_202208220536478028.pdf.md",
+      "page": 11,
+      "status": "reviewed_reconstructed",
+      "note": "CAGR 按原图标签及类别逐行核对重建。"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+> 原文件：[19_solidigmtechnology_efficiently-access-more-warm-d.html](https://github.com/jadennevercode/CJCC-Knowledge-Base/blob/564ab11aa9785e569e3853c8a4d7ce86f88e7535/materials/%E5%9F%BA%E7%A1%80%EF%BC%9ANAND%E4%BA%A7%E5%93%81%E4%B8%8E%E6%8A%80%E6%9C%AF%E8%B0%B1%E7%B3%BB/19_solidigmtechnology_efficiently-access-more-warm-d.html)
+> 转换方式：HTML DOM → Markdown
+
+# Efficiently Accelerate Access to More Warm Data with Solidigm QLC 3D NAND Technology
+
+# 利用 Solidigm QLC 3D NAND 技术高效加速访问较常用的数据
+
+Solidigm
+
+技术简介
+
+29 May 2023
+
+本文内容
+
+- [摘要
+  摘要](https://www.solidigmtechnology.cn/products/technology/efficiently-access-more-warm-data-solidigm-tech-brief.html#article-summary "摘要")
+- [Solidigm QLC 3D NAND SSD 与 HDD 相比可提升容量和性能
+  Solidigm QLC 3D NAND SSD 与 HDD 相比可提升容量和性能](https://www.solidigmtechnology.cn/products/technology/efficiently-access-more-warm-data-solidigm-tech-brief.html#article-section-1 "Solidigm QLC 3D NAND SSD 与 HDD 相比可提升容量和性能")
+- [适用于数据中心的质量和可靠性
+  适用于数据中心的质量和可靠性](https://www.solidigmtechnology.cn/products/technology/efficiently-access-more-warm-data-solidigm-tech-brief.html#article-section-2 "适用于数据中心的质量和可靠性")
+- [降低总拥有成本
+  降低总拥有成本](https://www.solidigmtechnology.cn/products/technology/efficiently-access-more-warm-data-solidigm-tech-brief.html#article-section-3 "降低总拥有成本")
+- [从温数据中获取更多价值
+  从温数据中获取更多价值](https://www.solidigmtechnology.cn/products/technology/efficiently-access-more-warm-data-solidigm-tech-brief.html#article-section-4 "从温数据中获取更多价值")
+
+选项
+
+分享
+
+[复制](https://www.solidigmtechnology.cn/products/technology/efficiently-access-more-warm-data-solidigm-tech-brief.html)
+[分享](https://twitter.com/intent/tweet?text=https%3A%2F%2Fwww.solidigmtechnology.cn%2Fcontent%2Fsolidigm%2Fcn%2Fzh%2Fproducts%2Ftechnology%2Fefficiently-access-more-warm-data-solidigm-tech-brief.html)
+[分享](https://linkedin.com/shareArticle?url=https%3A%2F%2Fwww.solidigmtechnology.cn%2Fcontent%2Fsolidigm%2Fcn%2Fzh%2Fproducts%2Ftechnology%2Fefficiently-access-more-warm-data-solidigm-tech-brief.html)
+
+
+打印
+
+
+利用 Solidigm QLC 3D NAND 技术高效加速访问较常用的数据
+
+摘要
+
+通过我们的技术简介，了解 Solidigm QLC 3D NAND 固态硬盘相对机械硬盘的性能优势，以及相对混合阵列或全 TLC NAND 固态硬盘阵列的巨大容量和成本优势。
+
+与 HDD 相比，Solidigm SSD D5-P5316 具有以下优势：
+
+- 将您的温数据存储占用空间减少 20 倍 [1]
+- 顺序读取性能高达 25 倍 [2]
+
+并且由于 QLC 3D NAND SSD 可提供密度优化以及类似三位一体 (TLC) 的读取性能，可大幅降低读取密集型存储工作负载的资本支出 (CapEx)。
+
+![](https://s7d9.scene7.com/is/image/Solidigm/efficiently-access-warm-data-storage-hero?fmt=avif-alpha&qlt=90)
+
+### 利用 Solidigm QLC 3D NAND 技术高效加速访问较常用的数据
+
+---
+
+QLC 3D NAND SSD 性能比 HDD 更出色，并提供比混合阵列或全 TLC NAND SSD 阵列更大的容量和成本优势。 下载技术简介或继续阅读下文。
+
+[下载技术简介](https://www.solidigmtechnology.cn/content/dam/solidigm/en/site/products/technology/efficiently-accelerate/documents/access-more-warm-data-tech-brief.pdf)
+
+## Solidigm QLC 3D NAND SSD 与 HDD 相比可提升容量和性能
+
+---
+
+现代任务关键型工作负载，如人工智能 (AI)、大数据分析和内容交付网络 (CDN)，都依赖于快速访问大量且不断增长的数据。但在数据存储方面，组织很难在性能、容量、成本和可靠性方面做出权衡。 机械硬盘 (HDD) 提供低成本、高容量存储，但无法跟上现代应用程序所需的快速读取访问速度。 三层单元 (TLC) NAND 固态硬盘 (SSD) 为混合工作负载和写入密集型工作负载（例如缓存应用程序）提供更高的性能，但通常无法满足现代以读取数据为主的工作负载成本和容量要求。 因此，企业面临 HDD 与 TLC NAND SSD 之间的性价比差距。 四级单元 (QLC) NAND 固态硬盘有助于填补这一空白，因为它们能够将高成本效益的大容量与出色的温暖数据读取读能结合在一起。特别是，Solidigm QLC 3D NAND 固态硬盘提供经过事实验证的耐用性、可靠性和针对读取优化的性能，同时通过数据中心的整合来降低总拥有成本 (TCO)。 针对实际工作负载已获检验的耐用性驱动器耐用性通常以驱动器每日整盘写入次数 (DWPD) 或总写入字节数来衡量，表示为写入太字节数 (TBW) 或写入拍字节数 (PBW)。 测量耐用性基于联合电子设备工程委员会 (JEDEC) 适用于近乎最坏情况的规范，即 40/60 读/写工作负载，100% 随机写入和 4K 块大小。 这种情况不代表前面介绍的读取密集型工作负载类型，如人工智能或 CDN。 在这两项指标中，Solidigm 认为 PBW 能够更准确地表示耐用性。 DWPD 不考虑容量，尽管大容量固态盘的额外空间可以通过将磨损分散到较大驱动器占用空间中，从而提高耐用性。 相反，PBW 表示在驱动器规定的使用寿命内可以写入的数据总量。 PBW 将容量纳入考量，为大容量 QLC NAND SSD 与众多其他 SSD 和 HDD 比较提供了更有用、更真实的衡量指标。 基于 PBW，Solidigm SSD D5-P5316 为 QLC NAND SSD 提供业界领先的耐用性，其耐用性水平远远超过 HDD，详见图 1。[3]
+
+![](https://s7d9.scene7.com/is/image/Solidigm/fig-1-hdd-and-qlc-nand-ssd-endurance-in-pbw-1?fmt=avif-alpha&qlt=90)
+
+#### **图 1. Solidigm SSD D5-P5316 耐用性水平分别比两款常用企业级 HDD 高出 8 倍和 38 倍 [3]**
+
+图 1 还突出 QLC NAND SSD 耐用性水平与应用工作负载之间的关联性。例如，依赖于大块数据顺序读取的应用程序对 QLC NAND SSD 的消耗远低于依赖频繁随机写入小块数据的应用程序。 2020 年 2 月召开的 USENIX 会议上发布的一项大规模研究进一步证明 QLC NAND SSD 如何为现代企业所依赖的以读取为中心的工作负载提供足够的耐用性。 该研究作者指出，“据我们预测，对于绝大多数企业用户而言，转向 QLC 的 PE 周期不会带来任何风险，因为 99% 的系统最多使用驱动器额定寿命的 15%。” [4]
+
+## 适用于数据中心的质量和可靠性
+
+---
+
+Solidigm QLC 3D NAND SSD 的可靠性远超过与 TLC NAND SSD 相同水平的 HDD。 例如，Solidigm SSD D5-P5316 不可纠正的误码率 (UBER) 比两款常用 HDD 高出 2 个数量级，[5]而耐用性评级（基于 PBW）分别高出 8 倍和 38 倍。 [3]
+
+此外，NAND SSD 的实际可靠测量结果已表明，其可靠性甚至高于预期。 2020 年 2 月召开的 USENIX 会议上发布的大规模研究发现，NAND SSD 平均年置换率 (ARR) 低至 0.07% - 1.2%，而 HDD 置换率则高达 2% - 9%。
+
+对比两个范围，NAND SSD 的 ARR 比 HDD 低 7.5 倍和 28 倍。 [4]
+
+通过整合
+
+## 降低总拥有成本
+
+---
+
+若干属性导致 SSD 与 HDD 相比具有明显的整合优势。 NAND SSD 与 HDD 不同，不需复制即可达到可接受的性能水平，而可靠性通常所需的复制量比 HDD 少得多。 更高的 SSD 性能还支持与 HDD 相比更为高效的数据缩减方法。 由于现代压缩和重复数据删除算法针对 SSD 进行优化，因此满足“可用容量”要求的原始存储容量需求远低于 HDD。
+
+与 HDD 相比，SSD 的整合优势可以显著节省温数据存储成本，尤其是在 NAND SSD 成本持续下降的情况下。 Wikibon 研究分析师 David Floyer 指出，到 2026 年，SSD 每 TB 美元成本将比 HDD 更低。 [6]
+
+QLC NAND SSD 的置换机会虽然不如 HDD 大，但与 TLC SSD 部署相比，仍可显著节省成本。 与 TLC NAND 相比，QLC NAND 更高密度的存储和由此带来的每 TB 成本节约可以产生资本支出优势。 并且由于读取性能与 TLC NAND 相同，QLC NAND 为读取密集型工作负载提供了颇具吸引力的 TCO 机会。
+
+### 整合数据可为 CDN 带来大量的节省
+
+视频点播 (VoD) 网络等 CDN 为使用 Solidigm QLC 3D NAND SSD 而非 HDD 整合存储提供了理想的研究案例，同时还可提供满足严格服务水平协议 (SLA) 所需的性能和耐用性。
+
+混合使用 HDD 和 TLC NAND SSD 进行理论中间层 CDN 部署。 为了满足 SLA，阵列需要每节点 480 TB 容量和每节点 190 Gbps 吞吐量。 每台服务器 111 TB 和 51 Gbps 时，HDD 存储必须超需求过度配置容量，才能满足总吞吐量要求。 在此示例中，过度配置阵列全部替换为 QLC-NAND SSD，服务器将实现近 5 倍的整合，总拥有成本降低幅度高达 42%。 [7]
+
+QLC NAND SSD 的读取优化性能推动了这些取得令人钦佩的成绩，它使组织能够不再使用 TLC NAND SSD 作为缓存驱动器，并用更具空间和运行效率的容量存储替换 HDD。
+
+## 从温数据中获取更多价值
+
+---
+
+凭借高容量、读取优化的 Solidigm QLC 3D NAND SSD，您可以依靠久经考验的技术从更多温数据中获取更多价值，同时帮助降低总拥有成本。 阅读白皮书 “[QLC NAND 技术已准备好在](https://www.intel.com/content/www/us/en/products/docs/storage/qlc-nand-ready-for-data-center-paper.html)数据中心[中被广为采用”，获取全文内容。](https://www.intel.com/content/www/us/en/products/docs/storage/qlc-nand-ready-for-data-center-paper.html)
+
+[1] “暖存储空间需求减少多达 20 倍”声明基于对 4TB HDD 的比较，与 30.72TB Solidigm SSD D5-5316 E1.L 或 U.2 驱动器相比，4TB HDD 需要 10 (2U) 机架空间才能装满 1PB 存储。而后者仅需要 1U 机架空间即可装满 1PB 存储。机架整合率提升多达 20 倍。
+
+[2] 与希捷 Exos-X18 ([seagate.com/files/www-content/datasheets/pdfs/exos-x18-channel-DS2045-1-2007GB-enSG.pdf](http://seagate.com/files/www-content/datasheets/pdfs/exos-x18-channel-DS2045-1-2007GB-en_SG.pdf)) 相比，基于 Solidigm SSD D5-P5316 ([https://www.solidigm.com/products/data-center/d5/p5316.html](https://www.solidigmtechnology.cn/products/data-center/d5/p5316.html)) 的顺序读取性能。
+
+[3] Solidigm SSD D5-P5316 驱动器耐用性基于 64 KB 随机写入和 64 KB 顺序写入工作负载。 “20% OP”表示过度配置驱动器的耐用性。 过度配置可通过创建具有 80% 可用区域规模的命名空间实现。 希捷 Exos X18 耐用性数据来自希捷的数据表: seagate.com/files/www-content/datasheets/pdfs/exos-x18-channel-DS2045-1-2007GB-enSG.pdf。 西部数据 Ultrastar DC HC650 耐用性数据来自西部数据的数据表: https://documents.westerndigital.com/content/dam/doc-library/enus/assets/public/western-digital/product/data-center-drives/ultrastar-dc-hc600-series/data-sheet-ultrastar-dc-hc650.pdf。 HDD DWPD 计算：(550 TB/年)/365 天/容量 (TB)。 HDD PBW 计算：((550 TB/年)\*5 年)/1000。
+
+[4] Stathis Maneas 和 Kaveh Mahdaviani，多伦多大学；Tim Emami，NetApp；Bianca Schroeder，多伦多大学。 “有关大型企业存储部署中 SSD 可靠性的研究。”2020 年 2 月。 [usenix.org/system/files/fast20-maneas.pdf](http://usenix.org/system/files/fast20-maneas.pdf).
+
+[5] 可靠性评估来源：Solidigm。 “Solidigm SSD D5-5316 在 0.41 DWPD 提供行业领先的耐用性。”https://www.solidigm.com/products/data-center/d5.html。 西部数据的数据表： Ultrastar DC HC650. https://documents.westerndigital.com/content/dam/doc-library/enus/assets/public/ western-digital/product/data-center-drives/ultrastar-dc-hc600-series/data-sheet-ultrastar-dc-hc650.pdf. 希捷的数据表： Exos X18. seagate.com/files/www-content/datasheets/pdfs/ exos-x18-channel-DS2045-1-2007GB-enSG.pdf.
+
+[6] Wikibon. “QLC Flash HAMR 机械硬盘‘’，2021 年 1 月。 <https://wikibon.com/qlc-flash-hamrs-hdd/>.
+
+[7] 从混合 TLC-SSD 和 HDD 阵列升级到全 QLC SSD 阵列时，服务器整合率提升近 5倍，总拥有成本降低 42% 数据来源：基准服务器假设 2000 个活动用户，最低容量 480 TB，目标吞吐量为 190 Gbps，85% 高速缓存命中率。 每台服务器混合阵列配置包括 2 个英特尔至强可扩展 6330 处理器、512GB 内存、12 个 2.088 Gbps 吞吐量的 8TB 希捷 Exos HDD，2 个 56 Gbps 吞吐量的 7.68 TB Solidigm SSD D7-P5510。 混合阵列成本（CPU + 内存 + RAID 控制器 + NVM Express [NVMe] 扩展卡 + 机箱 + 电源）净存储：10,530 美元。 每台服务器全 QLC 配置包括 2 个英特尔至强可扩展 6338N 处理器、512 GB 内存、20 个 54.4 Gbps 吞吐量 的 30.72 TB Solidigm SSD D5-P5316。 全 QLC 服务器成本（CPU + 内存 + RAID 控制器 + NVMe 扩展卡 + 机箱 + 电源）净存储：11,530 美元。 HDD 定价数据来自 [serversupply.com/HARD%20DRIVES/SATA-6GBPS/8TB-7200RPM/SEAGATE/ST8000NM000A326073.htm](https://www.serversupply.com/SSD/SATA-6GBPS/)l，截至 2021 年 3 月 15 日。 SSD 定价是 Solidigm 预算定价。 实际价格可能有所变化，可能与 TCO 模型中使用的定价不一致。对 1,100 瓦/服务器运行成本进行估算，功耗和冷却成本 0.12 美元/千瓦时，每 RU 年机架成本 75.76 美元。
+
+性能因用途、配置和其他因素而异。请访问 [https://www.solidigm.com/products/data-center](https://www.solidigmtechnology.cn/products/data-center.html)
+
+了解详情性能测试结果基于所显示的配置的测试日期，可能不反映所有公开可用的更新。有关配置详细信息，请参见备份。没有任何产品或组件能保证绝对安全。
+
+您的成本和结果可能会有所不同。
+
+Solidigm 技术可能需要支持的硬件、软件或服务激活。
+
+Solidigm 不对第三方数据承担任何控制或审计的责任。您应参考其他信息来源以评估准确性。
+
+© Solidigm 2022
+
+標籤
+
+---
+
+[QLC 固态硬盘](https://www.solidigmtechnology.cn/products/technology/efficiently-access-more-warm-data-solidigm-tech-brief.html#tags=solidigm%3Aarticles%2Fdisplay-tags%2Fqlc-ssd)
+
+[TLC 固态硬盘](https://www.solidigmtechnology.cn/products/technology/efficiently-access-more-warm-data-solidigm-tech-brief.html#tags=solidigm%3Aarticles%2Fdisplay-tags%2Ftlc-ssd)
+
+[能效](https://www.solidigmtechnology.cn/products/technology/efficiently-access-more-warm-data-solidigm-tech-brief.html#tags=solidigm%3Aarticles%2Fdisplay-tags%2Fpower-efficiency)
+
+[读取密集型固态硬盘](https://www.solidigmtechnology.cn/products/technology/efficiently-access-more-warm-data-solidigm-tech-brief.html#tags=solidigm%3Aarticles%2Fdisplay-tags%2Fread-intensive-ssd)
