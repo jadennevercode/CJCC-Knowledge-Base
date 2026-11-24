@@ -8,7 +8,7 @@
 - 原文链接固定到源仓库版本，便于追溯。OCR 内容未作人工改写或翻译，复杂公式、合并单元格和图中文字仍建议对照原文件。
 - `conversion_manifest.json` 记录每份文档的源文件、转换方式、页数和输出 SHA-256 校验值。
 
-其中 Air Liquide 2025 年报的仓库快照被截断，已从官网补全 432 页，并在该文件和转换记录中注明。完整原件保存在相邻的 `materials_recovered/` 目录。
+其中 Air Liquide 2025 年报的仓库快照被截断，已从官网补全 432 页，并在该文件和转换记录中注明。[完整原件](../materials/%E4%B8%8A%E6%B8%B8%EF%BC%9A%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%BA%A7%E5%8E%9F%E6%9D%90%E6%96%99/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf)保存在原材料分类目录。
 
 ## 文档索引
 

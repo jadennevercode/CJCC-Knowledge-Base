@@ -17,7 +17,7 @@
 
 ## 1. 原件获取与转换
 
-材料取自 CJCC-Knowledge-Base 的 `materials/` 快照。各阶段沿用原分类目录，转换时在原文件名后追加 `.md`，因此同名网页和 PDF 仍可区分。Air Liquide 2025 年报的仓库副本被截断，转换时采用从官网补全的 432 页版本。完整原件见 [materials_recovered/](materials_recovered/)。
+材料取自 CJCC-Knowledge-Base 的 `materials/` 快照。各阶段沿用原分类目录，转换时在原文件名后追加 `.md`，因此同名网页和 PDF 仍可区分。Air Liquide 2025 年报的仓库副本被截断，转换时采用从官网补全的 432 页版本。完整原件已归入原分类，见 [Air Liquide 2025 年报](materials/%E4%B8%8A%E6%B8%B8%EF%BC%9A%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%BA%A7%E5%8E%9F%E6%9D%90%E6%96%99/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf)。
 
 - **PDF** 使用火山引擎 `OCRPdf v3` 的 OCR 模式逐页识别正文和表格。插图按识别坐标从原件裁出，无识别文本的页面保留整页图。Markdown 中的来源页标记用于与 PDF 对照。
 - **HTML/HTM** 从保存的网页快照提取正文、表格、链接及图片引用。有内嵌文章正文时一并提取。部分动态内容或图片未随快照保存，外部图片仍依赖原网站。

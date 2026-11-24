@@ -264,11 +264,11 @@
         "pages": 432,
         "original_truncated": true,
         "original_prefix_matches": true,
-        "local_path": "../materials_recovered/上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf"
+        "local_path": "../materials/上游：半导体级原材料/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf"
       },
       "low_text_pages": [],
-      "output_sha256": "49810c64baaa4046bc006c01c880470cbd3270f2e24b099e6750dc08cd204d3f",
-      "output_bytes": 1745153
+      "output_sha256": "707b1c413f83e05b6f1d4722a019f16b43b5ee6758291c034b5bf746db9dbdd2",
+      "output_bytes": 1745059
     },
     {
       "source": "materials/上游：半导体级原材料/Sb35f454771b0_sumcosi.com_products.html",
