@@ -4190,6 +4190,66 @@
       "page": 11,
       "status": "reviewed_reconstructed",
       "note": "CAGR 按原图标签及类别逐行核对重建。"
+    },
+    {
+      "document": "跨链：供需与价格口径/M153_pdf.dfcfw.com_H3_AP202508231733004284_1.pdf.md",
+      "page": 19,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M153_pdf.dfcfw.com_H3_AP202508231733004284_1.pdf.md",
+      "page": 28,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M162_20260907-东吴证券-东吴证券存储行业复盘报告：从周期出清到AI重构，存储行业历史复盘与新周期展望.pdf.md",
+      "page": 47,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M169_2025-12-08_bernstein_投资策略_全球内存：近期反弹后还有上涨空间吗？.pdf.md",
+      "page": 16,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M170_摩根士丹利_全球NAND行业展望：趋势分化_【发现报告_fxbaogao.com】.pdf.md",
+      "page": 5,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M170_摩根士丹利_全球NAND行业展望：趋势分化_【发现报告_fxbaogao.com】.pdf.md",
+      "page": 14,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M170_摩根士丹利_全球NAND行业展望：趋势分化_【发现报告_fxbaogao.com】.pdf.md",
+      "page": 17,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M170_摩根士丹利_全球NAND行业展望：趋势分化_【发现报告_fxbaogao.com】.pdf.md",
+      "page": 22,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M170_摩根士丹利_全球NAND行业展望：趋势分化_【发现报告_fxbaogao.com】.pdf.md",
+      "page": 23,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M171_摩根士丹利_全球NAND行业展望：趋势分化_【英文】.pdf.md",
+      "page": 5,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M171_摩根士丹利_全球NAND行业展望：趋势分化_【英文】.pdf.md",
+      "page": 17,
+      "status": "needs_manual_review"
+    },
+    {
+      "document": "跨链：供需与价格口径/M171_摩根士丹利_全球NAND行业展望：趋势分化_【英文】.pdf.md",
+      "page": 23,
+      "status": "needs_manual_review"
     }
   ]
 }

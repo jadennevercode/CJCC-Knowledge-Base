@@ -1,6 +1,6 @@
 {
   "description": "Automated source-text/OCR length comparison; flags are candidates requiring visual review, not verified errors. Other pages have not been cleared.",
-  "scanned_pages": 3494,
+  "scanned_pages": 4590,
   "findings": [
     {
       "document": "上游：CMP及封装模组材料/46_ibiden.co.jp_IntegratedReport2026.pdf.md",
@@ -219,5 +219,6 @@
       "notes": "按原页恢复产品表格、上标指数、脚注、商标和免责声明；对原文数值标点差异保留并标记。"
     }
   ],
-  "errors": []
+  "errors": [],
+  "new_batch_method": "多模态逐页转录；本队列的源文本长度比对不适用于新增批次，未新增自动比对条目。"
 }

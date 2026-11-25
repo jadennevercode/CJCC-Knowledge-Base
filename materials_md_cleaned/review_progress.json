@@ -1,5 +1,5 @@
 {
-  "total_documents": 131,
+  "total_documents": 164,
   "documents_flagged": [
     {
       "document": "上游：光刻材料/45_jsr.co.jp_27_Intellectual_Capital.pdf.md",
@@ -24,9 +24,17 @@
     "reviewed_with_unresolved_uncertainty": 1
   },
   "table_flag_status_counts": {
-    "needs_manual_review": 773,
+    "needs_manual_review": 785,
     "reviewed_against_source": 54,
     "reviewed_reconstructed": 7
   },
-  "html_reviewed_with_missing_dynamic_content": 4
+  "html_reviewed_with_missing_dynamic_content": 4,
+  "cleaned_documents": 164,
+  "pending_review_documents": 57,
+  "new_batch": {
+    "documents": 33,
+    "review_status": "needs_manual_review",
+    "table_flags": 12,
+    "conversion_method": "多模态逐页转录（页面图像 + 文本层交叉校验）"
+  }
 }

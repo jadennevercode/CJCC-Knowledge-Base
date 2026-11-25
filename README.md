@@ -1,15 +1,15 @@
 # CJCC 半导体行业材料处理说明
 
-本项目将 131 份半导体行业材料整理为可追溯的全文，并从中筛出可用于分析外部冲击、产业依赖和业务影响的原文。查找相关证据可从[筛选结果](materials_md_relevant/)开始。需要查看被省略的上下文时，可按相同目录和文件名打开[清洗全文](materials_md_cleaned/)。
+本项目将 164 份半导体行业材料整理为可追溯的全文，并从中筛出可用于分析外部冲击、产业依赖和业务影响的原文。查找相关证据可从[筛选结果](materials_md_relevant/)开始。需要查看被省略的上下文时，可按相同目录和文件名打开[清洗全文](materials_md_cleaned/)。
 
 | 阶段 | 位置 | 本批次产物 |
 | --- | --- | --- |
-| 原始材料 | [materials/](materials/) | 64 份 PDF 和 67 份 HTML/HTM 快照 |
-| 转换为 Markdown | [materials_md/](materials_md/) | 131 份全文，其中 PDF 共 3,494 页 |
-| 清洗与复核 | [materials_md_cleaned/](materials_md_cleaned/) | 131 份结构化全文，附图像、处理记录与待核验项 |
-| 外部冲击相关性筛选 | [materials_md_relevant/](materials_md_relevant/) | 111 份原文摘录，另 20 份经筛选无符合条件的段落 |
+| 原始材料 | [materials/](materials/) | 96 份 PDF 和 68 份 HTML/HTM 快照 |
+| 转换为 Markdown | [materials_md/](materials_md/) | 164 份全文，其中 PDF 共 4,590 页 |
+| 清洗与复核 | [materials_md_cleaned/](materials_md_cleaned/) | 164 份结构化全文，附图像、处理记录与待核验项 |
+| 外部冲击相关性筛选 | [materials_md_relevant/](materials_md_relevant/) | 144 份原文摘录，另 20 份经筛选无符合条件的段落 |
 
-本表统计的是已处理批次。当前仓库的 `materials/` 共 164 份原件，后续新增的 33 份未纳入本批转换、清洗和筛选。
+其中 131 份为原批次（火山引擎 OCR），新增的 33 份（32 份 PDF、1 份 HTML）按同一目录结构和两个环节补入，PDF 采用多模态逐页转录。新增 33 份的清洗稿尚未逐页人工复核，引用时请先查复核台账。
 
 以上按源文档计数。目录说明、处理清单、图片，以及补全同一报告所用的文件均不另计。
 
@@ -19,7 +19,7 @@
 
 材料取自 CJCC-Knowledge-Base 的 `materials/` 快照。各阶段沿用原分类目录，转换时在原文件名后追加 `.md`，因此同名网页和 PDF 仍可区分。Air Liquide 2025 年报的仓库副本被截断，转换时采用从官网补全的 432 页版本。完整原件已归入原分类，见 [Air Liquide 2025 年报](materials/%E4%B8%8A%E6%B8%B8%EF%BC%9A%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%BA%A7%E5%8E%9F%E6%9D%90%E6%96%99/S8d9a8e162c88_airliquide.com_air-liquide-2025-universal-reg.pdf)。
 
-- **PDF** 使用火山引擎 `OCRPdf v3` 的 OCR 模式逐页识别正文和表格。插图按识别坐标从原件裁出，无识别文本的页面保留整页图。Markdown 中的来源页标记用于与 PDF 对照。
+- **PDF** 原批次使用火山引擎 `OCRPdf v3` 的 OCR 模式逐页识别正文和表格。新增 33 份中的 PDF 采用多模态逐页转录：逐页渲染为图像后由模型转录，再用 PDF 文本层交叉核对数字与专有名词，转换记录中的 `method` 字段注明所用方法。插图按识别坐标或图注区域从原件裁出，无识别文本的页面保留整页图。Markdown 中的来源页标记用于与 PDF 对照。
 - **HTML/HTM** 从保存的网页快照提取正文、表格、链接及图片引用。有内嵌文章正文时一并提取。部分动态内容或图片未随快照保存，外部图片仍依赖原网站。
 
 [转换清单](materials_md/conversion_manifest.json)记录各文档的源文件、转换方式、适用页数和转换稿的 SHA-256 校验值。[文档索引](materials_md/README.md)可按分类打开各份转换稿。
@@ -30,7 +30,7 @@
 
 清洗稿按文档元数据、结构化正文和处理备注组织。元数据无法确定时使用 `null`。识读存疑的片段保留原文并标注 `[OCR_UNCERTAIN]`，无法辨读处用 `[OCR_UNREADABLE]`，行列关系无法可靠恢复的表格用 `[TABLE_RECONSTRUCTION_UNCERTAIN]`。
 
-**清洗覆盖与筛选覆盖分别统计。** 清洗目录现有记录将 131 份中的 107 份列为已完整复核，表格队列仍有 773 条标为待人工复核，另有 4 份网页在复核时发现动态内容缺失。引用具体数字时，可查[复核进度](materials_md_cleaned/review_progress.json)和[表格复核队列](materials_md_cleaned/table_review_queue.json)，再与原表对照。
+**清洗覆盖与筛选覆盖分别统计。** 清洗目录现有记录将 164 份中的 107 份列为已完整复核，新增 33 份标记为待人工复核；表格队列仍有 785 条标为待人工复核，另有 4 份网页在复核时发现动态内容缺失。引用具体数字时，可查[复核进度](materials_md_cleaned/review_progress.json)和[表格复核队列](materials_md_cleaned/table_review_queue.json)，再与原表对照。
 
 ## 3. 外部冲击相关性筛选
 
@@ -44,7 +44,7 @@
 | D 技术与行业背景 | 保留能解释上述依赖或约束的技术细节，例如限制供应切换的兼容条件。 |
 | E 无关内容 | 过滤常规治理、宣传、孤立的财务数字、普通规格和重复版式内容。 |
 
-文件按文档并行筛选，长篇规范拆分到明确的来源页范围，再按页序合并。111 份文件含有可保留原文。其余 20 份可在前两阶段查看全文。交付时检查了筛选稿的页码顺序、本地图片引用和 Markdown 表格列数，并对可匹配的长段文字做了来源页比对。
+文件按文档并行筛选，长篇规范拆分到明确的来源页范围，再按页序合并。144 份文件含有可保留原文。其余 20 份可在前两阶段查看全文。交付时检查了筛选稿的页码顺序、本地图片引用和 Markdown 表格列数，并对可匹配的长段文字做了来源页比对。
 
 ## 4. 怎样从摘录回到原件
 
@@ -58,17 +58,7 @@
 
 以下按处理顺序收录定义任务的用户原文。清洗和相关性筛选两段保留全文。
 
-### 5.1 OCR 接口与材料转换
-
-````text
-帮我看一下你能调这个OCR嘛？[https://docs.volcengine.com/docs/large-model-of-image-generation/calling-method-34?lang=zh](https://docs.volcengine.com/docs/large-model-of-image-generation/calling-method-34?lang=zh)
-````
-
-````text
-帮我用我给你的OCR解析一下这个地址下面的文档成md，能做到吗？[https://github.com/jadennevercode/CJCC-Knowledge-Base/tree/main/materials，](https://github.com/jadennevercode/CJCC-Knowledge-Base/tree/main/materials，)然后再把md统一放到一个同样目录的文件夹下
-````
-
-### 5.2 全文清洗与结构化
+### 5.1 全文清洗与结构化
 
 ````text
 基于materials_md再进行cleaning，放到一个新的平行文件夹
@@ -261,7 +251,7 @@ Prioritize factual fidelity and traceability over readability or stylistic impro
 When uncertain, preserve the original content and flag the uncertainty rather than making assumptions.
 ````
 
-### 5.3 外部事件冲击相关性筛选
+### 5.2 外部事件冲击相关性筛选
 
 ````text
 帮我进行pipeline的下一步 外部事件冲击相关内容筛选，在一个新文件夹中维护，如果有相关内容就保留md，没有就无需保留
